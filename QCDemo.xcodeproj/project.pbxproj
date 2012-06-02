@@ -13,6 +13,7 @@
 		69D564C91534736600431331 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 69D564C71534736600431331 /* Credits.rtf */; };
 		69D564CC1534736600431331 /* LDBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D564CB1534736600431331 /* LDBAppDelegate.m */; };
 		69D564CF1534736600431331 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69D564CD1534736600431331 /* MainMenu.xib */; };
+		69D564D61534739B00431331 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69D564D51534739B00431331 /* Quartz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,15 @@
 		69D564BB1534736600431331 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		69D564BC1534736600431331 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		69D564BD1534736600431331 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		69D564C01534736600431331 /* QCDemo-Info.plist */ = {isa = PBXFileReference; path = "QCDemo-Info.plist"; sourceTree = "<group>"; };
+		69D564C01534736600431331 /* QCDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QCDemo-Info.plist"; sourceTree = "<group>"; };
 		69D564C21534736600431331 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		69D564C41534736600431331 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		69D564C61534736600431331 /* QCDemo-Prefix.pch */ = {isa = PBXFileReference; path = "QCDemo-Prefix.pch"; sourceTree = "<group>"; };
+		69D564C61534736600431331 /* QCDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QCDemo-Prefix.pch"; sourceTree = "<group>"; };
 		69D564C81534736600431331 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		69D564CA1534736600431331 /* LDBAppDelegate.h */ = {isa = PBXFileReference; path = LDBAppDelegate.h; sourceTree = "<group>"; };
+		69D564CA1534736600431331 /* LDBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDBAppDelegate.h; sourceTree = "<group>"; };
 		69D564CB1534736600431331 /* LDBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDBAppDelegate.m; sourceTree = "<group>"; };
 		69D564CE1534736600431331 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		69D564D51534739B00431331 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69D564D61534739B00431331 /* Quartz.framework in Frameworks */,
 				69D564B91534736600431331 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +49,7 @@
 		69D564A91534736500431331 = {
 			isa = PBXGroup;
 			children = (
+				69D564D51534739B00431331 /* Quartz.framework */,
 				69D564BE1534736600431331 /* QCDemo */,
 				69D564B71534736600431331 /* Frameworks */,
 				69D564B51534736600431331 /* Products */,

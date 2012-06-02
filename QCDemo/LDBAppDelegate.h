@@ -7,9 +7,16 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <Quartz/Quartz.h>
 
 @interface LDBAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+
+@property (assign) IBOutlet QCView *qcView;
+
+- (IBAction)loadComposition:(id)sender;
+
+
 
 @end
