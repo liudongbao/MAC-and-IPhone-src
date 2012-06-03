@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'QCDemo' target in the 'QCDemo' project
-//
-
-#ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
-#endif
