@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231B8579127A938A00084D8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231B8578127A938A00084D8C /* UIKit.framework */; };
+		231B857B127A938A00084D8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231B857A127A938A00084D8C /* Foundation.framework */; };
+		231B857D127A938A00084D8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231B857C127A938A00084D8C /* CoreGraphics.framework */; };
+		231B8582127A938A00084D8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 231B8580127A938A00084D8C /* InfoPlist.strings */; };
+		231B8584127A938A00084D8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 231B8583127A938A00084D8C /* main.m */; };
+		231B8587127A938A00084D8C /* LocalizeMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 231B8586127A938A00084D8C /* LocalizeMeAppDelegate.m */; };
+		231B858A127A938A00084D8C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 231B8588127A938A00084D8C /* MainWindow.xib */; };
+		231B858D127A938A00084D8C /* LocalizeMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 231B858C127A938A00084D8C /* LocalizeMeViewController.m */; };
+		231B8590127A938A00084D8C /* LocalizeMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 231B858E127A938A00084D8C /* LocalizeMeViewController.xib */; };
+		231B859D127A93DD00084D8C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B859B127A93DD00084D8C /* icon.png */; };
+		231B85A1127A9A6E00084D8C /* flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 231B85A3127A9A6E00084D8C /* flag.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		231B8575127A938A00084D8C /* LocalizeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		231B8578127A938A00084D8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		231B857A127A938A00084D8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		231B857C127A938A00084D8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		231B857E127A938A00084D8C /* LocalizeMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalizeMe-Info.plist"; sourceTree = "<group>"; };
+		231B857F127A938A00084D8C /* LocalizeMe_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizeMe_Prefix.pch; sourceTree = "<group>"; };
+		231B8581127A938A00084D8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		231B8583127A938A00084D8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		231B8585127A938A00084D8C /* LocalizeMeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizeMeAppDelegate.h; sourceTree = "<group>"; };
+		231B8586127A938A00084D8C /* LocalizeMeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizeMeAppDelegate.m; sourceTree = "<group>"; };
+		231B8589127A938A00084D8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		231B858B127A938A00084D8C /* LocalizeMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalizeMeViewController.h; sourceTree = "<group>"; };
+		231B858C127A938A00084D8C /* LocalizeMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizeMeViewController.m; sourceTree = "<group>"; };
+		231B858F127A938A00084D8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LocalizeMeViewController.xib; sourceTree = "<group>"; };
+		231B859B127A93DD00084D8C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		231B859F127A96EB00084D8C /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/LocalizeMeViewController.xib; sourceTree = "<group>"; };
+		231B85A5127A9DC000084D8C /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/flag.png; sourceTree = "<group>"; };
+		23773E2212BA194300B78B35 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		237D1DEE12E90D9B00B61BC4 /* fr */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fr; path = fr.lproj/flag.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		231B8572127A938A00084D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231B8579127A938A00084D8C /* UIKit.framework in Frameworks */,
+				231B857B127A938A00084D8C /* Foundation.framework in Frameworks */,
+				231B857D127A938A00084D8C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		231B8566127A938A00084D8C = {
+			isa = PBXGroup;
+			children = (
+				231B856D127A938A00084D8C /* Classes */,
+				231B856E127A938A00084D8C /* Other Sources */,
+				231B856F127A938A00084D8C /* Resources */,
+				231B8570127A938A00084D8C /* Frameworks */,
+				231B8576127A938A00084D8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		231B856D127A938A00084D8C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				231B8585127A938A00084D8C /* LocalizeMeAppDelegate.h */,
+				231B8586127A938A00084D8C /* LocalizeMeAppDelegate.m */,
+				231B858B127A938A00084D8C /* LocalizeMeViewController.h */,
+				231B858C127A938A00084D8C /* LocalizeMeViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		231B856E127A938A00084D8C /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				231B857F127A938A00084D8C /* LocalizeMe_Prefix.pch */,
+				231B8583127A938A00084D8C /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		231B856F127A938A00084D8C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				231B85A3127A9A6E00084D8C /* flag.png */,
+				231B859B127A93DD00084D8C /* icon.png */,
+				231B857E127A938A00084D8C /* LocalizeMe-Info.plist */,
+				231B8580127A938A00084D8C /* InfoPlist.strings */,
+				231B8588127A938A00084D8C /* MainWindow.xib */,
+				231B858E127A938A00084D8C /* LocalizeMeViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		231B8570127A938A00084D8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				231B8578127A938A00084D8C /* UIKit.framework */,
+				231B857A127A938A00084D8C /* Foundation.framework */,
+				231B857C127A938A00084D8C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		231B8576127A938A00084D8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				231B8575127A938A00084D8C /* LocalizeMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		231B8574127A938A00084D8C /* LocalizeMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231B8593127A938A00084D8C /* Build configuration list for PBXNativeTarget "LocalizeMe" */;
+			buildPhases = (
+				231B8571127A938A00084D8C /* Sources */,
+				231B8572127A938A00084D8C /* Frameworks */,
+				231B8573127A938A00084D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalizeMe;
+			productName = LocalizeMe;
+			productReference = 231B8575127A938A00084D8C /* LocalizeMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		231B8568127A938A00084D8C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 231B856B127A938A00084D8C /* Build configuration list for PBXProject "LocalizeMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+			);
+			mainGroup = 231B8566127A938A00084D8C;
+			productRefGroup = 231B8576127A938A00084D8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				231B8574127A938A00084D8C /* LocalizeMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		231B8573127A938A00084D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231B8582127A938A00084D8C /* InfoPlist.strings in Resources */,
+				231B858A127A938A00084D8C /* MainWindow.xib in Resources */,
+				231B8590127A938A00084D8C /* LocalizeMeViewController.xib in Resources */,
+				231B859D127A93DD00084D8C /* icon.png in Resources */,
+				231B85A1127A9A6E00084D8C /* flag.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		231B8571127A938A00084D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231B8584127A938A00084D8C /* main.m in Sources */,
+				231B8587127A938A00084D8C /* LocalizeMeAppDelegate.m in Sources */,
+				231B858D127A938A00084D8C /* LocalizeMeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		231B8580127A938A00084D8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231B8581127A938A00084D8C /* en */,
+				23773E2212BA194300B78B35 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		231B8588127A938A00084D8C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231B8589127A938A00084D8C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		231B858E127A938A00084D8C /* LocalizeMeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231B858F127A938A00084D8C /* en */,
+				231B859F127A96EB00084D8C /* fr */,
+			);
+			name = LocalizeMeViewController.xib;
+			sourceTree = "<group>";
+		};
+		231B85A3127A9A6E00084D8C /* flag.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231B85A5127A9DC000084D8C /* en */,
+				237D1DEE12E90D9B00B61BC4 /* fr */,
+			);
+			name = flag.png;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		231B8591127A938A00084D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		231B8592127A938A00084D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		231B8594127A938A00084D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LocalizeMe_Prefix.pch;
+				INFOPLIST_FILE = "LocalizeMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		231B8595127A938A00084D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LocalizeMe_Prefix.pch;
+				INFOPLIST_FILE = "LocalizeMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		231B856B127A938A00084D8C /* Build configuration list for PBXProject "LocalizeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231B8591127A938A00084D8C /* Debug */,
+				231B8592127A938A00084D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		231B8593127A938A00084D8C /* Build configuration list for PBXNativeTarget "LocalizeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231B8594127A938A00084D8C /* Debug */,
+				231B8595127A938A00084D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 231B8568127A938A00084D8C /* Project object */;
+}
