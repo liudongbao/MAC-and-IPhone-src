@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27A2408914110E3F00F8C088 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A2408814110E3F00F8C088 /* UIKit.framework */; };
+		27A2408B14110E3F00F8C088 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A2408A14110E3F00F8C088 /* Foundation.framework */; };
+		27A2408D14110E3F00F8C088 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A2408C14110E3F00F8C088 /* CoreGraphics.framework */; };
+		27A2409314110E3F00F8C088 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27A2409114110E3F00F8C088 /* InfoPlist.strings */; };
+		27A2409514110E3F00F8C088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A2409414110E3F00F8C088 /* main.m */; };
+		27A2409914110E3F00F8C088 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A2409814110E3F00F8C088 /* AppDelegate.m */; };
+		27A2409F14110E3F00F8C088 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A2409E14110E3F00F8C088 /* ViewController.m */; };
+		27E963FF146A163C00AEF610 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E963FD146A163C00AEF610 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27A2408414110E3F00F8C088 /* FlowerWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A2408814110E3F00F8C088 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27A2408A14110E3F00F8C088 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27A2408C14110E3F00F8C088 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27A2409014110E3F00F8C088 /* FlowerWeb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlowerWeb-Info.plist"; sourceTree = "<group>"; };
+		27A2409214110E3F00F8C088 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27A2409414110E3F00F8C088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27A2409614110E3F00F8C088 /* FlowerWeb-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlowerWeb-Prefix.pch"; sourceTree = "<group>"; };
+		27A2409714110E3F00F8C088 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27A2409814110E3F00F8C088 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27A2409D14110E3F00F8C088 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		27A2409E14110E3F00F8C088 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27E963FE146A163C00AEF610 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27A2408114110E3F00F8C088 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A2408914110E3F00F8C088 /* UIKit.framework in Frameworks */,
+				27A2408B14110E3F00F8C088 /* Foundation.framework in Frameworks */,
+				27A2408D14110E3F00F8C088 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27A2407914110E3F00F8C088 = {
+			isa = PBXGroup;
+			children = (
+				27A2408E14110E3F00F8C088 /* FlowerWeb */,
+				27A2408714110E3F00F8C088 /* Frameworks */,
+				27A2408514110E3F00F8C088 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27A2408514110E3F00F8C088 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27A2408414110E3F00F8C088 /* FlowerWeb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27A2408714110E3F00F8C088 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27A2408814110E3F00F8C088 /* UIKit.framework */,
+				27A2408A14110E3F00F8C088 /* Foundation.framework */,
+				27A2408C14110E3F00F8C088 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27A2408E14110E3F00F8C088 /* FlowerWeb */ = {
+			isa = PBXGroup;
+			children = (
+				27A2409714110E3F00F8C088 /* AppDelegate.h */,
+				27A2409814110E3F00F8C088 /* AppDelegate.m */,
+				27E963FD146A163C00AEF610 /* MainStoryboard.storyboard */,
+				27A2409D14110E3F00F8C088 /* ViewController.h */,
+				27A2409E14110E3F00F8C088 /* ViewController.m */,
+				27A2408F14110E3F00F8C088 /* Supporting Files */,
+			);
+			path = FlowerWeb;
+			sourceTree = "<group>";
+		};
+		27A2408F14110E3F00F8C088 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27A2409014110E3F00F8C088 /* FlowerWeb-Info.plist */,
+				27A2409114110E3F00F8C088 /* InfoPlist.strings */,
+				27A2409414110E3F00F8C088 /* main.m */,
+				27A2409614110E3F00F8C088 /* FlowerWeb-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27A2408314110E3F00F8C088 /* FlowerWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27A240A214110E3F00F8C088 /* Build configuration list for PBXNativeTarget "FlowerWeb" */;
+			buildPhases = (
+				27A2408014110E3F00F8C088 /* Sources */,
+				27A2408114110E3F00F8C088 /* Frameworks */,
+				27A2408214110E3F00F8C088 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowerWeb;
+			productName = FlowerWeb;
+			productReference = 27A2408414110E3F00F8C088 /* FlowerWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27A2407B14110E3F00F8C088 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "John E. Ray";
+			};
+			buildConfigurationList = 27A2407E14110E3F00F8C088 /* Build configuration list for PBXProject "FlowerWeb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27A2407914110E3F00F8C088;
+			productRefGroup = 27A2408514110E3F00F8C088 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27A2408314110E3F00F8C088 /* FlowerWeb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27A2408214110E3F00F8C088 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A2409314110E3F00F8C088 /* InfoPlist.strings in Resources */,
+				27E963FF146A163C00AEF610 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27A2408014110E3F00F8C088 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A2409514110E3F00F8C088 /* main.m in Sources */,
+				27A2409914110E3F00F8C088 /* AppDelegate.m in Sources */,
+				27A2409F14110E3F00F8C088 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27A2409114110E3F00F8C088 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27A2409214110E3F00F8C088 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27E963FD146A163C00AEF610 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E963FE146A163C00AEF610 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27A240A014110E3F00F8C088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27A240A114110E3F00F8C088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27A240A314110E3F00F8C088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlowerWeb/FlowerWeb-Prefix.pch";
+				INFOPLIST_FILE = "FlowerWeb/FlowerWeb-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27A240A414110E3F00F8C088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlowerWeb/FlowerWeb-Prefix.pch";
+				INFOPLIST_FILE = "FlowerWeb/FlowerWeb-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27A2407E14110E3F00F8C088 /* Build configuration list for PBXProject "FlowerWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A240A014110E3F00F8C088 /* Debug */,
+				27A240A114110E3F00F8C088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27A240A214110E3F00F8C088 /* Build configuration list for PBXNativeTarget "FlowerWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A240A314110E3F00F8C088 /* Debug */,
+				27A240A414110E3F00F8C088 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27A2407B14110E3F00F8C088 /* Project object */;
+}

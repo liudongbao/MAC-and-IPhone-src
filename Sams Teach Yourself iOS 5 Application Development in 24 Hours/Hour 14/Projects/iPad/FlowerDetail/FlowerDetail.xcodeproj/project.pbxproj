@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		274880B4144C7972003B803A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274880B3144C7972003B803A /* UIKit.framework */; };
+		274880B6144C7972003B803A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274880B5144C7972003B803A /* Foundation.framework */; };
+		274880B8144C7972003B803A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274880B7144C7972003B803A /* CoreGraphics.framework */; };
+		274880BE144C7973003B803A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 274880BC144C7973003B803A /* InfoPlist.strings */; };
+		274880C0144C7973003B803A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 274880BF144C7973003B803A /* main.m */; };
+		274880C4144C7973003B803A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 274880C3144C7973003B803A /* AppDelegate.m */; };
+		274880C7144C7973003B803A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274880C5144C7973003B803A /* MainStoryboard_iPhone.storyboard */; };
+		274880CA144C7973003B803A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274880C8144C7973003B803A /* MainStoryboard_iPad.storyboard */; };
+		274880CD144C7973003B803A /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274880CC144C7973003B803A /* MasterViewController.m */; };
+		274880D0144C7973003B803A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274880CF144C7973003B803A /* DetailViewController.m */; };
+		274880E8144C7B29003B803A /* gerbera.png in Resources */ = {isa = PBXBuildFile; fileRef = 274880DA144C7B29003B803A /* gerbera.png */; };
+		274880E9144C7B29003B803A /* grapehyacinth.png in Resources */ = {isa = PBXBuildFile; fileRef = 274880DB144C7B29003B803A /* grapehyacinth.png */; };
+		274880EA144C7B29003B803A /* hollyhock.png in Resources */ = {isa = PBXBuildFile; fileRef = 274880DC144C7B29003B803A /* hollyhock.png */; };
+		274880EB144C7B29003B803A /* hyacinth.png in Resources */ = {isa = PBXBuildFile; fileRef = 274880DD144C7B29003B803A /* hyacinth.png */; };
+		274880EC144C7B29003B803A /* hydrangea.png in Resources */ = {isa = PBXBuildFile; fileRef = 274880DE144C7B29003B803A /* hydrangea.png */; };
+		274880ED144C7B29003B803A /* iris.png in Resources */ = {isa = PBXBuildFile; fileRef = 274880DF144C7B29003B803A /* iris.png */; };
+		274880EE144C7B29003B803A /* peony.png in Resources */ = {isa = PBXBuildFile; fileRef = 274880E0144C7B29003B803A /* peony.png */; };
+		274880EF144C7B29003B803A /* phlox.png in Resources */ = {isa = PBXBuildFile; fileRef = 274880E1144C7B29003B803A /* phlox.png */; };
+		274880F0144C7B29003B803A /* pincushionflower.png in Resources */ = {isa = PBXBuildFile; fileRef = 274880E2144C7B29003B803A /* pincushionflower.png */; };
+		274880F1144C7B29003B803A /* poppy.png in Resources */ = {isa = PBXBuildFile; fileRef = 274880E3144C7B29003B803A /* poppy.png */; };
+		274880F2144C7B29003B803A /* rose.png in Resources */ = {isa = PBXBuildFile; fileRef = 274880E4144C7B29003B803A /* rose.png */; };
+		274880F3144C7B29003B803A /* sea holly.png in Resources */ = {isa = PBXBuildFile; fileRef = 274880E5144C7B29003B803A /* sea holly.png */; };
+		274880F4144C7B29003B803A /* strawflower.png in Resources */ = {isa = PBXBuildFile; fileRef = 274880E6144C7B29003B803A /* strawflower.png */; };
+		274880F5144C7B29003B803A /* tulip.png in Resources */ = {isa = PBXBuildFile; fileRef = 274880E7144C7B29003B803A /* tulip.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		274880AF144C7972003B803A /* FlowerDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		274880B3144C7972003B803A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		274880B5144C7972003B803A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		274880B7144C7972003B803A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		274880BB144C7973003B803A /* FlowerDetail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlowerDetail-Info.plist"; sourceTree = "<group>"; };
+		274880BD144C7973003B803A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		274880BF144C7973003B803A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		274880C1144C7973003B803A /* FlowerDetail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlowerDetail-Prefix.pch"; sourceTree = "<group>"; };
+		274880C2144C7973003B803A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		274880C3144C7973003B803A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		274880C6144C7973003B803A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		274880C9144C7973003B803A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		274880CB144C7973003B803A /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		274880CC144C7973003B803A /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		274880CE144C7973003B803A /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		274880CF144C7973003B803A /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		274880DA144C7B29003B803A /* gerbera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gerbera.png; sourceTree = "<group>"; };
+		274880DB144C7B29003B803A /* grapehyacinth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grapehyacinth.png; sourceTree = "<group>"; };
+		274880DC144C7B29003B803A /* hollyhock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hollyhock.png; sourceTree = "<group>"; };
+		274880DD144C7B29003B803A /* hyacinth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hyacinth.png; sourceTree = "<group>"; };
+		274880DE144C7B29003B803A /* hydrangea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hydrangea.png; sourceTree = "<group>"; };
+		274880DF144C7B29003B803A /* iris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iris.png; sourceTree = "<group>"; };
+		274880E0144C7B29003B803A /* peony.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peony.png; sourceTree = "<group>"; };
+		274880E1144C7B29003B803A /* phlox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phlox.png; sourceTree = "<group>"; };
+		274880E2144C7B29003B803A /* pincushionflower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pincushionflower.png; sourceTree = "<group>"; };
+		274880E3144C7B29003B803A /* poppy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poppy.png; sourceTree = "<group>"; };
+		274880E4144C7B29003B803A /* rose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rose.png; sourceTree = "<group>"; };
+		274880E5144C7B29003B803A /* sea holly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sea holly.png"; sourceTree = "<group>"; };
+		274880E6144C7B29003B803A /* strawflower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strawflower.png; sourceTree = "<group>"; };
+		274880E7144C7B29003B803A /* tulip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tulip.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		274880AC144C7972003B803A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274880B4144C7972003B803A /* UIKit.framework in Frameworks */,
+				274880B6144C7972003B803A /* Foundation.framework in Frameworks */,
+				274880B8144C7972003B803A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		274880A4144C7972003B803A = {
+			isa = PBXGroup;
+			children = (
+				274880B9144C7973003B803A /* FlowerDetail */,
+				274880B2144C7972003B803A /* Frameworks */,
+				274880B0144C7972003B803A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		274880B0144C7972003B803A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				274880AF144C7972003B803A /* FlowerDetail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		274880B2144C7972003B803A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				274880B3144C7972003B803A /* UIKit.framework */,
+				274880B5144C7972003B803A /* Foundation.framework */,
+				274880B7144C7972003B803A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		274880B9144C7973003B803A /* FlowerDetail */ = {
+			isa = PBXGroup;
+			children = (
+				274880C2144C7973003B803A /* AppDelegate.h */,
+				274880C3144C7973003B803A /* AppDelegate.m */,
+				274880C5144C7973003B803A /* MainStoryboard_iPhone.storyboard */,
+				274880C8144C7973003B803A /* MainStoryboard_iPad.storyboard */,
+				274880CB144C7973003B803A /* MasterViewController.h */,
+				274880CC144C7973003B803A /* MasterViewController.m */,
+				274880CE144C7973003B803A /* DetailViewController.h */,
+				274880CF144C7973003B803A /* DetailViewController.m */,
+				274880D9144C7B29003B803A /* Images */,
+				274880BA144C7973003B803A /* Supporting Files */,
+			);
+			path = FlowerDetail;
+			sourceTree = "<group>";
+		};
+		274880BA144C7973003B803A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				274880BB144C7973003B803A /* FlowerDetail-Info.plist */,
+				274880BC144C7973003B803A /* InfoPlist.strings */,
+				274880BF144C7973003B803A /* main.m */,
+				274880C1144C7973003B803A /* FlowerDetail-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		274880D9144C7B29003B803A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				274880DA144C7B29003B803A /* gerbera.png */,
+				274880DB144C7B29003B803A /* grapehyacinth.png */,
+				274880DC144C7B29003B803A /* hollyhock.png */,
+				274880DD144C7B29003B803A /* hyacinth.png */,
+				274880DE144C7B29003B803A /* hydrangea.png */,
+				274880DF144C7B29003B803A /* iris.png */,
+				274880E0144C7B29003B803A /* peony.png */,
+				274880E1144C7B29003B803A /* phlox.png */,
+				274880E2144C7B29003B803A /* pincushionflower.png */,
+				274880E3144C7B29003B803A /* poppy.png */,
+				274880E4144C7B29003B803A /* rose.png */,
+				274880E5144C7B29003B803A /* sea holly.png */,
+				274880E6144C7B29003B803A /* strawflower.png */,
+				274880E7144C7B29003B803A /* tulip.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		274880AE144C7972003B803A /* FlowerDetail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274880D3144C7973003B803A /* Build configuration list for PBXNativeTarget "FlowerDetail" */;
+			buildPhases = (
+				274880AB144C7972003B803A /* Sources */,
+				274880AC144C7972003B803A /* Frameworks */,
+				274880AD144C7972003B803A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowerDetail;
+			productName = FlowerDetail;
+			productReference = 274880AF144C7972003B803A /* FlowerDetail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		274880A6144C7972003B803A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 274880A9144C7972003B803A /* Build configuration list for PBXProject "FlowerDetail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 274880A4144C7972003B803A;
+			productRefGroup = 274880B0144C7972003B803A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				274880AE144C7972003B803A /* FlowerDetail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		274880AD144C7972003B803A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274880BE144C7973003B803A /* InfoPlist.strings in Resources */,
+				274880C7144C7973003B803A /* MainStoryboard_iPhone.storyboard in Resources */,
+				274880CA144C7973003B803A /* MainStoryboard_iPad.storyboard in Resources */,
+				274880E8144C7B29003B803A /* gerbera.png in Resources */,
+				274880E9144C7B29003B803A /* grapehyacinth.png in Resources */,
+				274880EA144C7B29003B803A /* hollyhock.png in Resources */,
+				274880EB144C7B29003B803A /* hyacinth.png in Resources */,
+				274880EC144C7B29003B803A /* hydrangea.png in Resources */,
+				274880ED144C7B29003B803A /* iris.png in Resources */,
+				274880EE144C7B29003B803A /* peony.png in Resources */,
+				274880EF144C7B29003B803A /* phlox.png in Resources */,
+				274880F0144C7B29003B803A /* pincushionflower.png in Resources */,
+				274880F1144C7B29003B803A /* poppy.png in Resources */,
+				274880F2144C7B29003B803A /* rose.png in Resources */,
+				274880F3144C7B29003B803A /* sea holly.png in Resources */,
+				274880F4144C7B29003B803A /* strawflower.png in Resources */,
+				274880F5144C7B29003B803A /* tulip.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		274880AB144C7972003B803A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274880C0144C7973003B803A /* main.m in Sources */,
+				274880C4144C7973003B803A /* AppDelegate.m in Sources */,
+				274880CD144C7973003B803A /* MasterViewController.m in Sources */,
+				274880D0144C7973003B803A /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		274880BC144C7973003B803A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				274880BD144C7973003B803A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		274880C5144C7973003B803A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				274880C6144C7973003B803A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		274880C8144C7973003B803A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				274880C9144C7973003B803A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		274880D1144C7973003B803A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		274880D2144C7973003B803A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		274880D4144C7973003B803A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlowerDetail/FlowerDetail-Prefix.pch";
+				INFOPLIST_FILE = "FlowerDetail/FlowerDetail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		274880D5144C7973003B803A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlowerDetail/FlowerDetail-Prefix.pch";
+				INFOPLIST_FILE = "FlowerDetail/FlowerDetail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		274880A9144C7972003B803A /* Build configuration list for PBXProject "FlowerDetail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274880D1144C7973003B803A /* Debug */,
+				274880D2144C7973003B803A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274880D3144C7973003B803A /* Build configuration list for PBXNativeTarget "FlowerDetail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274880D4144C7973003B803A /* Debug */,
+				274880D5144C7973003B803A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 274880A6144C7972003B803A /* Project object */;
+}

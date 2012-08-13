@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		273E6AF6142AADE600833851 /* left.wav in Resources */ = {isa = PBXBuildFile; fileRef = 273E6AF3142AADE600833851 /* left.wav */; };
+		273E6AF7142AADE600833851 /* right.wav in Resources */ = {isa = PBXBuildFile; fileRef = 273E6AF4142AADE600833851 /* right.wav */; };
+		273E6AF8142AADE600833851 /* straight.wav in Resources */ = {isa = PBXBuildFile; fileRef = 273E6AF5142AADE600833851 /* straight.wav */; };
+		279009781427DAF20048EEF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279009771427DAF20048EEF3 /* UIKit.framework */; };
+		2790097A1427DAF20048EEF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279009791427DAF20048EEF3 /* Foundation.framework */; };
+		2790097C1427DAF20048EEF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2790097B1427DAF20048EEF3 /* CoreGraphics.framework */; };
+		279009821427DAF20048EEF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 279009801427DAF20048EEF3 /* InfoPlist.strings */; };
+		279009841427DAF20048EEF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 279009831427DAF20048EEF3 /* main.m */; };
+		279009881427DAF20048EEF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 279009871427DAF20048EEF3 /* AppDelegate.m */; };
+		2790098B1427DAF20048EEF3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279009891427DAF20048EEF3 /* MainStoryboard.storyboard */; };
+		2790098E1427DAF20048EEF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2790098D1427DAF20048EEF3 /* ViewController.m */; };
+		279009951427DBCD0048EEF3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279009941427DBCD0048EEF3 /* CoreLocation.framework */; };
+		2790099C1427DC650048EEF3 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 279009971427DC650048EEF3 /* apple.png */; };
+		2790099D1427DC650048EEF3 /* apple@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 279009981427DC650048EEF3 /* apple@2x.png */; };
+		2790099E1427DC650048EEF3 /* left_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 279009991427DC650048EEF3 /* left_arrow.png */; };
+		2790099F1427DC650048EEF3 /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2790099A1427DC650048EEF3 /* right_arrow.png */; };
+		279009A01427DC650048EEF3 /* up_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2790099B1427DC650048EEF3 /* up_arrow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		273E6AF3142AADE600833851 /* left.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = left.wav; sourceTree = "<group>"; };
+		273E6AF4142AADE600833851 /* right.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = right.wav; sourceTree = "<group>"; };
+		273E6AF5142AADE600833851 /* straight.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = straight.wav; sourceTree = "<group>"; };
+		279009731427DAF20048EEF3 /* Cupertino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cupertino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		279009771427DAF20048EEF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		279009791427DAF20048EEF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2790097B1427DAF20048EEF3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2790097F1427DAF20048EEF3 /* Cupertino-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cupertino-Info.plist"; sourceTree = "<group>"; };
+		279009811427DAF20048EEF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		279009831427DAF20048EEF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		279009851427DAF20048EEF3 /* Cupertino-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cupertino-Prefix.pch"; sourceTree = "<group>"; };
+		279009861427DAF20048EEF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		279009871427DAF20048EEF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2790098A1427DAF20048EEF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2790098C1427DAF20048EEF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2790098D1427DAF20048EEF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		279009941427DBCD0048EEF3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		279009971427DC650048EEF3 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		279009981427DC650048EEF3 /* apple@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple@2x.png"; sourceTree = "<group>"; };
+		279009991427DC650048EEF3 /* left_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_arrow.png; sourceTree = "<group>"; };
+		2790099A1427DC650048EEF3 /* right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_arrow.png; sourceTree = "<group>"; };
+		2790099B1427DC650048EEF3 /* up_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up_arrow.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		279009701427DAF20048EEF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279009951427DBCD0048EEF3 /* CoreLocation.framework in Frameworks */,
+				279009781427DAF20048EEF3 /* UIKit.framework in Frameworks */,
+				2790097A1427DAF20048EEF3 /* Foundation.framework in Frameworks */,
+				2790097C1427DAF20048EEF3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		273E6AF2142AADE600833851 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				273E6AF3142AADE600833851 /* left.wav */,
+				273E6AF4142AADE600833851 /* right.wav */,
+				273E6AF5142AADE600833851 /* straight.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		279009681427DAF20048EEF3 = {
+			isa = PBXGroup;
+			children = (
+				2790097D1427DAF20048EEF3 /* Cupertino */,
+				279009761427DAF20048EEF3 /* Frameworks */,
+				279009741427DAF20048EEF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		279009741427DAF20048EEF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				279009731427DAF20048EEF3 /* Cupertino.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		279009761427DAF20048EEF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				279009941427DBCD0048EEF3 /* CoreLocation.framework */,
+				279009771427DAF20048EEF3 /* UIKit.framework */,
+				279009791427DAF20048EEF3 /* Foundation.framework */,
+				2790097B1427DAF20048EEF3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2790097D1427DAF20048EEF3 /* Cupertino */ = {
+			isa = PBXGroup;
+			children = (
+				279009861427DAF20048EEF3 /* AppDelegate.h */,
+				279009871427DAF20048EEF3 /* AppDelegate.m */,
+				279009891427DAF20048EEF3 /* MainStoryboard.storyboard */,
+				2790098C1427DAF20048EEF3 /* ViewController.h */,
+				2790098D1427DAF20048EEF3 /* ViewController.m */,
+				273E6AF2142AADE600833851 /* Audio */,
+				279009961427DC650048EEF3 /* Images */,
+				2790097E1427DAF20048EEF3 /* Supporting Files */,
+			);
+			path = Cupertino;
+			sourceTree = "<group>";
+		};
+		2790097E1427DAF20048EEF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2790097F1427DAF20048EEF3 /* Cupertino-Info.plist */,
+				279009801427DAF20048EEF3 /* InfoPlist.strings */,
+				279009831427DAF20048EEF3 /* main.m */,
+				279009851427DAF20048EEF3 /* Cupertino-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		279009961427DC650048EEF3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				279009971427DC650048EEF3 /* apple.png */,
+				279009981427DC650048EEF3 /* apple@2x.png */,
+				279009991427DC650048EEF3 /* left_arrow.png */,
+				2790099A1427DC650048EEF3 /* right_arrow.png */,
+				2790099B1427DC650048EEF3 /* up_arrow.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		279009721427DAF20048EEF3 /* Cupertino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 279009911427DAF20048EEF3 /* Build configuration list for PBXNativeTarget "Cupertino" */;
+			buildPhases = (
+				2790096F1427DAF20048EEF3 /* Sources */,
+				279009701427DAF20048EEF3 /* Frameworks */,
+				279009711427DAF20048EEF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cupertino;
+			productName = Cupertino;
+			productReference = 279009731427DAF20048EEF3 /* Cupertino.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2790096A1427DAF20048EEF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "John E. Ray";
+			};
+			buildConfigurationList = 2790096D1427DAF20048EEF3 /* Build configuration list for PBXProject "Cupertino" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 279009681427DAF20048EEF3;
+			productRefGroup = 279009741427DAF20048EEF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				279009721427DAF20048EEF3 /* Cupertino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		279009711427DAF20048EEF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279009821427DAF20048EEF3 /* InfoPlist.strings in Resources */,
+				2790098B1427DAF20048EEF3 /* MainStoryboard.storyboard in Resources */,
+				2790099C1427DC650048EEF3 /* apple.png in Resources */,
+				2790099D1427DC650048EEF3 /* apple@2x.png in Resources */,
+				2790099E1427DC650048EEF3 /* left_arrow.png in Resources */,
+				2790099F1427DC650048EEF3 /* right_arrow.png in Resources */,
+				279009A01427DC650048EEF3 /* up_arrow.png in Resources */,
+				273E6AF6142AADE600833851 /* left.wav in Resources */,
+				273E6AF7142AADE600833851 /* right.wav in Resources */,
+				273E6AF8142AADE600833851 /* straight.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2790096F1427DAF20048EEF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279009841427DAF20048EEF3 /* main.m in Sources */,
+				279009881427DAF20048EEF3 /* AppDelegate.m in Sources */,
+				2790098E1427DAF20048EEF3 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		279009801427DAF20048EEF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				279009811427DAF20048EEF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		279009891427DAF20048EEF3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2790098A1427DAF20048EEF3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2790098F1427DAF20048EEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		279009901427DAF20048EEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		279009921427DAF20048EEF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cupertino/Cupertino-Prefix.pch";
+				INFOPLIST_FILE = "Cupertino/Cupertino-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		279009931427DAF20048EEF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cupertino/Cupertino-Prefix.pch";
+				INFOPLIST_FILE = "Cupertino/Cupertino-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2790096D1427DAF20048EEF3 /* Build configuration list for PBXProject "Cupertino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2790098F1427DAF20048EEF3 /* Debug */,
+				279009901427DAF20048EEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		279009911427DAF20048EEF3 /* Build configuration list for PBXNativeTarget "Cupertino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279009921427DAF20048EEF3 /* Debug */,
+				279009931427DAF20048EEF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2790096A1427DAF20048EEF3 /* Project object */;
+}

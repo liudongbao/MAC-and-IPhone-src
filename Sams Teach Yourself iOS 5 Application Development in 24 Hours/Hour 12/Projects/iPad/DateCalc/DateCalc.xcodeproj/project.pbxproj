@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276A5E44143BC8C4004448FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276A5E43143BC8C4004448FF /* UIKit.framework */; };
+		276A5E46143BC8C4004448FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276A5E45143BC8C4004448FF /* Foundation.framework */; };
+		276A5E48143BC8C4004448FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276A5E47143BC8C4004448FF /* CoreGraphics.framework */; };
+		276A5E4E143BC8C4004448FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 276A5E4C143BC8C4004448FF /* InfoPlist.strings */; };
+		276A5E50143BC8C4004448FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 276A5E4F143BC8C4004448FF /* main.m */; };
+		276A5E54143BC8C4004448FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 276A5E53143BC8C4004448FF /* AppDelegate.m */; };
+		276A5E57143BC8C4004448FF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276A5E55143BC8C4004448FF /* MainStoryboard.storyboard */; };
+		276A5E5A143BC8C4004448FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 276A5E59143BC8C4004448FF /* ViewController.m */; };
+		276A5E62143BC8F4004448FF /* DateChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 276A5E61143BC8F4004448FF /* DateChooserViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		276A5E3F143BC8C4004448FF /* DateCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		276A5E43143BC8C4004448FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		276A5E45143BC8C4004448FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		276A5E47143BC8C4004448FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		276A5E4B143BC8C4004448FF /* DateCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DateCalc-Info.plist"; sourceTree = "<group>"; };
+		276A5E4D143BC8C4004448FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		276A5E4F143BC8C4004448FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		276A5E51143BC8C4004448FF /* DateCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DateCalc-Prefix.pch"; sourceTree = "<group>"; };
+		276A5E52143BC8C4004448FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		276A5E53143BC8C4004448FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		276A5E56143BC8C4004448FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		276A5E58143BC8C4004448FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		276A5E59143BC8C4004448FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		276A5E60143BC8F4004448FF /* DateChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateChooserViewController.h; sourceTree = "<group>"; };
+		276A5E61143BC8F4004448FF /* DateChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateChooserViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		276A5E3C143BC8C4004448FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276A5E44143BC8C4004448FF /* UIKit.framework in Frameworks */,
+				276A5E46143BC8C4004448FF /* Foundation.framework in Frameworks */,
+				276A5E48143BC8C4004448FF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		276A5E34143BC8C4004448FF = {
+			isa = PBXGroup;
+			children = (
+				276A5E49143BC8C4004448FF /* DateCalc */,
+				276A5E42143BC8C4004448FF /* Frameworks */,
+				276A5E40143BC8C4004448FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		276A5E40143BC8C4004448FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				276A5E3F143BC8C4004448FF /* DateCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		276A5E42143BC8C4004448FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				276A5E43143BC8C4004448FF /* UIKit.framework */,
+				276A5E45143BC8C4004448FF /* Foundation.framework */,
+				276A5E47143BC8C4004448FF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		276A5E49143BC8C4004448FF /* DateCalc */ = {
+			isa = PBXGroup;
+			children = (
+				276A5E52143BC8C4004448FF /* AppDelegate.h */,
+				276A5E53143BC8C4004448FF /* AppDelegate.m */,
+				276A5E55143BC8C4004448FF /* MainStoryboard.storyboard */,
+				276A5E58143BC8C4004448FF /* ViewController.h */,
+				276A5E59143BC8C4004448FF /* ViewController.m */,
+				276A5E60143BC8F4004448FF /* DateChooserViewController.h */,
+				276A5E61143BC8F4004448FF /* DateChooserViewController.m */,
+				276A5E4A143BC8C4004448FF /* Supporting Files */,
+			);
+			path = DateCalc;
+			sourceTree = "<group>";
+		};
+		276A5E4A143BC8C4004448FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				276A5E4B143BC8C4004448FF /* DateCalc-Info.plist */,
+				276A5E4C143BC8C4004448FF /* InfoPlist.strings */,
+				276A5E4F143BC8C4004448FF /* main.m */,
+				276A5E51143BC8C4004448FF /* DateCalc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		276A5E3E143BC8C4004448FF /* DateCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276A5E5D143BC8C4004448FF /* Build configuration list for PBXNativeTarget "DateCalc" */;
+			buildPhases = (
+				276A5E3B143BC8C4004448FF /* Sources */,
+				276A5E3C143BC8C4004448FF /* Frameworks */,
+				276A5E3D143BC8C4004448FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateCalc;
+			productName = DateCalc;
+			productReference = 276A5E3F143BC8C4004448FF /* DateCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		276A5E36143BC8C4004448FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "John E. Ray";
+			};
+			buildConfigurationList = 276A5E39143BC8C4004448FF /* Build configuration list for PBXProject "DateCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 276A5E34143BC8C4004448FF;
+			productRefGroup = 276A5E40143BC8C4004448FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				276A5E3E143BC8C4004448FF /* DateCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		276A5E3D143BC8C4004448FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276A5E4E143BC8C4004448FF /* InfoPlist.strings in Resources */,
+				276A5E57143BC8C4004448FF /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		276A5E3B143BC8C4004448FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276A5E50143BC8C4004448FF /* main.m in Sources */,
+				276A5E54143BC8C4004448FF /* AppDelegate.m in Sources */,
+				276A5E5A143BC8C4004448FF /* ViewController.m in Sources */,
+				276A5E62143BC8F4004448FF /* DateChooserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		276A5E4C143BC8C4004448FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276A5E4D143BC8C4004448FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		276A5E55143BC8C4004448FF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276A5E56143BC8C4004448FF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		276A5E5B143BC8C4004448FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		276A5E5C143BC8C4004448FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		276A5E5E143BC8C4004448FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateCalc/DateCalc-Prefix.pch";
+				INFOPLIST_FILE = "DateCalc/DateCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		276A5E5F143BC8C4004448FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateCalc/DateCalc-Prefix.pch";
+				INFOPLIST_FILE = "DateCalc/DateCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		276A5E39143BC8C4004448FF /* Build configuration list for PBXProject "DateCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276A5E5B143BC8C4004448FF /* Debug */,
+				276A5E5C143BC8C4004448FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276A5E5D143BC8C4004448FF /* Build configuration list for PBXNativeTarget "DateCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276A5E5E143BC8C4004448FF /* Debug */,
+				276A5E5F143BC8C4004448FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 276A5E36143BC8C4004448FF /* Project object */;
+}

@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2777A893141448AD005B3186 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2777A892141448AD005B3186 /* UIKit.framework */; };
+		2777A895141448AD005B3186 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2777A894141448AD005B3186 /* Foundation.framework */; };
+		2777A897141448AD005B3186 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2777A896141448AD005B3186 /* CoreGraphics.framework */; };
+		2777A89D141448AD005B3186 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2777A89B141448AD005B3186 /* InfoPlist.strings */; };
+		2777A89F141448AD005B3186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2777A89E141448AD005B3186 /* main.m */; };
+		2777A8A3141448AD005B3186 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2777A8A2141448AD005B3186 /* AppDelegate.m */; };
+		2777A8A6141448AD005B3186 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2777A8A4141448AD005B3186 /* MainStoryboard.storyboard */; };
+		2777A8A9141448AD005B3186 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2777A8A8141448AD005B3186 /* ViewController.m */; };
+		2777A8B014144937005B3186 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2777A8AF14144937005B3186 /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2777A88E141448AD005B3186 /* ColorTilt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorTilt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2777A892141448AD005B3186 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2777A894141448AD005B3186 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2777A896141448AD005B3186 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2777A89A141448AD005B3186 /* ColorTilt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorTilt-Info.plist"; sourceTree = "<group>"; };
+		2777A89C141448AD005B3186 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2777A89E141448AD005B3186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2777A8A0141448AD005B3186 /* ColorTilt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorTilt-Prefix.pch"; sourceTree = "<group>"; };
+		2777A8A1141448AD005B3186 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2777A8A2141448AD005B3186 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2777A8A5141448AD005B3186 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2777A8A7141448AD005B3186 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2777A8A8141448AD005B3186 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2777A8AF14144937005B3186 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2777A88B141448AD005B3186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2777A8B014144937005B3186 /* CoreMotion.framework in Frameworks */,
+				2777A893141448AD005B3186 /* UIKit.framework in Frameworks */,
+				2777A895141448AD005B3186 /* Foundation.framework in Frameworks */,
+				2777A897141448AD005B3186 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2777A883141448AD005B3186 = {
+			isa = PBXGroup;
+			children = (
+				2777A898141448AD005B3186 /* ColorTilt */,
+				2777A891141448AD005B3186 /* Frameworks */,
+				2777A88F141448AD005B3186 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2777A88F141448AD005B3186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2777A88E141448AD005B3186 /* ColorTilt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2777A891141448AD005B3186 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2777A8AF14144937005B3186 /* CoreMotion.framework */,
+				2777A892141448AD005B3186 /* UIKit.framework */,
+				2777A894141448AD005B3186 /* Foundation.framework */,
+				2777A896141448AD005B3186 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2777A898141448AD005B3186 /* ColorTilt */ = {
+			isa = PBXGroup;
+			children = (
+				2777A8A1141448AD005B3186 /* AppDelegate.h */,
+				2777A8A2141448AD005B3186 /* AppDelegate.m */,
+				2777A8A4141448AD005B3186 /* MainStoryboard.storyboard */,
+				2777A8A7141448AD005B3186 /* ViewController.h */,
+				2777A8A8141448AD005B3186 /* ViewController.m */,
+				2777A899141448AD005B3186 /* Supporting Files */,
+			);
+			path = ColorTilt;
+			sourceTree = "<group>";
+		};
+		2777A899141448AD005B3186 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2777A89A141448AD005B3186 /* ColorTilt-Info.plist */,
+				2777A89B141448AD005B3186 /* InfoPlist.strings */,
+				2777A89E141448AD005B3186 /* main.m */,
+				2777A8A0141448AD005B3186 /* ColorTilt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2777A88D141448AD005B3186 /* ColorTilt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2777A8AC141448AD005B3186 /* Build configuration list for PBXNativeTarget "ColorTilt" */;
+			buildPhases = (
+				2777A88A141448AD005B3186 /* Sources */,
+				2777A88B141448AD005B3186 /* Frameworks */,
+				2777A88C141448AD005B3186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorTilt;
+			productName = ColorTilt;
+			productReference = 2777A88E141448AD005B3186 /* ColorTilt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2777A885141448AD005B3186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "John E. Ray";
+			};
+			buildConfigurationList = 2777A888141448AD005B3186 /* Build configuration list for PBXProject "ColorTilt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2777A883141448AD005B3186;
+			productRefGroup = 2777A88F141448AD005B3186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2777A88D141448AD005B3186 /* ColorTilt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2777A88C141448AD005B3186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2777A89D141448AD005B3186 /* InfoPlist.strings in Resources */,
+				2777A8A6141448AD005B3186 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2777A88A141448AD005B3186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2777A89F141448AD005B3186 /* main.m in Sources */,
+				2777A8A3141448AD005B3186 /* AppDelegate.m in Sources */,
+				2777A8A9141448AD005B3186 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2777A89B141448AD005B3186 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2777A89C141448AD005B3186 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2777A8A4141448AD005B3186 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2777A8A5141448AD005B3186 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2777A8AA141448AD005B3186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2777A8AB141448AD005B3186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2777A8AD141448AD005B3186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorTilt/ColorTilt-Prefix.pch";
+				INFOPLIST_FILE = "ColorTilt/ColorTilt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2777A8AE141448AD005B3186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorTilt/ColorTilt-Prefix.pch";
+				INFOPLIST_FILE = "ColorTilt/ColorTilt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2777A888141448AD005B3186 /* Build configuration list for PBXProject "ColorTilt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2777A8AA141448AD005B3186 /* Debug */,
+				2777A8AB141448AD005B3186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2777A8AC141448AD005B3186 /* Build configuration list for PBXNativeTarget "ColorTilt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2777A8AD141448AD005B3186 /* Debug */,
+				2777A8AE141448AD005B3186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2777A885141448AD005B3186 /* Project object */;
+}

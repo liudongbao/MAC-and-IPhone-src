@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2748821A144C9518003B803A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27488219144C9518003B803A /* UIKit.framework */; };
+		2748821C144C9518003B803A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2748821B144C9518003B803A /* Foundation.framework */; };
+		2748821E144C9518003B803A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2748821D144C9518003B803A /* CoreGraphics.framework */; };
+		27488224144C9518003B803A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27488222144C9518003B803A /* InfoPlist.strings */; };
+		27488226144C9518003B803A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27488225144C9518003B803A /* main.m */; };
+		2748822A144C9518003B803A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27488229144C9518003B803A /* AppDelegate.m */; };
+		27488230144C9518003B803A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2748822F144C9518003B803A /* ViewController.m */; };
+		27488245144C95F0003B803A /* gerbera.png in Resources */ = {isa = PBXBuildFile; fileRef = 27488237144C95F0003B803A /* gerbera.png */; };
+		27488246144C95F0003B803A /* grapehyacinth.png in Resources */ = {isa = PBXBuildFile; fileRef = 27488238144C95F0003B803A /* grapehyacinth.png */; };
+		27488247144C95F0003B803A /* hollyhock.png in Resources */ = {isa = PBXBuildFile; fileRef = 27488239144C95F0003B803A /* hollyhock.png */; };
+		27488248144C95F0003B803A /* hyacinth.png in Resources */ = {isa = PBXBuildFile; fileRef = 2748823A144C95F0003B803A /* hyacinth.png */; };
+		27488249144C95F0003B803A /* hydrangea.png in Resources */ = {isa = PBXBuildFile; fileRef = 2748823B144C95F0003B803A /* hydrangea.png */; };
+		2748824A144C95F0003B803A /* iris.png in Resources */ = {isa = PBXBuildFile; fileRef = 2748823C144C95F0003B803A /* iris.png */; };
+		2748824B144C95F0003B803A /* peony.png in Resources */ = {isa = PBXBuildFile; fileRef = 2748823D144C95F0003B803A /* peony.png */; };
+		2748824C144C95F0003B803A /* phlox.png in Resources */ = {isa = PBXBuildFile; fileRef = 2748823E144C95F0003B803A /* phlox.png */; };
+		2748824D144C95F0003B803A /* pincushionflower.png in Resources */ = {isa = PBXBuildFile; fileRef = 2748823F144C95F0003B803A /* pincushionflower.png */; };
+		2748824E144C95F0003B803A /* poppy.png in Resources */ = {isa = PBXBuildFile; fileRef = 27488240144C95F0003B803A /* poppy.png */; };
+		2748824F144C95F0003B803A /* rose.png in Resources */ = {isa = PBXBuildFile; fileRef = 27488241144C95F0003B803A /* rose.png */; };
+		27488250144C95F0003B803A /* sea holly.png in Resources */ = {isa = PBXBuildFile; fileRef = 27488242144C95F0003B803A /* sea holly.png */; };
+		27488251144C95F0003B803A /* strawflower.png in Resources */ = {isa = PBXBuildFile; fileRef = 27488243144C95F0003B803A /* strawflower.png */; };
+		27488252144C95F0003B803A /* tulip.png in Resources */ = {isa = PBXBuildFile; fileRef = 27488244144C95F0003B803A /* tulip.png */; };
+		276DF3D214903E450076ECE0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276DF3D014903E450076ECE0 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27488215144C9518003B803A /* FlowerColorTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerColorTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27488219144C9518003B803A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2748821B144C9518003B803A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2748821D144C9518003B803A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27488221144C9518003B803A /* FlowerColorTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlowerColorTable-Info.plist"; sourceTree = "<group>"; };
+		27488223144C9518003B803A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27488225144C9518003B803A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27488227144C9518003B803A /* FlowerColorTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlowerColorTable-Prefix.pch"; sourceTree = "<group>"; };
+		27488228144C9518003B803A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27488229144C9518003B803A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2748822E144C9518003B803A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2748822F144C9518003B803A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27488237144C95F0003B803A /* gerbera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gerbera.png; sourceTree = "<group>"; };
+		27488238144C95F0003B803A /* grapehyacinth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grapehyacinth.png; sourceTree = "<group>"; };
+		27488239144C95F0003B803A /* hollyhock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hollyhock.png; sourceTree = "<group>"; };
+		2748823A144C95F0003B803A /* hyacinth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hyacinth.png; sourceTree = "<group>"; };
+		2748823B144C95F0003B803A /* hydrangea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hydrangea.png; sourceTree = "<group>"; };
+		2748823C144C95F0003B803A /* iris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iris.png; sourceTree = "<group>"; };
+		2748823D144C95F0003B803A /* peony.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peony.png; sourceTree = "<group>"; };
+		2748823E144C95F0003B803A /* phlox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phlox.png; sourceTree = "<group>"; };
+		2748823F144C95F0003B803A /* pincushionflower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pincushionflower.png; sourceTree = "<group>"; };
+		27488240144C95F0003B803A /* poppy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poppy.png; sourceTree = "<group>"; };
+		27488241144C95F0003B803A /* rose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rose.png; sourceTree = "<group>"; };
+		27488242144C95F0003B803A /* sea holly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sea holly.png"; sourceTree = "<group>"; };
+		27488243144C95F0003B803A /* strawflower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strawflower.png; sourceTree = "<group>"; };
+		27488244144C95F0003B803A /* tulip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tulip.png; sourceTree = "<group>"; };
+		276DF3D114903E450076ECE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27488212144C9518003B803A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2748821A144C9518003B803A /* UIKit.framework in Frameworks */,
+				2748821C144C9518003B803A /* Foundation.framework in Frameworks */,
+				2748821E144C9518003B803A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2748820A144C9517003B803A = {
+			isa = PBXGroup;
+			children = (
+				2748821F144C9518003B803A /* FlowerColorTable */,
+				27488218144C9518003B803A /* Frameworks */,
+				27488216144C9518003B803A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27488216144C9518003B803A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27488215144C9518003B803A /* FlowerColorTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27488218144C9518003B803A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27488219144C9518003B803A /* UIKit.framework */,
+				2748821B144C9518003B803A /* Foundation.framework */,
+				2748821D144C9518003B803A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2748821F144C9518003B803A /* FlowerColorTable */ = {
+			isa = PBXGroup;
+			children = (
+				27488228144C9518003B803A /* AppDelegate.h */,
+				27488229144C9518003B803A /* AppDelegate.m */,
+				276DF3D014903E450076ECE0 /* MainStoryboard.storyboard */,
+				2748822E144C9518003B803A /* ViewController.h */,
+				2748822F144C9518003B803A /* ViewController.m */,
+				27488236144C95F0003B803A /* Images */,
+				27488220144C9518003B803A /* Supporting Files */,
+			);
+			path = FlowerColorTable;
+			sourceTree = "<group>";
+		};
+		27488220144C9518003B803A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27488221144C9518003B803A /* FlowerColorTable-Info.plist */,
+				27488222144C9518003B803A /* InfoPlist.strings */,
+				27488225144C9518003B803A /* main.m */,
+				27488227144C9518003B803A /* FlowerColorTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27488236144C95F0003B803A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				27488237144C95F0003B803A /* gerbera.png */,
+				27488238144C95F0003B803A /* grapehyacinth.png */,
+				27488239144C95F0003B803A /* hollyhock.png */,
+				2748823A144C95F0003B803A /* hyacinth.png */,
+				2748823B144C95F0003B803A /* hydrangea.png */,
+				2748823C144C95F0003B803A /* iris.png */,
+				2748823D144C95F0003B803A /* peony.png */,
+				2748823E144C95F0003B803A /* phlox.png */,
+				2748823F144C95F0003B803A /* pincushionflower.png */,
+				27488240144C95F0003B803A /* poppy.png */,
+				27488241144C95F0003B803A /* rose.png */,
+				27488242144C95F0003B803A /* sea holly.png */,
+				27488243144C95F0003B803A /* strawflower.png */,
+				27488244144C95F0003B803A /* tulip.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27488214144C9518003B803A /* FlowerColorTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27488233144C9518003B803A /* Build configuration list for PBXNativeTarget "FlowerColorTable" */;
+			buildPhases = (
+				27488211144C9518003B803A /* Sources */,
+				27488212144C9518003B803A /* Frameworks */,
+				27488213144C9518003B803A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowerColorTable;
+			productName = FlowerColorTable;
+			productReference = 27488215144C9518003B803A /* FlowerColorTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2748820C144C9517003B803A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2748820F144C9517003B803A /* Build configuration list for PBXProject "FlowerColorTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2748820A144C9517003B803A;
+			productRefGroup = 27488216144C9518003B803A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27488214144C9518003B803A /* FlowerColorTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27488213144C9518003B803A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27488224144C9518003B803A /* InfoPlist.strings in Resources */,
+				27488245144C95F0003B803A /* gerbera.png in Resources */,
+				27488246144C95F0003B803A /* grapehyacinth.png in Resources */,
+				27488247144C95F0003B803A /* hollyhock.png in Resources */,
+				27488248144C95F0003B803A /* hyacinth.png in Resources */,
+				27488249144C95F0003B803A /* hydrangea.png in Resources */,
+				2748824A144C95F0003B803A /* iris.png in Resources */,
+				2748824B144C95F0003B803A /* peony.png in Resources */,
+				2748824C144C95F0003B803A /* phlox.png in Resources */,
+				2748824D144C95F0003B803A /* pincushionflower.png in Resources */,
+				2748824E144C95F0003B803A /* poppy.png in Resources */,
+				2748824F144C95F0003B803A /* rose.png in Resources */,
+				27488250144C95F0003B803A /* sea holly.png in Resources */,
+				27488251144C95F0003B803A /* strawflower.png in Resources */,
+				27488252144C95F0003B803A /* tulip.png in Resources */,
+				276DF3D214903E450076ECE0 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27488211144C9518003B803A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27488226144C9518003B803A /* main.m in Sources */,
+				2748822A144C9518003B803A /* AppDelegate.m in Sources */,
+				27488230144C9518003B803A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27488222144C9518003B803A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27488223144C9518003B803A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		276DF3D014903E450076ECE0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276DF3D114903E450076ECE0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27488231144C9518003B803A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27488232144C9518003B803A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27488234144C9518003B803A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlowerColorTable/FlowerColorTable-Prefix.pch";
+				INFOPLIST_FILE = "FlowerColorTable/FlowerColorTable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27488235144C9518003B803A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlowerColorTable/FlowerColorTable-Prefix.pch";
+				INFOPLIST_FILE = "FlowerColorTable/FlowerColorTable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2748820F144C9517003B803A /* Build configuration list for PBXProject "FlowerColorTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27488231144C9518003B803A /* Debug */,
+				27488232144C9518003B803A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27488233144C9518003B803A /* Build configuration list for PBXNativeTarget "FlowerColorTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27488234144C9518003B803A /* Debug */,
+				27488235144C9518003B803A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2748820C144C9517003B803A /* Project object */;
+}

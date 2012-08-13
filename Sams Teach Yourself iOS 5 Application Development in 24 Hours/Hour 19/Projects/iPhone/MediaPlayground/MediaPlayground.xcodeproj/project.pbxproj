@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27C1FD8D142FE3A6003BCDF3 /* movie.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 27C1FD8B142FE3A6003BCDF3 /* movie.m4v */; };
+		27C1FD8E142FE3A6003BCDF3 /* norecording.wav in Resources */ = {isa = PBXBuildFile; fileRef = 27C1FD8C142FE3A6003BCDF3 /* norecording.wav */; };
+		27DF23C3142FBB8400E9DDF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DF23C2142FBB8400E9DDF3 /* UIKit.framework */; };
+		27DF23C5142FBB8400E9DDF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DF23C4142FBB8400E9DDF3 /* Foundation.framework */; };
+		27DF23C7142FBB8400E9DDF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DF23C6142FBB8400E9DDF3 /* CoreGraphics.framework */; };
+		27DF23CD142FBB8400E9DDF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27DF23CB142FBB8400E9DDF3 /* InfoPlist.strings */; };
+		27DF23CF142FBB8400E9DDF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DF23CE142FBB8400E9DDF3 /* main.m */; };
+		27DF23D3142FBB8400E9DDF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DF23D2142FBB8400E9DDF3 /* AppDelegate.m */; };
+		27DF23D6142FBB8400E9DDF3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DF23D4142FBB8400E9DDF3 /* MainStoryboard.storyboard */; };
+		27DF23D9142FBB8400E9DDF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DF23D8142FBB8400E9DDF3 /* ViewController.m */; };
+		27DF23E0142FBBBB00E9DDF3 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DF23DF142FBBBB00E9DDF3 /* CoreImage.framework */; };
+		27DF23E2142FBBC400E9DDF3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DF23E1142FBBC400E9DDF3 /* AVFoundation.framework */; };
+		27DF23E4142FBBD100E9DDF3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DF23E3142FBBD100E9DDF3 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27C1FD8B142FE3A6003BCDF3 /* movie.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie.m4v; sourceTree = "<group>"; };
+		27C1FD8C142FE3A6003BCDF3 /* norecording.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = norecording.wav; sourceTree = "<group>"; };
+		27DF23BE142FBB8400E9DDF3 /* MediaPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27DF23C2142FBB8400E9DDF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27DF23C4142FBB8400E9DDF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27DF23C6142FBB8400E9DDF3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27DF23CA142FBB8400E9DDF3 /* MediaPlayground-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MediaPlayground-Info.plist"; sourceTree = "<group>"; };
+		27DF23CC142FBB8400E9DDF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27DF23CE142FBB8400E9DDF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27DF23D0142FBB8400E9DDF3 /* MediaPlayground-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MediaPlayground-Prefix.pch"; sourceTree = "<group>"; };
+		27DF23D1142FBB8400E9DDF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27DF23D2142FBB8400E9DDF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27DF23D5142FBB8400E9DDF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		27DF23D7142FBB8400E9DDF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		27DF23D8142FBB8400E9DDF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27DF23DF142FBBBB00E9DDF3 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		27DF23E1142FBBC400E9DDF3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		27DF23E3142FBBD100E9DDF3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27DF23BB142FBB8400E9DDF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DF23E4142FBBD100E9DDF3 /* MediaPlayer.framework in Frameworks */,
+				27DF23E2142FBBC400E9DDF3 /* AVFoundation.framework in Frameworks */,
+				27DF23E0142FBBBB00E9DDF3 /* CoreImage.framework in Frameworks */,
+				27DF23C3142FBB8400E9DDF3 /* UIKit.framework in Frameworks */,
+				27DF23C5142FBB8400E9DDF3 /* Foundation.framework in Frameworks */,
+				27DF23C7142FBB8400E9DDF3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27C1FD8A142FE3A6003BCDF3 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				27C1FD8B142FE3A6003BCDF3 /* movie.m4v */,
+				27C1FD8C142FE3A6003BCDF3 /* norecording.wav */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		27DF23B3142FBB8400E9DDF3 = {
+			isa = PBXGroup;
+			children = (
+				27DF23C8142FBB8400E9DDF3 /* MediaPlayground */,
+				27DF23C1142FBB8400E9DDF3 /* Frameworks */,
+				27DF23BF142FBB8400E9DDF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27DF23BF142FBB8400E9DDF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27DF23BE142FBB8400E9DDF3 /* MediaPlayground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27DF23C1142FBB8400E9DDF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27DF23E3142FBBD100E9DDF3 /* MediaPlayer.framework */,
+				27DF23E1142FBBC400E9DDF3 /* AVFoundation.framework */,
+				27DF23DF142FBBBB00E9DDF3 /* CoreImage.framework */,
+				27DF23C2142FBB8400E9DDF3 /* UIKit.framework */,
+				27DF23C4142FBB8400E9DDF3 /* Foundation.framework */,
+				27DF23C6142FBB8400E9DDF3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27DF23C8142FBB8400E9DDF3 /* MediaPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				27DF23D1142FBB8400E9DDF3 /* AppDelegate.h */,
+				27DF23D2142FBB8400E9DDF3 /* AppDelegate.m */,
+				27DF23D4142FBB8400E9DDF3 /* MainStoryboard.storyboard */,
+				27DF23D7142FBB8400E9DDF3 /* ViewController.h */,
+				27DF23D8142FBB8400E9DDF3 /* ViewController.m */,
+				27C1FD8A142FE3A6003BCDF3 /* Media */,
+				27DF23C9142FBB8400E9DDF3 /* Supporting Files */,
+			);
+			path = MediaPlayground;
+			sourceTree = "<group>";
+		};
+		27DF23C9142FBB8400E9DDF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27DF23CA142FBB8400E9DDF3 /* MediaPlayground-Info.plist */,
+				27DF23CB142FBB8400E9DDF3 /* InfoPlist.strings */,
+				27DF23CE142FBB8400E9DDF3 /* main.m */,
+				27DF23D0142FBB8400E9DDF3 /* MediaPlayground-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27DF23BD142FBB8400E9DDF3 /* MediaPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27DF23DC142FBB8400E9DDF3 /* Build configuration list for PBXNativeTarget "MediaPlayground" */;
+			buildPhases = (
+				27DF23BA142FBB8400E9DDF3 /* Sources */,
+				27DF23BB142FBB8400E9DDF3 /* Frameworks */,
+				27DF23BC142FBB8400E9DDF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediaPlayground;
+			productName = MediaPlayground;
+			productReference = 27DF23BE142FBB8400E9DDF3 /* MediaPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27DF23B5142FBB8400E9DDF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "John E. Ray";
+			};
+			buildConfigurationList = 27DF23B8142FBB8400E9DDF3 /* Build configuration list for PBXProject "MediaPlayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27DF23B3142FBB8400E9DDF3;
+			productRefGroup = 27DF23BF142FBB8400E9DDF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27DF23BD142FBB8400E9DDF3 /* MediaPlayground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27DF23BC142FBB8400E9DDF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DF23CD142FBB8400E9DDF3 /* InfoPlist.strings in Resources */,
+				27DF23D6142FBB8400E9DDF3 /* MainStoryboard.storyboard in Resources */,
+				27C1FD8D142FE3A6003BCDF3 /* movie.m4v in Resources */,
+				27C1FD8E142FE3A6003BCDF3 /* norecording.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27DF23BA142FBB8400E9DDF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27DF23CF142FBB8400E9DDF3 /* main.m in Sources */,
+				27DF23D3142FBB8400E9DDF3 /* AppDelegate.m in Sources */,
+				27DF23D9142FBB8400E9DDF3 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27DF23CB142FBB8400E9DDF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27DF23CC142FBB8400E9DDF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27DF23D4142FBB8400E9DDF3 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27DF23D5142FBB8400E9DDF3 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27DF23DA142FBB8400E9DDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27DF23DB142FBB8400E9DDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27DF23DD142FBB8400E9DDF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaPlayground/MediaPlayground-Prefix.pch";
+				INFOPLIST_FILE = "MediaPlayground/MediaPlayground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27DF23DE142FBB8400E9DDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaPlayground/MediaPlayground-Prefix.pch";
+				INFOPLIST_FILE = "MediaPlayground/MediaPlayground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27DF23B8142FBB8400E9DDF3 /* Build configuration list for PBXProject "MediaPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27DF23DA142FBB8400E9DDF3 /* Debug */,
+				27DF23DB142FBB8400E9DDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27DF23DC142FBB8400E9DDF3 /* Build configuration list for PBXNativeTarget "MediaPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27DF23DD142FBB8400E9DDF3 /* Debug */,
+				27DF23DE142FBB8400E9DDF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27DF23B5142FBB8400E9DDF3 /* Project object */;
+}
