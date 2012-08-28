@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1934" systemVersion="11B26" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2549" systemVersion="12A269" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
     <dependencies>
-        <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="931"/>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1498"/>
     </dependencies>
     <scenes>
+        <!--Initial-->
         <scene sceneID="5">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
@@ -52,6 +53,7 @@
             </objects>
             <point key="canvasLocation" x="89" y="93"/>
         </scene>
+        <!--Editor-->
         <scene sceneID="Gy1-Ly-X7L">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ngf-t9-Bcb" userLabel="First Responder" sceneMemberID="firstResponder"/>

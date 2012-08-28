@@ -151,6 +151,7 @@
 - (void)alertView:(UIAlertView *)alertView
         clickedButtonAtIndex:(NSInteger)buttonIndex {
 	NSString *buttonTitle=[alertView buttonTitleAtIndex:buttonIndex];
+   
 	if ([buttonTitle isEqualToString:@"Maybe Later"]) {
 		self.userOutput.text=@"Clicked 'Maybe Later'";
     } else if ([buttonTitle isEqualToString:@"Never"]) {
@@ -163,6 +164,12 @@
          isEqualToString: @"Email Address"]) { 
         self.userOutput.text=[[alertView textFieldAtIndex:0] text];
     }
+    NSMutableString*  tmpStr =[[NSMutableString alloc] init];
+    
+    [tmpStr  appendString:  self.userOutput.text] ;
+    [tmpStr appendFormat:@",buttonIndex=%d", buttonIndex  ];
+    self.userOutput.text= tmpStr;
+    tmpStr=nil;
 }
 
 

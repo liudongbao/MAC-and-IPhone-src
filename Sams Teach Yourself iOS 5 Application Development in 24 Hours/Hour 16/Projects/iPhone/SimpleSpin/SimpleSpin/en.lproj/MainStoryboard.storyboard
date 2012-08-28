@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1934" systemVersion="11B26" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2549" systemVersion="12B19" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
     <dependencies>
-        <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="931"/>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1498"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
         <scene sceneID="5">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
                 <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="480" height="300"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="SimpleSpin" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" id="2ZL-0C-Vro">
-                                <rect key="frame" x="117" y="10" width="87" height="21"/>
+                                <rect key="frame" x="197" y="10" width="87" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Drw-Qo-S0Q">
-                                <rect key="frame" x="20" y="66" width="124" height="120"/>
+                                <rect key="frame" x="20" y="35" width="190" height="120"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                 <state key="normal" title="Button 1">
@@ -33,7 +34,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rqm-dg-TAy">
-                                <rect key="frame" x="20" y="320" width="124" height="120"/>
+                                <rect key="frame" x="20" y="160" width="190" height="120"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                 <state key="normal" title="Button 3">
@@ -45,7 +46,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Zu7-0u-4cd">
-                                <rect key="frame" x="176" y="320" width="124" height="120"/>
+                                <rect key="frame" x="269" y="160" width="190" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                 <state key="normal" title="Button 4">
@@ -57,7 +58,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GNI-ce-DOy">
-                                <rect key="frame" x="176" y="66" width="124" height="120"/>
+                                <rect key="frame" x="269" y="35" width="190" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                                 <state key="normal" title="Button 2">
@@ -70,7 +71,9 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.97536161539999999" blue="0.59938319159999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
             </objects>
             <point key="canvasLocation" x="153" y="81"/>
