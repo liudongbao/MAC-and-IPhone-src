@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>bullet.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{144, 93}, {16, 16}}</string>
+			<key>offset</key>
+			<string>{0, -0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {16, 16}}</string>
+			<key>sourceSize</key>
+			<string>{16, 16}</string>
+		</dict>
+		<key>ship-anim0.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{144, 3}, {108, 42}}</string>
+			<key>offset</key>
+			<string>{5, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{15, 12}, {108, 42}}</string>
+			<key>sourceSize</key>
+			<string>{128, 64}</string>
+		</dict>
+		<key>ship-anim1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3, 126}, {112, 42}}</string>
+			<key>offset</key>
+			<string>{3, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{11, 12}, {112, 42}}</string>
+			<key>sourceSize</key>
+			<string>{128, 64}</string>
+		</dict>
+		<key>ship-anim2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{99, 3}, {114, 42}}</string>
+			<key>offset</key>
+			<string>{1, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{8, 12}, {114, 42}}</string>
+			<key>sourceSize</key>
+			<string>{128, 64}</string>
+		</dict>
+		<key>ship-anim3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{52, 3}, {118, 44}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{5, 11}, {118, 44}}</string>
+			<key>sourceSize</key>
+			<string>{128, 64}</string>
+		</dict>
+		<key>ship-anim4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3, 3}, {120, 46}}</string>
+			<key>offset</key>
+			<string>{-2, 1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{2, 8}, {120, 46}}</string>
+			<key>sourceSize</key>
+			<string>{128, 64}</string>
+		</dict>
+		<key>ship.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{144, 48}, {94, 42}}</string>
+			<key>offset</key>
+			<string>{11, -1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{28, 12}, {94, 42}}</string>
+			<key>sourceSize</key>
+			<string>{128, 64}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{256, 256}</string>
+	</dict>
+</dict>
+</plist>

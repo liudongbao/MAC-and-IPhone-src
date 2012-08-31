@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="30" height="30" tilewidth="52" tileheight="26">
+ <tileset firstgid="1" name="dg_iso32" tilewidth="54" tileheight="49">
+  <image source="dg_iso32.png"/>
+ </tileset>
+ <layer name="Ground" width="30" height="30">
+  <properties>
+   <property name="cc_vertexz" value="-1000"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA62WUQ7DMAhD89ssOUTuf8lpUicxZrBJ+oG0rm0eBod0tdbWHS8XvRD+XRtofcSz3Gw99blI1ycmiAH+i7hKjog9Xd3GHZe5ni3WoPQB6bbc645hfnegdwVrsT4sxx2GO0BEdWbMDpiotjb8PeZhr531fQrs2f5zRXn4vqvcqM6Z3sg7zOuz/XrYeirylcL19cm4vf1rU7mKxzrg9oe46h5TZtWpXpaDsg7yj7KfqzPmNE/ERb1A/nvi7GJ1q661e06rXMWjLDfFK5nmHX7GVdnMIxUu0hH1ZwXvZPyd3lXOP+aZTEf2jan2M/Mq887J/srqXNXAns32LLve5XqWwmVzhn1bRfrYzFLqlvnmpO/VyLi78/SU+72P+G/JLgtnEA4AAA==
+  </data>
+ </layer>
+ <layer name="GroundObjects" width="30" height="30">
+  <properties>
+   <property name="cc_vertexz" value="-900"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3KoQkAMAxE0ey/SlbJUDUREYFSU/WeOTh+BL9lb42vthB4lvcEAIB2AItObu0QDgAA
+  </data>
+ </layer>
+ <layer name="Objects" width="30" height="30">
+  <properties>
+   <property name="cc_vertexz" value="automatic"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA7WWTWrEMAyFfZecIJsaL3vE/q5a6KIUCm1mN4vpBUpP1TFY5PEqyYoz/UAEx7KeLP8kKa1MzfaS2/OqmUVR/HtEfLQxMk40H892S/ZM7buA7tfZ5oC+zPGG+g7UXsAnp8vBusIc8ImS09+ca8xF0WIf5BtM4la2rP2L8u6T2k8dXYF1tTys9V3SOv/KoflgLa6VeAKeSdHFGmu6Vp15vh7Ru6Dqcl05B2tfHdsT6ym6H05eni7nhljnSTTfnFioy/AZrj6RPROpr4x7SP5dVe2+E6OS0zrfAv29s/XTDGP2xmj9VXOGHLQ4uPasy0xkRfHJiv8IfK56uhG0XCJ1Lc1ed+hOTrvHnm9TRPuYbKy7wQP3vfCe7D2YjHdefA+5W8QP93+U6BpZPnxWturyOJnLSdGVmrLO1rNXwLx5IaKr5Wx9G3n9xM/ba14+uN+870oU3Ccjd82J2iP/0Vv4j/iX/B+OfL/2xB7tt/pw7iP3X09X+AV7AQWqEA4AAA==
+  </data>
+ </layer>
+</map>

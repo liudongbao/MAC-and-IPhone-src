@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="dg_grounds32" tilewidth="32" tileheight="32">
+  <image source="../David Gervais Tilesets/dg_grounds32.png" trans="ff00ff"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="30" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA61U2w3EIAzL95F9KGIMNuoSzHBb3p1kS25Eq8L1w0rLI45DkmxmDmxAFtQvXrAbvjMsscl3DXtneAM7LNc74PDlwW8d8NcJXurYJY4GTvrusr9f+JjRq1DuHWiwLj5//2mQ82r3Nb9xV20Pueca3ztjT+tgVi919RCLY71CM7l/6wV75U/eLm9MDvpO4KL/At8J/7Szb8q6YR6pizE5YklyTmsh2VofNbnHPnLxn3GmBE5qHvXzXb2sKX1rgj3FeUKusxkyMzc4p5hX1dnEH2Pb5Fxb4HwJZ7NjbVJPkXPkZI+uao3nlVvzHns123FutgVO3uW96J+zItkxxpVauqoxjSWHPc4Jf5Bbefit0LNF3v1fbuZa51MZ+HXhfirPES7WZf1JvREjPXmw/iRvsaOmM32jt7+LD7TwBb1gCQAA
+  </data>
+ </layer>
+</map>

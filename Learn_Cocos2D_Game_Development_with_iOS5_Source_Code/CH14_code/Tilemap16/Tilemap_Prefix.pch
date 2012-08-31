@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'Tilemap' target in the 'Tilemap' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+	#import <GameKit/GameKit.h>
+#endif

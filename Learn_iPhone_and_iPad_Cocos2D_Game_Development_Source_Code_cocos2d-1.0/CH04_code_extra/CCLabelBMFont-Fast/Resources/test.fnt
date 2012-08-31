@@ -1,0 +1,43 @@
+info face="HiraKakuPro-W6" size=60 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=213 base=26 scaleW=256 scaleH=256 pages=3 packed=0
+page id=0 file="test1.png"
+page id=1 file="test2.png"
+page id=2 file="test3.png"
+chars count=36
+char id=32   x=0     y=0     width=0     height=0     xoffset=0     yoffset=53    xadvance=94     page=0  chnl=0 
+char id=81   x=0     y=0     width=64     height=63     xoffset=-7     yoffset=5    xadvance=122     page=0  chnl=0 
+char id=48   x=64     y=0     width=57     height=60     xoffset=-8     yoffset=5    xadvance=114     page=0  chnl=0 
+char id=57   x=121     y=0     width=55     height=60     xoffset=-7     yoffset=5    xadvance=114     page=0  chnl=0 
+char id=56   x=176     y=0     width=57     height=60     xoffset=-8     yoffset=5    xadvance=114     page=0  chnl=0 
+char id=54   x=0     y=63     width=56     height=60     xoffset=-7     yoffset=5    xadvance=114     page=0  chnl=0 
+char id=53   x=56     y=63     width=55     height=60     xoffset=-7     yoffset=5    xadvance=114     page=0  chnl=0 
+char id=51   x=111     y=63     width=56     height=60     xoffset=-8     yoffset=5    xadvance=114     page=0  chnl=0 
+char id=50   x=167     y=63     width=55     height=60     xoffset=-7     yoffset=5    xadvance=114     page=0  chnl=0 
+char id=90   x=0     y=123     width=60     height=60     xoffset=-9     yoffset=5    xadvance=115     page=0  chnl=0 
+char id=83   x=60     y=123     width=56     height=60     xoffset=-7     yoffset=5    xadvance=115     page=0  chnl=0 
+char id=79   x=116     y=123     width=64     height=60     xoffset=-7     yoffset=5    xadvance=122     page=0  chnl=0 
+char id=71   x=180     y=123     width=61     height=60     xoffset=-7     yoffset=5    xadvance=120     page=0  chnl=0 
+char id=69   x=0     y=183     width=54     height=60     xoffset=-6     yoffset=5    xadvance=113     page=0  chnl=0 
+char id=67   x=54     y=183     width=62     height=60     xoffset=-7     yoffset=5    xadvance=120     page=0  chnl=0 
+char id=55   x=116     y=183     width=55     height=59     xoffset=-7     yoffset=5    xadvance=114     page=0  chnl=0 
+char id=49   x=171     y=183     width=37     height=59     xoffset=-1     yoffset=5    xadvance=114     page=0  chnl=0 
+char id=85   x=0     y=0     width=60     height=59     xoffset=-6     yoffset=6    xadvance=121     page=1  chnl=0 
+char id=84   x=60     y=0     width=61     height=59     xoffset=-10     yoffset=5    xadvance=113     page=1  chnl=0 
+char id=82   x=121     y=0     width=60     height=59     xoffset=-6     yoffset=5    xadvance=118     page=1  chnl=0 
+char id=80   x=181     y=0     width=56     height=59     xoffset=-6     yoffset=5    xadvance=114     page=1  chnl=0 
+char id=76   x=0     y=59     width=54     height=59     xoffset=-6     yoffset=6    xadvance=111     page=1  chnl=0 
+char id=74   x=54     y=59     width=48     height=59     xoffset=-10     yoffset=6    xadvance=105     page=1  chnl=0 
+char id=70   x=102     y=59     width=53     height=59     xoffset=-6     yoffset=5    xadvance=111     page=1  chnl=0 
+char id=68   x=155     y=59     width=61     height=59     xoffset=-6     yoffset=5    xadvance=120     page=1  chnl=0 
+char id=66   x=0     y=118     width=57     height=59     xoffset=-6     yoffset=5    xadvance=117     page=1  chnl=0 
+char id=52   x=57     y=118     width=60     height=58     xoffset=-9     yoffset=6    xadvance=114     page=1  chnl=0 
+char id=89   x=117     y=118     width=63     height=58     xoffset=-10     yoffset=6    xadvance=116     page=1  chnl=0 
+char id=88   x=180     y=118     width=64     height=58     xoffset=-9     yoffset=6    xadvance=118     page=1  chnl=0 
+char id=87   x=0     y=177     width=82     height=58     xoffset=-10     yoffset=6    xadvance=135     page=1  chnl=0 
+char id=86   x=82     y=177     width=65     height=58     xoffset=-10     yoffset=6    xadvance=118     page=1  chnl=0 
+char id=78   x=147     y=177     width=60     height=58     xoffset=-6     yoffset=6    xadvance=121     page=1  chnl=0 
+char id=77   x=0     y=0     width=71     height=58     xoffset=-6     yoffset=6    xadvance=131     page=2  chnl=0 
+char id=75   x=71     y=0     width=60     height=58     xoffset=-6     yoffset=6    xadvance=117     page=2  chnl=0 
+char id=73   x=131     y=0     width=29     height=58     xoffset=-6     yoffset=6    xadvance=89     page=2  chnl=0 
+char id=72   x=160     y=0     width=61     height=58     xoffset=-6     yoffset=6    xadvance=121     page=2  chnl=0 
+char id=65   x=0     y=58     width=66     height=58     xoffset=-10     yoffset=6    xadvance=120     page=2  chnl=0 

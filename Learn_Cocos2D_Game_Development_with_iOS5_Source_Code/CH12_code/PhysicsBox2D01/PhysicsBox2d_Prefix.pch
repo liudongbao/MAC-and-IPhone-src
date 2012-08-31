@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'PhysicsBox2d' target in the 'PhysicsBox2d' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif
