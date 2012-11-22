@@ -216,6 +216,7 @@ enum {
 	world->DrawDebugData();	
 	
 	kmGLPopMatrix();
+    
 }
 
 -(void) addNewSpriteAtPosition:(CGPoint)p

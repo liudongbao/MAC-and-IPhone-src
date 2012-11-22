@@ -40,9 +40,9 @@
 		[batch addChild:tableBottom];
 
 		[self createTableTopBody];
-		[self createTableBottomLeftBody];
-		[self createTableBottomRightBody];
-		[self createLanes];
+		//[self createTableBottomLeftBody];
+		//[self createTableBottomRightBody];
+		//[self createLanes];
 		
 		// world is no longer needed after init:
 		world_ = NULL;

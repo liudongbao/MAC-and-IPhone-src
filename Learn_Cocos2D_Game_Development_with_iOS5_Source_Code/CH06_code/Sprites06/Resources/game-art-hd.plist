@@ -7,15 +7,15 @@
             <key>bullet.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{446,2},{9,9}}</string>
+                <string>{{446,2},{18,18}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
                 <false/>
                 <key>sourceColorRect</key>
-                <string>{{1,1},{9,9}}</string>
+                <string>{{2,2},{18,18}}</string>
                 <key>sourceSize</key>
-                <string>{11,11}</string>
+                <string>{22,22}</string>
             </dict>
             <key>ship-anim0.png</key>
             <dict>
@@ -100,10 +100,14 @@
         <dict>
             <key>format</key>
             <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>game-art.pvr.ccz</string>
             <key>size</key>
             <string>{512,512}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:b41dd48a81dfb1ce52c5eb99cd6f3e37$</string>
             <key>textureFileName</key>
-            <string>game-art-hd.pvr.ccz</string>
+            <string>game-art.pvr.ccz</string>
         </dict>
     </dict>
 </plist>
