@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CA9A4810FE3D756001DC3DD /* libCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA9A4800FE3D756001DC3DD /* libCommon.a */; };
 		0CA9A4840FE3D7AD001DC3DD /* Simple_VertexShader.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CA9A4830FE3D7AD001DC3DD /* Simple_VertexShader.c */; };
 		1D3623260D0F684500981E51 /* Simple_VertexShaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Simple_VertexShaderAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
@@ -17,10 +16,15 @@
 		28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* EAGLView.m */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		69D85EF3166105790016B21F /* esShader.c in Sources */ = {isa = PBXBuildFile; fileRef = 69D85EEE166105790016B21F /* esShader.c */; };
+		69D85EF4166105790016B21F /* esShapes.c in Sources */ = {isa = PBXBuildFile; fileRef = 69D85EEF166105790016B21F /* esShapes.c */; };
+		69D85EF5166105790016B21F /* esTransform.c in Sources */ = {isa = PBXBuildFile; fileRef = 69D85EF0166105790016B21F /* esTransform.c */; };
+		69D85EF6166105790016B21F /* esUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 69D85EF1166105790016B21F /* esUtil.c */; };
+		69D85EF7166105790016B21F /* ImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D85EF2166105790016B21F /* ImageUtils.m */; };
+		69D85EFA1661062F0016B21F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69D85EF91661062F0016B21F /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0CA9A4800FE3D756001DC3DD /* libCommon.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCommon.a; path = "../../Common/build/Debug-iphonesimulator/libCommon.a"; sourceTree = SOURCE_ROOT; };
 		0CA9A4830FE3D7AD001DC3DD /* Simple_VertexShader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Simple_VertexShader.c; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* Simple_VertexShaderAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Simple_VertexShaderAppDelegate.h; sourceTree = "<group>"; };
@@ -34,6 +38,13 @@
 		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Simple_VertexShader_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Simple_VertexShader_Prefix.pch; sourceTree = "<group>"; };
+		69D85EED166105790016B21F /* esUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = esUtil.h; sourceTree = "<group>"; };
+		69D85EEE166105790016B21F /* esShader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esShader.c; sourceTree = "<group>"; };
+		69D85EEF166105790016B21F /* esShapes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esShapes.c; sourceTree = "<group>"; };
+		69D85EF0166105790016B21F /* esTransform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esTransform.c; sourceTree = "<group>"; };
+		69D85EF1166105790016B21F /* esUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esUtil.c; sourceTree = "<group>"; };
+		69D85EF2166105790016B21F /* ImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtils.m; sourceTree = "<group>"; };
+		69D85EF91661062F0016B21F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Simple_VertexShader-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Simple_VertexShader-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,11 +53,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69D85EFA1661062F0016B21F /* CoreGraphics.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
 				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
-				0CA9A4810FE3D756001DC3DD /* libCommon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +86,12 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				69D85EED166105790016B21F /* esUtil.h */,
+				69D85EEE166105790016B21F /* esShader.c */,
+				69D85EEF166105790016B21F /* esShapes.c */,
+				69D85EF0166105790016B21F /* esTransform.c */,
+				69D85EF1166105790016B21F /* esUtil.c */,
+				69D85EF2166105790016B21F /* ImageUtils.m */,
 				0CA9A4830FE3D7AD001DC3DD /* Simple_VertexShader.c */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -106,7 +123,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0CA9A4800FE3D756001DC3DD /* libCommon.a */,
+				69D85EF91661062F0016B21F /* CoreGraphics.framework */,
 				28FD15070DC6FC5B0079059D /* QuartzCore.framework */,
 				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
@@ -142,7 +159,11 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Simple_VertexShader" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -172,6 +193,11 @@
 				1D3623260D0F684500981E51 /* Simple_VertexShaderAppDelegate.m in Sources */,
 				28FD14FE0DC6FC130079059D /* EAGLView.m in Sources */,
 				0CA9A4840FE3D7AD001DC3DD /* Simple_VertexShader.c in Sources */,
+				69D85EF3166105790016B21F /* esShader.c in Sources */,
+				69D85EF4166105790016B21F /* esShapes.c in Sources */,
+				69D85EF5166105790016B21F /* esTransform.c in Sources */,
+				69D85EF6166105790016B21F /* esUtil.c in Sources */,
+				69D85EF7166105790016B21F /* ImageUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,13 +214,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Simple_VertexShader_Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
-				HEADER_SEARCH_PATHS = ../../Common;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Simple_VertexShader-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../Common/build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = Simple_VertexShader;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -206,13 +230,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Simple_VertexShader_Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
-				HEADER_SEARCH_PATHS = ../../Common;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "Simple_VertexShader-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../Common/build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = Simple_VertexShader;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};

@@ -89,8 +89,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				697B87FF165D11B3003A5418 /* GLKit.framework */,
-				697B87FC165D0FC3003A5418 /* CoreGraphics.framework */,
 				69A30E77165A759400EDF890 /* esUtil.h */,
 				69A30E78165A759400EDF890 /* esShader.c */,
 				69A30E79165A759400EDF890 /* esShapes.c */,
@@ -128,6 +126,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				697B87FF165D11B3003A5418 /* GLKit.framework */,
+				697B87FC165D0FC3003A5418 /* CoreGraphics.framework */,
 				28FD15070DC6FC5B0079059D /* QuartzCore.framework */,
 				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
