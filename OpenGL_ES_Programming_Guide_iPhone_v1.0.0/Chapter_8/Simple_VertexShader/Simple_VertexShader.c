@@ -26,7 +26,6 @@ typedef struct
 
    // Uniform locations
    GLint  mvpLoc;
-   
    // Vertex daata
    GLfloat  *vertices;
    GLushort *indices;
