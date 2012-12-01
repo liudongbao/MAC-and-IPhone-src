@@ -1,0 +1,174 @@
+In file included from /Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:7:
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.h:3:20: error: cocos2d.h: No such file or directory
+In file included from /Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:7:
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.h:7: error: cannot find interface declaration for 'CCLayer', superclass of 'HelloWorldHud'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.h:8: error: expected specifier-qualifier-list before 'CCLabel'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.h:19: error: cannot find interface declaration for 'CCLayer', superclass of 'HelloWorld'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.h:20: error: expected specifier-qualifier-list before 'CCTMXTiledMap'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.h:21: error: expected specifier-qualifier-list before 'CCTMXLayer'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.h:22: error: expected specifier-qualifier-list before 'CCTMXLayer'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.h:23: error: expected specifier-qualifier-list before 'CCTMXLayer'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.h:24: error: expected specifier-qualifier-list before 'CCSprite'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.h:32: error: expected specifier-qualifier-list before 'CCTMXTiledMap'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.h:33: error: expected specifier-qualifier-list before 'CCTMXLayer'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.h:34: error: expected specifier-qualifier-list before 'CCTMXLayer'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.h:35: error: expected specifier-qualifier-list before 'CCTMXLayer'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.h:36: error: expected specifier-qualifier-list before 'CCSprite'
+In file included from /Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:8:
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/GameOverScene.h:12: error: cannot find interface declaration for 'CCColorLayer', superclass of 'GameOverLayer'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/GameOverScene.h:13: error: expected specifier-qualifier-list before 'CCLabel'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/GameOverScene.h:15: error: expected specifier-qualifier-list before 'CCLabel'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/GameOverScene.h:18: error: cannot find interface declaration for 'CCScene', superclass of 'GameOverScene'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:9:30: error: SimpleAudioEngine.h: No such file or directory
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: In function '-[HelloWorldHud init]':
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:16: error: no super class declared in @interface for 'HelloWorldHud'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:17: error: 'CCDirector' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:17: error: (Each undeclared identifier is reported only once
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:17: error: for each function it appears in.)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:18: error: 'label' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:18: error: 'CCLabel' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:19: warning: implicit declaration of function 'ccc3'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:21: warning: implicit declaration of function 'ccp'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:22: warning: 'HelloWorldHud' may not respond to '-addChild:'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:22: warning: (Messages without a matching method signature
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:22: warning: will be assumed to return 'id' and accept
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:22: warning: '...' as arguments.)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:23: error: 'CCMenuItem' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:23: error: 'on' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:24: error: 'off' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:26: error: 'CCMenuItemImage' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:31: error: 'CCMenuItemToggle' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:31: error: 'toggleItem' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:33: error: 'CCMenu' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:33: error: 'toggleMenu' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:35: warning: 'HelloWorldHud' may not respond to '-addChild:'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: In function '-[HelloWorldHud numCollectedChanged:]':
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:52: error: 'label' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: At top level:
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:59: error: no declaration of property 'tileMap' found in the interface
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:60: error: no declaration of property 'background' found in the interface
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:61: error: no declaration of property 'foreground' found in the interface
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:62: error: no declaration of property 'meta' found in the interface
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:63: error: no declaration of property 'player' found in the interface
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: In function '+[HelloWorld scene]':
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:71: error: 'CCScene' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:71: error: 'scene' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:74: warning: 'HelloWorld' may not respond to '+node'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:79: warning: 'HelloWorldHud' may not respond to '+node'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:87: warning: control reaches end of non-void function
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: In function '-[HelloWorld setViewpointCenter:]':
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:91: error: 'CCDirector' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:95: error: '_tileMap' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:97: error: invalid initializer
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:99: error: invalid initializer
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:100: warning: implicit declaration of function 'ccpSub'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:100: error: invalid initializer
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:101: error: request for member 'position' in something not a structure or union
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: At top level:
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:105: error: expected ')' before 'CCSprite'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: In function '-[HelloWorld animateEnemy:]':
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:108: error: 'ccTime' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:108: error: expected ';' before 'actualDuration'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:111: error: 'CCMoveBy' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:111: error: 'actualDuration' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:112: warning: implicit declaration of function 'ccpMult'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:112: warning: implicit declaration of function 'ccpNormalize'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:112: error: '_player' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:112: error: request for member 'position' in something not a structure or union
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:113: error: 'CCCallFuncN' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:115: error: 'CCSequence' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:115: warning: no '-runAction:' method found
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: In function '-[HelloWorld enemyMoveFinished:]':
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:119: error: 'CCSprite' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:119: error: 'enemy' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:119: error: expected expression before ')' token
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:120: error: '_player' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:120: error: invalid initializer
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:122: warning: implicit declaration of function 'CC_RADIANS_TO_DEGREES'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: In function '-[HelloWorld addEnemyAtX:y:]':
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:132: error: 'CCSprite' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:132: error: 'enemy' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:134: warning: 'HelloWorld' may not respond to '-addChild:'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: In function '-[HelloWorld lose]':
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:141: warning: 'GameOverScene' may not respond to '+node'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:142: error: request for member 'label' in something not a structure or union
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:143: error: 'CCDirector' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: In function '-[HelloWorld win]':
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:147: warning: 'GameOverScene' may not respond to '+node'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:148: error: request for member 'label' in something not a structure or union
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:149: error: 'CCDirector' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: At top level:
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:152: error: expected ')' before 'ccTime'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: In function '-[HelloWorld testCollisions:]':
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:153: error: 'CCSprite' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:153: error: 'target' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:159: error: '_player' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:162: error: selector element does not have a valid object type
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:166: error: 'projectile' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:188: error: selector element does not have a valid object type
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:193: warning: 'HelloWorld' may not respond to '-removeChild:cleanup:'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:194: error: selector element does not have a valid object type
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:201: error: selector element does not have a valid object type
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:205: warning: 'HelloWorld' may not respond to '-removeChild:cleanup:'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:206: error: selector element does not have a valid object type
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: In function '-[HelloWorld init]':
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:213: error: no super class declared in @interface for 'HelloWorld'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:215: error: 'SimpleAudioEngine' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:220: error: request for member 'isTouchEnabled' in something not a structure or union
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:222: error: request for member 'tileMap' in something not a structure or union
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:222: error: 'CCTMXTiledMap' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:223: error: request for member 'background' in something not a structure or union
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:223: error: '_tileMap' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:224: error: request for member 'foreground' in something not a structure or union
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:225: error: request for member 'meta' in something not a structure or union
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:226: error: '_meta' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:230: error: 'CCTMXObjectGroup' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:230: error: 'objects' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:237: error: request for member 'player' in something not a structure or union
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:237: error: 'CCSprite' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:238: error: '_player' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:239: warning: 'HelloWorld' may not respond to '-addChild:'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:254: error: expression does not have a valid object type
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:259: warning: 'HelloWorld' may not respond to '-addChild:z:'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:261: warning: 'HelloWorld' may not respond to '-schedule:'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: In function '-[HelloWorld tileCoordForPosition:]':
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:267: error: '_tileMap' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:269: error: incompatible types in return
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:270: warning: control reaches end of non-void function
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: In function '-[HelloWorld registerWithTouchDispatcher]':
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:274: error: 'CCTouchDispatcher' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: In function '-[HelloWorld setPlayerPosition:]':
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:285: error: '_meta' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:287: error: '_tileMap' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:291: error: 'SimpleAudioEngine' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:297: error: '_foreground' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:308: error: '_player' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: In function '-[HelloWorld projectileMoveFinished:]':
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:313: error: 'CCSprite' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:313: error: 'sprite' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:313: error: expected expression before ')' token
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:314: warning: 'HelloWorld' may not respond to '-removeChild:cleanup:'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: In function '-[HelloWorld ccTouchEnded:withEvent:]':
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:323: error: 'CCDirector' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:324: warning: 'HelloWorld' may not respond to '-convertToNodeSpace:'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:324: error: incompatible types in assignment
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:326: error: '_player' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:327: error: invalid initializer
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:330: error: '_tileMap' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:349: warning: 'HelloWorld' may not respond to '-convertToNodeSpace:'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:349: error: incompatible types in assignment
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:352: error: 'CCSprite' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:352: error: 'projectile' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:354: warning: 'HelloWorld' may not respond to '-addChild:'
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:360: error: invalid initializer
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:369: error: invalid initializer
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:379: error: 'CCCallFuncN' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:381: error: 'CCSequence' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:381: error: 'CCMoveTo' undeclared (first use in this function)
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m: In function '-[HelloWorld dealloc]':
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:393: error: request for member 'tileMap' in something not a structure or union
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:394: error: request for member 'background' in something not a structure or union
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:395: error: request for member 'foreground' in something not a structure or union
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:396: error: request for member 'meta' in something not a structure or union
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:397: error: request for member 'player' in something not a structure or union
+/Users/b2/Documents/programming/svnfolder/cocosTutorial/TileGame/Classes/HelloWorldScene.m:400: error: no super class declared in @interface for 'HelloWorld'

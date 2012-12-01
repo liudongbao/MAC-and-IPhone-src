@@ -35,6 +35,8 @@ Note that setting the view non-opaque will only work if the EAGL surface has an 
     NSTimer *animationTimer;
     NSTimeInterval animationInterval;
     GLfloat rota;
+    
+    GLuint textures[1];
 }
 
 @property NSTimeInterval animationInterval;
@@ -45,5 +47,6 @@ Note that setting the view non-opaque will only work if the EAGL surface has an 
 
 - (void)setupView;
 - (void)checkGLError:(BOOL)visibleCheck;
+- (void)loadTexture;
 
 @end

@@ -62,52 +62,68 @@
         animationInterval = 1.0 / 60.0;
 		rota = 0.0;
 		[self setupView];
+        [self loadTexture];// Add this line
     }
     return self;
 }
 
 
 - (void)drawView {
-    const GLfloat triangleVertices[] = {
-        0.0, 1.0, 0.0, // Triangle top centre
-        -1.0, -1.0, 0.0, // bottom left
-        1.0, -1.0, 0.0 // bottom right
-    };
+    // Our new object definition code goes here
+    const GLfloat cubeVertices[] = {
+        
+        // Define the front face
+        -1.0, 1.0, 1.0, // top left
+        -1.0, -1.0, 1.0, // bottom left
+        1.0, -1.0, 1.0, // bottom right
+        1.0, 1.0, 1.0, // top right
+        
+        // Top face
+        -1.0, 1.0, -1.0, // top left (at rear)
+        -1.0, 1.0, 1.0, // bottom left (at front)
+        1.0, 1.0, 1.0, // bottom right (at front)
+        1.0, 1.0, -1.0, // top right (at rear)
+        
+        // Rear face
+        1.0, 1.0, -1.0, // top right (when viewed from front)
+        1.0, -1.0, -1.0, // bottom right
+        -1.0, -1.0, -1.0, // bottom left
+        -1.0, 1.0, -1.0, // top left
+        
+        // bottom face
+        -1.0, -1.0, 1.0,
+        -1.0, -1.0, -1.0,
+        1.0, -1.0, -1.0,
+        1.0, -1.0, 1.0,
+        
+        // left face
+        -1.0, 1.0, -1.0,
+        -1.0, 1.0, 1.0,
+        -1.0, -1.0, 1.0,
+        -1.0, -1.0, -1.0,
+        
+        // right face
+        1.0, 1.0, 1.0,
+        1.0, 1.0, -1.0,
+        1.0, -1.0, -1.0,
+        1.0, -1.0, 1.0
+    }; 
     
-    const GLfloat squareVertices[] = {
-        -1.0, 1.0, 0.0, // Top left
-        -1.0, -1.0, 0.0, // Bottom left
-        1.0, -1.0, 0.0, // Bottom right
-        1.0, 1.0, 0.0 // Top right
-    };
+
     
     [EAGLContext setCurrentContext:context];
     glBindFramebufferOES(GL_FRAMEBUFFER_OES, viewFramebuffer);
     glViewport(0, 0, backingWidth, backingHeight);
-   
-    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);    
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glMatrixMode(GL_MODELVIEW);
     
-    rota += 0.5;
-    
-    glLoadIdentity();
-    glTranslatef(-1.5, 0.0, -6.0);
-    glRotatef(rota, 0.0, 0.0, 1.0); // Add this line
-    glVertexPointer(3, GL_FLOAT, 0, triangleVertices);
-    glEnableClientState(GL_VERTEX_ARRAY);
-    glDrawArrays(GL_TRIANGLES, 0, 3);
-    
-    glLoadIdentity();
-    glTranslatef(1.5, 0.0, -6.0);
-    glRotatef(rota, 0.0, 0.0, 1.0); // Add this line
-    glVertexPointer(3, GL_FLOAT, 0, squareVertices);
-    glEnableClientState(GL_VERTEX_ARRAY);
-    glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
+    // Our new drawing code goes here
     
     glBindRenderbufferOES(GL_RENDERBUFFER_OES, viewRenderbuffer);
     [context presentRenderbuffer:GL_RENDERBUFFER_OES];
-    
-    [self checkGLError:NO];}
+    [self checkGLError:NO];
+
+}
 
 
 - (void)layoutSubviews {
@@ -247,5 +263,35 @@
     [context release];  
     [super dealloc];
 }
-
+- (void)loadTexture{
+    CGImageRef textureImage = [UIImage imageNamed:@"checkerplate.png"].CGImage;
+    if (textureImage == nil) {
+        NSLog(@"Failed to load texture image");
+        return;
+    }
+    NSInteger texWidth = CGImageGetWidth(textureImage);
+    NSInteger texHeight = CGImageGetHeight(textureImage);
+    GLubyte *textureData = (GLubyte *)malloc(texWidth * texHeight * 4);
+    CGContextRef textureContext = CGBitmapContextCreate(
+                                                        textureData,
+                                                        texWidth,
+                                                        texHeight,
+                                                        8, texWidth * 4,
+                                                        CGImageGetColorSpace(textureImage),
+                                                        kCGImageAlphaPremultipliedLast);
+    
+    CGContextDrawImage(textureContext,
+                       CGRectMake(0.0, 0.0, (float)texWidth, (float)texHeight),
+                       textureImage);
+    
+    CGContextRelease(textureContext);
+    glGenTextures(1, &textures[0]);
+    glBindTexture(GL_TEXTURE_2D, textures[0]);
+    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, texWidth, texHeight, 0, GL_RGBA, GL_UNSIGNED_BYTE, textureData);
+    free(textureData);
+    glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+    glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+    glEnable(GL_TEXTURE_2D);
+    
+}
 @end

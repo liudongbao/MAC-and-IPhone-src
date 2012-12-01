@@ -1,0 +1,2 @@
+/Users/raywenderlich/Downloads/Cocos2DSimpleGame-1/Classes/HelloWorldScene.m: In function '-[HelloWorld ccTouchesEnded:withEvent:]':
+/Users/raywenderlich/Downloads/Cocos2DSimpleGame-1/Classes/HelloWorldScene.m:188: warning: unused variable 'winSize'
