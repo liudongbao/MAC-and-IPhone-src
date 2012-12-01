@@ -1,0 +1,21 @@
+//
+// Prefix header for all source files of the 'Chapter 5 Game' target in the 'Chapter 5 Game' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+
+#ifdef DEBUG_MODE
+#define DebugLog( s, ... ) NSLog( @"<%p %@:(%d)> %@", self, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
+#else
+#define DebugLog( s, ... ) 
+#endif
+
+#ifdef DEBUG_MODE
+#define GL_CHECKERR() if(glGetError()) NSLog( @"<%p %@:(%d)> glGetError() triggered.", self, [[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__ )
+#else
+#define GL_CHECKERR()
+#endif
+
+#endif

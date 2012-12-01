@@ -1,0 +1,17 @@
+<h1>Listing top 100 high scores</h1>
+
+<table>
+  <tr>
+    <th>Score</th>
+    <th>Full name</th>
+  </tr>
+
+<% for high_score in @high_scores %>
+  <tr>
+    <td><%=h high_score.score %></td>
+    <td><%=h high_score.full_name %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />

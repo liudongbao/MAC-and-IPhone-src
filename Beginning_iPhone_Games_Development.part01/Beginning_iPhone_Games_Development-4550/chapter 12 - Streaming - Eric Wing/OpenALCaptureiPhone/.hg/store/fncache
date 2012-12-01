@@ -1,0 +1,16 @@
+data/Classes/AudioSessionSupport.c.i
+data/Classes/AudioSessionSupport.h.i
+data/Classes/DataSampleProtocol.h.i
+data/Classes/EAGLView.h.i
+data/Classes/EAGLView.m.i
+data/Classes/OpenALCaptureAppDelegate.h.i
+data/Classes/OpenALCaptureAppDelegate.m.i
+data/Classes/OpenALCaptureController.h.i
+data/Classes/OpenALCaptureController.m.i
+data/Classes/OpenALSupport.c.i
+data/Classes/OpenALSupport.h.i
+data/MainWindow.xib.i
+data/OpenALCapture-Info.plist.i
+data/OpenALCapture.xcodeproj/project.pbxproj.i
+data/OpenALCapture_Prefix.pch.i
+data/main.m.i

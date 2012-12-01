@@ -1,0 +1,24 @@
+
+typedef enum eImageFormat
+{
+    kCCImageFormatJPG       = 0,
+    kCCImageFormatPNG       = 1,
+    kCCImageFormatRawData   = 2
+} tImageFormat;
+
+class CCRenderTexture : public CCNode
+{
+    CCSprite* getSprite();
+    void setSprite(CCSprite* psprite);
+
+    void begin();
+    void endToLua();
+    void beginWithClear(float r, float g, float b, float a);
+
+    void clear(float r, float g, float b, float a);
+    bool saveBuffer(const char *name);
+    bool saveBuffer(const char *name, int format);
+
+    static CCRenderTexture * renderTextureWithWidthAndHeight(int w, int h, CCTexture2DPixelFormat eFormat);
+    static CCRenderTexture * renderTextureWithWidthAndHeight(int w, int h);
+};

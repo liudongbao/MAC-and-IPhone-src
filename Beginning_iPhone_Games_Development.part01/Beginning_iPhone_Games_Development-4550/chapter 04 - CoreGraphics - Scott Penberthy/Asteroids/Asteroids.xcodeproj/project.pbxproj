@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AsteroidsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AsteroidsAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* AsteroidsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* AsteroidsViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* AsteroidsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* AsteroidsViewController.m */; };
+		A507559B114969B700F6FF60 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = A507559A114969B700F6FF60 /* GameController.m */; };
+		A50755DD114987C500F6FF60 /* Finger.m in Sources */ = {isa = PBXBuildFile; fileRef = A50755DC114987C500F6FF60 /* Finger.m */; };
+		A50757F8114A764E00F6FF60 /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = A50757F7114A764E00F6FF60 /* AudioController.m */; };
+		A507580E114A7CEC00F6FF60 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A507580D114A7CEC00F6FF60 /* AudioToolbox.framework */; };
+		A5075841114A7E5E00F6FF60 /* explode1.aif in Resources */ = {isa = PBXBuildFile; fileRef = A5075839114A7E5E00F6FF60 /* explode1.aif */; };
+		A5075842114A7E5E00F6FF60 /* explode2.aif in Resources */ = {isa = PBXBuildFile; fileRef = A507583A114A7E5E00F6FF60 /* explode2.aif */; };
+		A5075843114A7E5E00F6FF60 /* explode3.aif in Resources */ = {isa = PBXBuildFile; fileRef = A507583B114A7E5E00F6FF60 /* explode3.aif */; };
+		A5075844114A7E5E00F6FF60 /* fire.aif in Resources */ = {isa = PBXBuildFile; fileRef = A507583C114A7E5E00F6FF60 /* fire.aif */; };
+		A5075845114A7E5E00F6FF60 /* saucer1.aif in Resources */ = {isa = PBXBuildFile; fileRef = A507583D114A7E5E00F6FF60 /* saucer1.aif */; };
+		A5075846114A7E5E00F6FF60 /* saucer2.aif in Resources */ = {isa = PBXBuildFile; fileRef = A507583E114A7E5E00F6FF60 /* saucer2.aif */; };
+		A5075847114A7E5E00F6FF60 /* sfire.aif in Resources */ = {isa = PBXBuildFile; fileRef = A507583F114A7E5E00F6FF60 /* sfire.aif */; };
+		A5075848114A7E5E00F6FF60 /* thrust.aif in Resources */ = {isa = PBXBuildFile; fileRef = A5075840114A7E5E00F6FF60 /* thrust.aif */; };
+		A5075924114AB5B400F6FF60 /* TextSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = A5075923114AB5B400F6FF60 /* TextSprite.m */; };
+		A5075C5F114AE54400F6FF60 /* alert.aif in Resources */ = {isa = PBXBuildFile; fileRef = A5075C5E114AE54400F6FF60 /* alert.aif */; };
+		A547C1C01146F06700815789 /* buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = A547C1BF1146F06700815789 /* buttons.png */; };
+		A5B500BA113C3A5F00CF7B60 /* AtlasSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B500B9113C3A5F00CF7B60 /* AtlasSprite.m */; };
+		A5B5018B113C45C900CF7B60 /* VectorSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B5018A113C45C900CF7B60 /* VectorSprite.m */; };
+		A5B5F4D211381E5900CF7B60 /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B5F4D111381E5900CF7B60 /* 57x57.png */; };
+		A5B5F4E71138214700CF7B60 /* AsteroidsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B5F4E61138214700CF7B60 /* AsteroidsView.m */; };
+		A5B5F6401138338A00CF7B60 /* AsteroidsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B5F63F1138338A00CF7B60 /* AsteroidsModel.m */; };
+		A5B5F6601138391900CF7B60 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B5F65F1138391900CF7B60 /* Sprite.m */; };
+		A5B5F68C1138538E00CF7B60 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B5F68B1138538E00CF7B60 /* head.png */; };
+		A5B5F68E113855F500CF7B60 /* pacman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5B5F68D113855F500CF7B60 /* pacman.jpg */; };
+		A5B5F7F5113860E200CF7B60 /* sprites.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5B5F7F4113860E200CF7B60 /* sprites.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AsteroidsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsteroidsAppDelegate.h; path = Classes/AsteroidsAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AsteroidsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsteroidsAppDelegate.m; path = Classes/AsteroidsAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* AsteroidsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AsteroidsViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* AsteroidsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsteroidsViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* AsteroidsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsteroidsViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Asteroids_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asteroids_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Asteroids-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Asteroids-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A5075599114969B700F6FF60 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		A507559A114969B700F6FF60 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		A50755DB114987C500F6FF60 /* Finger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finger.h; sourceTree = "<group>"; };
+		A50755DC114987C500F6FF60 /* Finger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Finger.m; sourceTree = "<group>"; };
+		A50757F6114A764E00F6FF60 /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioController.h; sourceTree = "<group>"; };
+		A50757F7114A764E00F6FF60 /* AudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioController.m; sourceTree = "<group>"; };
+		A507580D114A7CEC00F6FF60 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A5075839114A7E5E00F6FF60 /* explode1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = explode1.aif; path = media/sounds/explode1.aif; sourceTree = "<group>"; };
+		A507583A114A7E5E00F6FF60 /* explode2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = explode2.aif; path = media/sounds/explode2.aif; sourceTree = "<group>"; };
+		A507583B114A7E5E00F6FF60 /* explode3.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = explode3.aif; path = media/sounds/explode3.aif; sourceTree = "<group>"; };
+		A507583C114A7E5E00F6FF60 /* fire.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = fire.aif; path = media/sounds/fire.aif; sourceTree = "<group>"; };
+		A507583D114A7E5E00F6FF60 /* saucer1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = saucer1.aif; path = media/sounds/saucer1.aif; sourceTree = "<group>"; };
+		A507583E114A7E5E00F6FF60 /* saucer2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = saucer2.aif; path = media/sounds/saucer2.aif; sourceTree = "<group>"; };
+		A507583F114A7E5E00F6FF60 /* sfire.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = sfire.aif; path = media/sounds/sfire.aif; sourceTree = "<group>"; };
+		A5075840114A7E5E00F6FF60 /* thrust.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = thrust.aif; path = media/sounds/thrust.aif; sourceTree = "<group>"; };
+		A5075922114AB5B400F6FF60 /* TextSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextSprite.h; sourceTree = "<group>"; };
+		A5075923114AB5B400F6FF60 /* TextSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextSprite.m; sourceTree = "<group>"; };
+		A5075C5E114AE54400F6FF60 /* alert.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = alert.aif; path = media/sounds/alert.aif; sourceTree = "<group>"; };
+		A547C1BF1146F06700815789 /* buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttons.png; path = media/textures/buttons.png; sourceTree = "<group>"; };
+		A5B500B8113C3A5F00CF7B60 /* AtlasSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtlasSprite.h; sourceTree = "<group>"; };
+		A5B500B9113C3A5F00CF7B60 /* AtlasSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtlasSprite.m; sourceTree = "<group>"; };
+		A5B50189113C45C900CF7B60 /* VectorSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectorSprite.h; sourceTree = "<group>"; };
+		A5B5018A113C45C900CF7B60 /* VectorSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VectorSprite.m; sourceTree = "<group>"; };
+		A5B501DC113C4D7E00CF7B60 /* images.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = images.h; sourceTree = "<group>"; };
+		A5B5F4D111381E5900CF7B60 /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 57x57.png; path = media/app/57x57.png; sourceTree = "<group>"; };
+		A5B5F4E51138214700CF7B60 /* AsteroidsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsteroidsView.h; sourceTree = "<group>"; };
+		A5B5F4E61138214700CF7B60 /* AsteroidsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsteroidsView.m; sourceTree = "<group>"; };
+		A5B5F54B1138273000CF7B60 /* Defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defs.h; sourceTree = "<group>"; };
+		A5B5F63E1138338A00CF7B60 /* AsteroidsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsteroidsModel.h; sourceTree = "<group>"; };
+		A5B5F63F1138338A00CF7B60 /* AsteroidsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsteroidsModel.m; sourceTree = "<group>"; };
+		A5B5F65E1138391900CF7B60 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		A5B5F65F1138391900CF7B60 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		A5B5F68B1138538E00CF7B60 /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = head.png; path = media/app/head.png; sourceTree = "<group>"; };
+		A5B5F68D113855F500CF7B60 /* pacman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pacman.jpg; path = media/app/pacman.jpg; sourceTree = "<group>"; };
+		A5B5F7F4113860E200CF7B60 /* sprites.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sprites.jpg; path = media/app/sprites.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				A507580E114A7CEC00F6FF60 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A51FC3A7114F615D005C2318 /* Common */,
+				A51FC3A6114F612C005C2318 /* Game Loop */,
+				A5B5017C113C41B200CF7B60 /* Sprites */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Asteroids.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* AsteroidsAppDelegate.h */,
+				1D3623250D0F684500981E51 /* AsteroidsAppDelegate.m */,
+				32CA4F630368D1EE00C91783 /* Asteroids_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A5075838114A7E4B00F6FF60 /* Sounds */,
+				A5B5F4CE11381DF700CF7B60 /* images */,
+				2899E5210DE3E06400AC0155 /* AsteroidsViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Asteroids-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				A507580D114A7CEC00F6FF60 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5075838114A7E4B00F6FF60 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A5075C5E114AE54400F6FF60 /* alert.aif */,
+				A5075839114A7E5E00F6FF60 /* explode1.aif */,
+				A507583A114A7E5E00F6FF60 /* explode2.aif */,
+				A507583B114A7E5E00F6FF60 /* explode3.aif */,
+				A507583C114A7E5E00F6FF60 /* fire.aif */,
+				A507583D114A7E5E00F6FF60 /* saucer1.aif */,
+				A507583E114A7E5E00F6FF60 /* saucer2.aif */,
+				A507583F114A7E5E00F6FF60 /* sfire.aif */,
+				A5075840114A7E5E00F6FF60 /* thrust.aif */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		A51FC3A6114F612C005C2318 /* Game Loop */ = {
+			isa = PBXGroup;
+			children = (
+				28D7ACF60DDB3853001CB0EB /* AsteroidsViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* AsteroidsViewController.m */,
+				A50757F6114A764E00F6FF60 /* AudioController.h */,
+				A50757F7114A764E00F6FF60 /* AudioController.m */,
+				A5B5F4E51138214700CF7B60 /* AsteroidsView.h */,
+				A5B5F4E61138214700CF7B60 /* AsteroidsView.m */,
+				A5B5F63E1138338A00CF7B60 /* AsteroidsModel.h */,
+				A5B5F63F1138338A00CF7B60 /* AsteroidsModel.m */,
+				A5075599114969B700F6FF60 /* GameController.h */,
+				A507559A114969B700F6FF60 /* GameController.m */,
+			);
+			name = "Game Loop";
+			sourceTree = "<group>";
+		};
+		A51FC3A7114F615D005C2318 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A5B501DC113C4D7E00CF7B60 /* images.h */,
+				A5B5F54B1138273000CF7B60 /* Defs.h */,
+				A50755DB114987C500F6FF60 /* Finger.h */,
+				A50755DC114987C500F6FF60 /* Finger.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		A5B5017C113C41B200CF7B60 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				A5B500B8113C3A5F00CF7B60 /* AtlasSprite.h */,
+				A5B500B9113C3A5F00CF7B60 /* AtlasSprite.m */,
+				A5B5F65E1138391900CF7B60 /* Sprite.h */,
+				A5B5F65F1138391900CF7B60 /* Sprite.m */,
+				A5B50189113C45C900CF7B60 /* VectorSprite.h */,
+				A5B5018A113C45C900CF7B60 /* VectorSprite.m */,
+				A5075922114AB5B400F6FF60 /* TextSprite.h */,
+				A5075923114AB5B400F6FF60 /* TextSprite.m */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
+		A5B5F4CE11381DF700CF7B60 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A547C1BF1146F06700815789 /* buttons.png */,
+				A5B5F7F4113860E200CF7B60 /* sprites.jpg */,
+				A5B5F68D113855F500CF7B60 /* pacman.jpg */,
+				A5B5F68B1138538E00CF7B60 /* head.png */,
+				A5B5F4D111381E5900CF7B60 /* 57x57.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Asteroids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Asteroids" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Asteroids;
+			productName = Asteroids;
+			productReference = 1D6058910D05DD3D006BFB54 /* Asteroids.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "North Highland Partners, Inc.";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Asteroids" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Asteroids */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* AsteroidsViewController.xib in Resources */,
+				A5B5F4D211381E5900CF7B60 /* 57x57.png in Resources */,
+				A5B5F68C1138538E00CF7B60 /* head.png in Resources */,
+				A5B5F68E113855F500CF7B60 /* pacman.jpg in Resources */,
+				A5B5F7F5113860E200CF7B60 /* sprites.jpg in Resources */,
+				A547C1C01146F06700815789 /* buttons.png in Resources */,
+				A5075841114A7E5E00F6FF60 /* explode1.aif in Resources */,
+				A5075842114A7E5E00F6FF60 /* explode2.aif in Resources */,
+				A5075843114A7E5E00F6FF60 /* explode3.aif in Resources */,
+				A5075844114A7E5E00F6FF60 /* fire.aif in Resources */,
+				A5075845114A7E5E00F6FF60 /* saucer1.aif in Resources */,
+				A5075846114A7E5E00F6FF60 /* saucer2.aif in Resources */,
+				A5075847114A7E5E00F6FF60 /* sfire.aif in Resources */,
+				A5075848114A7E5E00F6FF60 /* thrust.aif in Resources */,
+				A5075C5F114AE54400F6FF60 /* alert.aif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AsteroidsAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* AsteroidsViewController.m in Sources */,
+				A5B5F4E71138214700CF7B60 /* AsteroidsView.m in Sources */,
+				A5B5F6401138338A00CF7B60 /* AsteroidsModel.m in Sources */,
+				A5B5F6601138391900CF7B60 /* Sprite.m in Sources */,
+				A5B500BA113C3A5F00CF7B60 /* AtlasSprite.m in Sources */,
+				A5B5018B113C45C900CF7B60 /* VectorSprite.m in Sources */,
+				A507559B114969B700F6FF60 /* GameController.m in Sources */,
+				A50755DD114987C500F6FF60 /* Finger.m in Sources */,
+				A50757F8114A764E00F6FF60 /* AudioController.m in Sources */,
+				A5075924114AB5B400F6FF60 /* TextSprite.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Asteroids_Prefix.pch;
+				INFOPLIST_FILE = "Asteroids-Info.plist";
+				PRODUCT_NAME = Asteroids;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Asteroids_Prefix.pch;
+				INFOPLIST_FILE = "Asteroids-Info.plist";
+				PRODUCT_NAME = Asteroids;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

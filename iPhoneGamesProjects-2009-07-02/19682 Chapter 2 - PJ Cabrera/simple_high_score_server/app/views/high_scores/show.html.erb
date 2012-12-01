@@ -1,0 +1,13 @@
+<p>
+  <b>Score:</b>
+  <%=h @high_score.score %>
+</p>
+
+<p>
+  <b>Full name:</b>
+  <%=h @high_score.full_name %>
+</p>
+
+
+<%= link_to 'Edit', edit_high_score_path(@high_score) %> |
+<%= link_to 'Back', high_scores_path %>

@@ -60,7 +60,7 @@
         }
         
         animationInterval = 1.0 / 60.0;
-		
+		rota = 0.0;
 		[self setupView];
     }
     return self;
@@ -68,30 +68,46 @@
 
 
 - (void)drawView {
-	
-    [EAGLContext setCurrentContext:context];    
+    const GLfloat triangleVertices[] = {
+        0.0, 1.0, 0.0, // Triangle top centre
+        -1.0, -1.0, 0.0, // bottom left
+        1.0, -1.0, 0.0 // bottom right
+    };
+    
+    const GLfloat squareVertices[] = {
+        -1.0, 1.0, 0.0, // Top left
+        -1.0, -1.0, 0.0, // Bottom left
+        1.0, -1.0, 0.0, // Bottom right
+        1.0, 1.0, 0.0 // Top right
+    };
+    
+    [EAGLContext setCurrentContext:context];
     glBindFramebufferOES(GL_FRAMEBUFFER_OES, viewFramebuffer);
     glViewport(0, 0, backingWidth, backingHeight);
-
-	glLoadIdentity();
-	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-	GLfloat squareVerts[] = {
-		-1.0, 1.0, 0.0,
-		-1.0, -1.0, 0.0,
-		1.0, -1.0, 0.0,
-		1.0, 1.0, 0.0
-	};
-	glTranslatef(0.0, 0.0, -5.0);
-	glColor4f(1.0, 0.0, 0.0, 1.0);
-	glVertexPointer(3, GL_FLOAT, 0, squareVerts);
-	glEnableClientState(GL_VERTEX_ARRAY);
-	glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
+   
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);    
+    glMatrixMode(GL_MODELVIEW);
+    
+    rota += 0.5;
+    
+    glLoadIdentity();
+    glTranslatef(-1.5, 0.0, -6.0);
+    glRotatef(rota, 0.0, 0.0, 1.0); // Add this line
+    glVertexPointer(3, GL_FLOAT, 0, triangleVertices);
+    glEnableClientState(GL_VERTEX_ARRAY);
+    glDrawArrays(GL_TRIANGLES, 0, 3);
+    
+    glLoadIdentity();
+    glTranslatef(1.5, 0.0, -6.0);
+    glRotatef(rota, 0.0, 0.0, 1.0); // Add this line
+    glVertexPointer(3, GL_FLOAT, 0, squareVertices);
+    glEnableClientState(GL_VERTEX_ARRAY);
+    glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
     
     glBindRenderbufferOES(GL_RENDERBUFFER_OES, viewRenderbuffer);
     [context presentRenderbuffer:GL_RENDERBUFFER_OES];
-	
-	[self checkGLError:NO];
-}
+    
+    [self checkGLError:NO];}
 
 
 - (void)layoutSubviews {

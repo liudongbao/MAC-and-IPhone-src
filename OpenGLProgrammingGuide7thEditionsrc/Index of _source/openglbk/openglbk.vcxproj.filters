@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="aaindex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aargb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="accanti.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="accpersp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="alpha.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="alpha3D.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bezcurve.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bezmesh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bezsurf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="blendeqn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="checker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="colormat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="colormatrix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="colortable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="convolution.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cube.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dof.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="double.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="drawf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="feedback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fogindex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="font.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hello.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="histogram.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="light.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lines.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="material.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="minmax.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mipmap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="model.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="movelight.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="multitex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pickdepth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="picksquare.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="planet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="polyoff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="polys.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quadric.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="readImage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="robot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="select.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="smooth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stencil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stroke.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="surface.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="surfpoints.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="teapots.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tesswind.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texbind.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texgen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texprox.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texsub.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture3d.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texturesurf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="torus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unproject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="varray.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wrap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

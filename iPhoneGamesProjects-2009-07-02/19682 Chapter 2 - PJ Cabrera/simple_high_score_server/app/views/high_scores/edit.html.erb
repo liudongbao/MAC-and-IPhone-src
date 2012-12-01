@@ -1,0 +1,20 @@
+<h1>Editing high_score</h1>
+
+<% form_for(@high_score) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :score %><br />
+    <%= f.text_field :score %>
+  </p>
+  <p>
+    <%= f.label :full_name %><br />
+    <%= f.text_field :full_name %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @high_score %> |
+<%= link_to 'Back', high_scores_path %>

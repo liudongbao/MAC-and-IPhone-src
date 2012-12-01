@@ -1,0 +1,12 @@
+data/AVRecorder-Info.plist.i
+data/AVRecorder.xcodeproj/project.pbxproj.i
+data/AVRecorderViewController.xib.i
+data/AVRecorder_Prefix.pch.i
+data/Classes/AVRecorderAppDelegate.h.i
+data/Classes/AVRecorderAppDelegate.m.i
+data/Classes/AVRecorderSoundController.h.i
+data/Classes/AVRecorderSoundController.m.i
+data/Classes/AVRecorderViewController.h.i
+data/Classes/AVRecorderViewController.m.i
+data/MainWindow.xib.i
+data/main.m.i

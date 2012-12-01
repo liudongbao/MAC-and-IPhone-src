@@ -68,16 +68,18 @@
 
 - (void)drawView {
     
-/*	const GLfloat triangleVertices[] = {
+const GLfloat triangleVertices[] = {
         0.0, 1.0, -6.0,				// Triangle top centre
         -1.0, -1.0, -6.0,			// bottom left		
         1.0, -1.0, -6.0,			// bottom right
     };
-	const GLfloat triangleColours[] = {
+	
+     const GLfloat triangleColours[] = {
 		1.0, 0.0, 0.0, 1.0,
 		1.0, 1.0, 0.0, 1.0,
 		0.0, 0.0, 1.0, 0.0
 	};
+    /*	
 	*/
 	const GLfloat squareVerts[] = {
 		-0.057735, 1.0, 0.0,
@@ -91,21 +93,22 @@
     glViewport(0, 0, backingWidth, backingHeight);
 
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-	glColor4f(1.0, 0.0, 0.0, 1.0);
+	
+   /* glColor4f(1.0, 0.0, 0.0, 1.0);
 	glVertexPointer(3, GL_FLOAT, 0, squareVerts);
 	glPushMatrix();
 	glTranslatef(0.0, 0.0, -0.1005);
 	glEnableClientState(GL_VERTEX_ARRAY);
 	glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
 	glPopMatrix();
-	/*
+	*/
 	glColor4f(1.0, 1.0, 1.0, 1.0);
 	glVertexPointer(3, GL_FLOAT, 0, triangleVertices);
 	glPushMatrix();
 	glTranslatef(0.5, -0.5, -0.5);
 	glDrawArrays(GL_TRIANGLES, 0, 3);
 	glPopMatrix();
-	
+	/*
 	rota += 0.5;
 	glPushMatrix();
 	glRotatef(rota, 0.0, 0.0, 1.0);

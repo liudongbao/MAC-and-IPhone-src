@@ -1,0 +1,2 @@
+module Top100ScoresHelper
+end

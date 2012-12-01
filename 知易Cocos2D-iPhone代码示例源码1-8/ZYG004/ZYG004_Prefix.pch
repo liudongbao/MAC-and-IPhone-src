@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'ZYG004' target in the 'ZYG004' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+#endif

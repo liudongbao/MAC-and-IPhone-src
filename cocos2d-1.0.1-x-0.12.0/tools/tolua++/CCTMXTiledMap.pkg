@@ -1,0 +1,35 @@
+
+enum
+{
+    /** Orthogonal orientation */
+    CCTMXOrientationOrtho,
+    /** Hexagonal orientation */
+    CCTMXOrientationHex,
+    /** Isometric orientation */
+    CCTMXOrientationIso,
+};
+
+class CCTMXTiledMap : public CCNode
+{
+    void setMapSize(CCSize sz);
+    CCSize getMapSize();
+
+    void setTileSize(CCSize sz);
+    CCSize getTileSize();
+
+    void setMapOrientation(int val);
+    int getMapOrientation();
+
+    void  setObjectGroups(CCMutableArray<CCTMXObjectGroup*>* pval);
+    CCMutableArray<CCTMXObjectGroup*>* getObjectGroups();
+
+    void setProperties(CCStringToStringDictionary* pval);
+    CCStringToStringDictionary* getProperties();
+
+    CCTMXLayer* layerNamed(const char *layerName);
+    CCTMXObjectGroup* objectGroupNamed(const char *groupName);
+    CCString *propertyNamed(const char *propertyName);
+    CCDictionary<std::string, CCString*> *propertiesForGID(int GID);
+
+    static CCTMXTiledMap * tiledMapWithTMXFile(const char *tmxFile);
+};
