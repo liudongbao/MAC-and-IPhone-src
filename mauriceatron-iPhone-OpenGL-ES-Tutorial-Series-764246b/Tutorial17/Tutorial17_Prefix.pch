@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'Tutorial17' target in the 'Tutorial17' project
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#endif

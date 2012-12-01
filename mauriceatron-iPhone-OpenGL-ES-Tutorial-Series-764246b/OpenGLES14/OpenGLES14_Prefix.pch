@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'OpenGLES14' target in the 'OpenGLES14' project
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#endif

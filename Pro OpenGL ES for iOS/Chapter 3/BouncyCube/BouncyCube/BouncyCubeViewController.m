@@ -99,7 +99,7 @@
     };
         
     static GLfloat transY = 0.0f;
-    static GLfloat z=-2.0f;						//1
+    static GLfloat z=-0.0f;						//1
     static GLfloat spinX=0;
     static GLfloat spinY=0;
 
@@ -119,7 +119,7 @@
     
 
 
-    glTranslatef(0.0f, (GLfloat)(sinf(transY)/2.0f), z); 	     	                 //6
+   glTranslatef(0.0f, (GLfloat)(sinf(transY)/2.0f), z); 	     	                 //6
     glRotatef(spinY, 0.0, 1.0, 0.0);
     glRotatef(spinX, 1.0, 0.0, 0.0);
     

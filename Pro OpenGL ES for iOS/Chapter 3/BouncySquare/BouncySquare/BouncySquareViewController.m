@@ -74,7 +74,7 @@
     glLoadIdentity();
     glTranslatef(0.0f, (GLfloat)(sinf(transY)/2.0f), 0.0f);
     
-    transY += 0.075f;
+   // transY += 0.075f;
         
     glVertexPointer(2, GL_FLOAT, 0, squareVertices);
     glEnableClientState(GL_VERTEX_ARRAY);

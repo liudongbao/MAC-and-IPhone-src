@@ -15,7 +15,7 @@
 		CE60A5F9141C630E000874FC /* OpenGLSolarSystemAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE60A5F6141C630E000874FC /* OpenGLSolarSystemAppDelegate.m */; };
 		CE60A5FA141C630E000874FC /* OpenGLSolarSystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE60A5F8141C630E000874FC /* OpenGLSolarSystemViewController.m */; };
 		CE60A60D141C6521000874FC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE60A60B141C6520000874FC /* MainStoryboard_iPhone.storyboard */; };
-		CE60A610141C6527000874FC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE60A60E141C6527000874FC /* MainStoryboard_iPad.storyboard */; };
+		CE60A610141C6527000874FC /* MainStoryboard_iPad1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE60A60E141C6527000874FC /* MainStoryboard_iPad1.storyboard */; };
 		CE60A613141C652F000874FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE60A611141C652F000874FC /* InfoPlist.strings */; };
 		CE60A616141C654B000874FC /* Planet.m in Sources */ = {isa = PBXBuildFile; fileRef = CE60A615141C654B000874FC /* Planet.m */; };
 		CE96CD3A141C6671007DAAA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE96CD39141C6671007DAAA7 /* main.m */; };
@@ -36,7 +36,7 @@
 		CE60A5F8141C630E000874FC /* OpenGLSolarSystemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenGLSolarSystemViewController.m; path = OpenGLSolarSystem/OpenGLSolarSystemViewController.m; sourceTree = SOURCE_ROOT; };
 		CE60A600141C6342000874FC /* OpenGLSolarSystem-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "OpenGLSolarSystem-Info.plist"; path = "OpenGLSolarSystem/OpenGLSolarSystem-Info.plist"; sourceTree = SOURCE_ROOT; };
 		CE60A60C141C6520000874FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = OpenGLSolarSystem/en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = SOURCE_ROOT; };
-		CE60A60F141C6527000874FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = OpenGLSolarSystem/en.lproj/MainStoryboard_iPad.storyboard; sourceTree = SOURCE_ROOT; };
+		CE60A60F141C6527000874FC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = OpenGLSolarSystem/en.lproj/MainStoryboard_iPad1.storyboard; sourceTree = SOURCE_ROOT; };
 		CE60A612141C652F000874FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = OpenGLSolarSystem/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		CE60A614141C653E000874FC /* Planet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Planet.h; path = OpenGLSolarSystem/Planet.h; sourceTree = SOURCE_ROOT; };
 		CE60A615141C654B000874FC /* Planet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Planet.m; path = OpenGLSolarSystem/Planet.m; sourceTree = SOURCE_ROOT; };
@@ -97,7 +97,7 @@
 				CE60A5F6141C630E000874FC /* OpenGLSolarSystemAppDelegate.m */,
 				CE60A5F7141C630E000874FC /* OpenGLSolarSystemViewController.h */,
 				CE60A5F8141C630E000874FC /* OpenGLSolarSystemViewController.m */,
-				CE60A60E141C6527000874FC /* MainStoryboard_iPad.storyboard */,
+				CE60A60E141C6527000874FC /* MainStoryboard_iPad1.storyboard */,
 				CE60A60B141C6520000874FC /* MainStoryboard_iPhone.storyboard */,
 				CE60A614141C653E000874FC /* Planet.h */,
 				CE60A615141C654B000874FC /* Planet.m */,
@@ -171,7 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE60A60D141C6521000874FC /* MainStoryboard_iPhone.storyboard in Resources */,
-				CE60A610141C6527000874FC /* MainStoryboard_iPad.storyboard in Resources */,
+				CE60A610141C6527000874FC /* MainStoryboard_iPad1.storyboard in Resources */,
 				CE60A613141C652F000874FC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,12 +202,12 @@
 			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		CE60A60E141C6527000874FC /* MainStoryboard_iPad.storyboard */ = {
+		CE60A60E141C6527000874FC /* MainStoryboard_iPad1.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CE60A60F141C6527000874FC /* en */,
 			);
-			name = MainStoryboard_iPad.storyboard;
+			name = MainStoryboard_iPad1.storyboard;
 			sourceTree = "<group>";
 		};
 		CE60A611141C652F000874FC /* InfoPlist.strings */ = {
