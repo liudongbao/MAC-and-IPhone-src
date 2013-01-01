@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		698E4F0E166B43AF004C911B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 698E4F0D166B43AF004C911B /* Storyboard.storyboard */; };
 		CE0E3F43141EFE0900799C5F /* earth_light.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0E3F42141EFE0900799C5F /* earth_light.png */; };
 		CE269CD0141BF49D00704362 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE269CCF141BF49D00704362 /* UIKit.framework */; };
 		CE269CD2141BF49D00704362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE269CD1141BF49D00704362 /* Foundation.framework */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		698E4F0D166B43AF004C911B /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		CE0E3F42141EFE0900799C5F /* earth_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = earth_light.png; path = OpenGLSolarSystem/assets/earth_light.png; sourceTree = SOURCE_ROOT; };
 		CE269CCB141BF49D00704362 /* OpenGLSolarSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGLSolarSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE269CCF141BF49D00704362 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -66,6 +68,7 @@
 		CE269CC0141BF49C00704362 = {
 			isa = PBXGroup;
 			children = (
+				698E4F0D166B43AF004C911B /* Storyboard.storyboard */,
 				CE269CD9141BF49D00704362 /* OpenGLSolarSystem */,
 				CE269CCE141BF49D00704362 /* Frameworks */,
 				CE269CCC141BF49D00704362 /* Products */,
@@ -177,6 +180,7 @@
 				CE60A610141C6527000874FC /* MainStoryboard_iPad.storyboard in Resources */,
 				CE60A613141C652F000874FC /* InfoPlist.strings in Resources */,
 				CE0E3F43141EFE0900799C5F /* earth_light.png in Resources */,
+				698E4F0E166B43AF004C911B /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,30 @@
+Contents of /Users/aidenfry/Desktop/AidenTowerDefensePart5/TowerDefenseTutorial_Prefix.pch
+4.2.1 (Based on Apple Inc. build 5658) (LLVM build 2336.1.00)
+i686-apple-darwin11
+-x
+objective-c
+-arch
+i386
+-fmessage-length=0
+-pipe
+-std=c99
+-fpascal-strings
+-O0
+-DDEBUG
+-DCOCOS2D_DEBUG=1
+-DCD_DEBUG=1
+-isysroot
+/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+-fexceptions
+-fasm-blocks
+-mmacosx-version-min=10.6
+-gdwarf-2
+-fvisibility=hidden
+-fobjc-abi-version=2
+-fobjc-legacy-dispatch
+-D__IPHONE_OS_VERSION_MIN_REQUIRED=30000
+-iquote
+-iquote
+-I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/include
+-F/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator
+SDK_PRODUCT_BUILD_VERSION=9A334

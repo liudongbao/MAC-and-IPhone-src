@@ -1,0 +1,1659 @@
+TTowerDefenseTutorial
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Info.plist Resources/Info.plist
+cCpResource Resources/Default.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Default.png
+cCpResource Resources/fps_images.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/fps_images.png
+cCpResource Resources/Icon.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Icon.png
+cCpResource Resources/hud.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/hud.png
+cCpResource Resources/MachineGunTurret.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/MachineGunTurret.png
+cCpResource Resources/Projectile.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Projectile.png
+cCpResource Resources/Enemy1.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Enemy1.png
+cCpResource Resources/Enemy2.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Enemy2.png
+cCpResource Resources/meta_tiles.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/meta_tiles.png
+cCpResource Resources/TileMap.tmx DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/TileMap.tmx
+cCpResource Resources/tmw_desert_spacing.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/tmw_desert_spacing.png
+cCpResource Resources/Range.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Range.png
+cProcessPCH /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/PrecompiledHeaders/TowerDefenseTutorial_Prefix-agyjisdeqfmqjfguhkmoyufgipgj/TowerDefenseTutorial_Prefix.pch.gch TowerDefenseTutorial_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/TowerDefenseTutorialAppDelegate.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TowerDefenseTutorialAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/main.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/TutorialScene.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/RootViewController.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/GameHUD.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/DataModel.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/DataModel.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Creep.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Creep.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Projectile.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Projectile.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Tower.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Tower.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/WayPoint.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/WayPoint.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Wave.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Wave.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/TowerDefenseTutorial normal i386
+cGenerateDSYMFile /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app.dSYM /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/TowerDefenseTutorial
+cTouch /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c000000004ED206B40000000000000110
+t1322387124
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004E7806CF000000000018D430
+t1316488911
+s1627184
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004E7806C700000000000007FF
+t1316488903
+s2047
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004E72F1F200000000002F4210
+t1316155890
+s3097104
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004E72F1E00000000000000A21
+t1316155872
+s2593
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURL.h
+c000000004E72F140000000000000C841
+t1316155712
+s51265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F1CC0000000000245480
+t1316155852
+s2380928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+c000000004E72F17100000000000022F0
+t1316155761
+s8944
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGImage.h
+c000000004E72F1720000000000002650
+t1316155762
+s9808
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F2960000000000353830
+t1316156054
+s3487792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004E72F28F0000000000001534
+t1316156047
+s5428
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
+c000000004E72F22600000000000064FD
+t1316155942
+s25853
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
+c000000004E72F2260000000000001F45
+t1316155942
+s8005
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004E72F2280000000000029350
+t1316155944
+s168784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004E72F4A6000000000000094E
+t1316156582
+s2382
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004E72F4A60000000000000A61
+t1316156582
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004E72F4A60000000000009369
+t1316156582
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004E72F4A600000000000040E6
+t1316156582
+s16614
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004E72F52C000000000001D2E0
+t1316156716
+s119520
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004E72F5AB00000000000000C4
+t1316156843
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004E72F69C00000000001A9D20
+t1316157084
+s1744160
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004E78066A0000000000000BCB
+t1316488810
+s3019
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7806AB00000000008F7390
+t1316488875
+s9401232
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/Availability.h
+c000000004E5C62D90000000000001B38
+t1314677465
+s6968
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/inttypes.h
+c000000004E605A110000000000002674
+t1314937361
+s9844
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/objc/objc.h
+c000000004E72EE76000000000000136B
+t1316154998
+s4971
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/stdlib.h
+c000000004E605A1200000000000030A7
+t1314937362
+s12455
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/string.h
+c000000004E605A120000000000001A3A
+t1314937362
+s6714
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/sys/_types.h
+c000000004E72F3620000000000001845
+t1316156258
+s6213
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/include/sys/time.h
+c000000004E72F3600000000000001E64
+t1316156256
+s7780
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/usr/lib/libz.dylib
+c000000004E72EDC60000000000013460
+t1316154822
+s78944
+
+N/Developer/usr/llvm-gcc-4.2/lib/gcc/i686-apple-darwin11/4.2.1/include/stddef.h
+c000000004EB300E00000000000003197
+t1320354016
+s12695
+i<machine/ansi.h>
+i<sys/_types.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Creep.h
+c000000004DA08C9300000000000002BD
+t1302367379
+s701
+i"cocos2d.h"
+i"DataModel.h"
+i"WayPoint.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Creep.m
+c000000004DAEF369000000000000099B
+t1303311209
+s2459
+i"Creep.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/DataModel.h
+c000000004DA0675300000000000003D8
+t1302357843
+s984
+i"cocos2d.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/DataModel.m
+c000000004DA067930000000000000525
+t1302357907
+s1317
+i"DataModel.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameConfig.h
+c000000004D9F25680000000000000245
+t1302275432
+s581
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.h
+c000000004D9F2D0D0000000000000177
+t1302277389
+s375
+i"cocos2d.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m
+c000000004DAB047E00000000000011EB
+t1303053438
+s4587
+i"GameHUD.h"
+i"DataModel.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Projectile.h
+c000000004DB04D690000000000000103
+t1303399785
+s259
+i"cocos2d.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Projectile.m
+c000000004DB04D7400000000000001CD
+t1303399796
+s461
+i"Projectile.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/RootViewController.h
+c000000004D9F2538000000000000010D
+t1302275384
+s269
+i<UIKit/UIKit.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/RootViewController.m
+c000000004D9F2563000000000000105F
+t1302275427
+s4191
+i"cocos2d.h"
+i"RootViewController.h"
+i"GameConfig.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Tower.h
+c000000004DAB02100000000000000338
+t1303052816
+s824
+i"cocos2d.h"
+i"Creep.h"
+i"SimpleAudioEngine.h"
+i"Projectile.h"
+i"DataModel.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Tower.m
+c000000004DB04DBF0000000000000BFF
+t1303399871
+s3071
+i"Tower.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TowerDefenseTutorialAppDelegate.h
+c000000004D9F256100000000000001BC
+t1302275425
+s444
+i<UIKit/UIKit.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TowerDefenseTutorialAppDelegate.m
+c000000004D9F255F0000000000000FB5
+t1302275423
+s4021
+i"cocos2d.h"
+i"TowerDefenseTutorialAppDelegate.h"
+i"GameConfig.h"
+i"TutorialScene.h"
+i"RootViewController.h"
+i"GameHUD.h"
+i"DataModel.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.h
+c000000004DA06E840000000000000332
+t1302359684
+s818
+i"cocos2d.h"
+i"Creep.h"
+i"Projectile.h"
+i"Tower.h"
+i"WayPoint.h"
+i"Wave.h"
+i"GameHUD.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m
+c000000004DAF02E500000000000023D6
+t1303315173
+s9174
+i"TutorialScene.h"
+i"GameHUD.h"
+i"DataModel.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Wave.h
+c000000004DB79962000000000000020B
+t1303877986
+s523
+i"cocos2d.h"
+i"Creep.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Wave.m
+c000000004DB79960000000000000029E
+t1303877984
+s670
+i"Wave.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/WayPoint.h
+c000000004D9F256F00000000000000EA
+t1302275439
+s234
+i"cocos2d.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/WayPoint.m
+c000000004D9F256D0000000000000126
+t1302275437
+s294
+i"WayPoint.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Creep.o
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/DataModel.o
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/GameHUD.o
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Projectile.o
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/RootViewController.o
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Tower.o
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/TowerDefenseTutorial.LinkFileList
+c000000004F04A76A00000000000008FF
+t1325705066
+s2303
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/TowerDefenseTutorialAppDelegate.o
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/TutorialScene.o
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Wave.o
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/WayPoint.o
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/PrecompiledHeaders/TowerDefenseTutorial_Prefix-agyjisdeqfmqjfguhkmoyufgipgj/TowerDefenseTutorial_Prefix.pch.gch
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app.dSYM
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Default.png
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Enemy1.png
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Enemy2.png
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Icon.png
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Info.plist
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/MachineGunTurret.png
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/PkgInfo
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Projectile.png
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Range.png
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/TileMap.tmx
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/TowerDefenseTutorial
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/fps_images.png
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/hud.png
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/meta_tiles.png
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/tmw_desert_spacing.png
+t2
+s0
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/libcocos2d libraries.a
+c000000004F04A76A00000000003A6DA8
+t1325705066
+s3829160
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/Default.png
+c000000004CE18CE100000000000077AB
+t1289850081
+s30635
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/Enemy1.png
+c000000004D9E1E88000000000000DD39
+t1302208136
+s56633
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/Enemy2.png
+c000000004D9E1E9C000000000000CC3B
+t1302208156
+s52283
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/Icon.png
+c000000004CE18CE1000000000000246F
+t1289850081
+s9327
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/MachineGunTurret.png
+c000000004D9E1DA2000000000000CF70
+t1302207906
+s53104
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/Projectile.png
+c000000004D9E6F1D000000000000BEE7
+t1302228765
+s48871
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/Range.png
+c000000004D9F2CD9000000000000EA4B
+t1302277337
+s59979
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/TileMap.tmx
+c000000004D9E5D540000000000000EFE
+t1302224212
+s3838
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/fps_images.png
+c000000004CE18CE1000000000000183B
+t1289850081
+s6203
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/hud.png
+c000000004D9E1812000000000000BF5F
+t1302206482
+s48991
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/meta_tiles.png
+c000000004BF2E64B00000000000000C8
+t1274209867
+s200
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/tmw_desert_spacing.png
+c000000004B70532700000000000093C6
+t1265652519
+s37830
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/TowerDefenseTutorial_Prefix.pch
+c000000004D9E22E400000000000000CB
+t1302209252
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/CocosDenshion/CDAudioManager.h
+c000000004CE18CE200000000000024D2
+t1289850082
+s9426
+i"CocosDenshion.h"
+i<AVFoundation/AVFoundation.h>
+i"CDXMacOSXSupport.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/CocosDenshion/CDConfig.h
+c000000004CE18CE20000000000000A9A
+t1289850082
+s2714
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/CocosDenshion/CDOpenALSupport.h
+c000000004CE18CE20000000000000CF9
+t1289850082
+s3321
+i<OpenAL/al.h>
+i<OpenAL/alc.h>
+i<CoreFoundation/CFURL.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/CocosDenshion/CocosDenshion.h
+c000000004CE18CE200000000000034E2
+t1289850082
+s13538
+i<OpenAL/al.h>
+i<OpenAL/alc.h>
+i<AudioToolbox/AudioToolbox.h>
+i<Foundation/Foundation.h>
+i"CDConfig.h"
+i"CDOpenALSupport.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/CocosDenshion/SimpleAudioEngine.h
+c000000004CE18CE20000000000000EE0
+t1289850082
+s3808
+i"CDAudioManager.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCAction.h
+c000000004CE18CE2000000000000167A
+t1289850082
+s5754
+i<sys/time.h>
+i<Foundation/Foundation.h>
+i"ccTypes.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCActionCamera.h
+c000000004CE18CE200000000000009AA
+t1289850082
+s2474
+i"CCActionInterval.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCActionEase.h
+c000000004CE18CE20000000000001671
+t1289850082
+s5745
+i"CCActionInterval.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCActionGrid.h
+c000000004CE18CE2000000000000148F
+t1289850082
+s5263
+i"CCActionInterval.h"
+i"CCActionInstant.h"
+i"CCGrid.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCActionGrid3D.h
+c000000004CE18CE20000000000001A8A
+t1289850082
+s6794
+i"CCActionGrid.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCActionInstant.h
+c000000004CE18CE2000000000000115E
+t1289850082
+s4446
+i"CCAction.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCActionInterval.h
+c000000004CE18CE20000000000003268
+t1289850082
+s12904
+i"CCNode.h"
+i"CCAction.h"
+i"CCProtocols.h"
+i<sys/time.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCActionManager.h
+c000000004CE18CE20000000000001072
+t1289850082
+s4210
+i"CCAction.h"
+i"Support/ccCArray.h"
+i"Support/uthash.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCActionPageTurn3D.h
+c000000004CE18CE20000000000000644
+t1289850082
+s1604
+i"CCActionGrid3D.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCActionProgressTimer.h
+c000000004CE18CE2000000000000088D
+t1289850082
+s2189
+i<Foundation/Foundation.h>
+i"CCProgressTimer.h"
+i"CCActionInterval.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCActionTiledGrid.h
+c000000004CE18CE20000000000001A15
+t1289850082
+s6677
+i"CCActionGrid.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCActionTween.h
+c000000004CE18CE20000000000000932
+t1289850082
+s2354
+i<Foundation/Foundation.h>
+i"CCActionInterval.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCAtlasNode.h
+c000000004CE18CE20000000000000C07
+t1289850082
+s3079
+i"CCTextureAtlas.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCBlockSupport.h
+c000000004CE18CE200000000000007AA
+t1289850082
+s1962
+i<Foundation/Foundation.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCCamera.h
+c000000004CE18CE20000000000000B48
+t1289850082
+s2888
+i"CCNode.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCCompatibility.h
+c000000004CE18CE20000000000003891
+t1289850082
+s14481
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCConfiguration.h
+c000000004CE18CE20000000000000DA1
+t1289850082
+s3489
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCDirector.h
+c000000004CE18CE200000000000022AA
+t1289850082
+s8874
+i"ccConfig.h"
+i"ccTypes.h"
+i"Platforms/CCGL.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCDrawingPrimitives.h
+c000000004CE18CE20000000000000C26
+t1289850082
+s3110
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<CoreGraphics/CGGeometry.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCGrabber.h
+c000000004CE18CE200000000000005E4
+t1289850082
+s1508
+i"Platforms/CCGL.h"
+i<Foundation/Foundation.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCGrid.h
+c000000004CE18CE20000000000000E5A
+t1289850082
+s3674
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCCamera.h"
+i"ccTypes.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCLabelAtlas.h
+c000000004CE18CE20000000000000B25
+t1289850082
+s2853
+i"CCAtlasNode.h"
+i"CCTextureAtlas.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCLabelBMFont.h
+c000000004CE18CE2000000000000163C
+t1289850082
+s5692
+i"CCSpriteBatchNode.h"
+i"Support/uthash.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCLabelTTF.h
+c000000004CE18CE20000000000000A73
+t1289850082
+s2675
+i"CCTexture2D.h"
+i"CCSprite.h"
+i"Platforms/CCNS.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCLayer.h
+c000000004CE18CE200000000000018C6
+t1289850082
+s6342
+i<Availability.h>
+i<UIKit/UIKit.h>
+i"Platforms/iOS/CCTouchDelegateProtocol.h"
+i"Platforms/Mac/CCEventDispatcher.h"
+i"CCProtocols.h"
+i"CCNode.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCMenu.h
+c000000004CE18CE20000000000000ADF
+t1289850082
+s2783
+i"CCMenuItem.h"
+i"CCLayer.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCMenuItem.h
+c000000004CE18CE200000000000031FC
+t1289850082
+s12796
+i"CCBlockSupport.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCMotionStreak.h
+c000000004CE18CE20000000000000B2A
+t1289850082
+s2858
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCRibbon.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCNode.h
+c000000004CE18CE200000000000041FD
+t1289850082
+s16893
+i<Availability.h>
+i"Platforms/CCGL.h"
+i"CCAction.h"
+i"ccTypes.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i"ccConfig.h"
+i"Support/CCArray.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCParallaxNode.h
+c000000004CE18CE2000000000000075B
+t1289850082
+s1883
+i"CCNode.h"
+i"Support/ccCArray.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCParticleExamples.h
+c000000004CE18CE20000000000000AD9
+t1289850082
+s2777
+i<Availability.h>
+i"CCParticleSystemPoint.h"
+i"CCParticleSystemQuad.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCParticleSystem.h
+c000000004CE18CE200000000000036BF
+t1289850082
+s14015
+i"CCProtocols.h"
+i"CCNode.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCParticleSystemPoint.h
+c000000004CE18CE20000000000000778
+t1289850082
+s1912
+i"CCParticleSystem.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCParticleSystemQuad.h
+c000000004CE18CE200000000000009D3
+t1289850082
+s2515
+i"CCParticleSystem.h"
+i"ccConfig.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCProgressTimer.h
+c000000004CE18CE20000000000000B48
+t1289850082
+s2888
+i<Foundation/Foundation.h>
+i"CCSprite.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCProtocols.h
+c000000004CE18CE20000000000000E35
+t1289850082
+s3637
+i"ccTypes.h"
+i"CCTexture2D.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCRenderTexture.h
+c000000004CE18CE20000000000000C1C
+t1289850082
+s3100
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCSprite.h"
+i"Support/OpenGL_Internal.h"
+i<Availability.h>
+i<UIKit/UIKit.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCRibbon.h
+c000000004CE18CE20000000000000FCD
+t1289850082
+s4045
+i"CCNode.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i"Platforms/CCGL.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCScene.h
+c000000004CE18CE20000000000000677
+t1289850082
+s1655
+i"CCNode.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCScheduler.h
+c000000004CE18CE200000000000019D7
+t1289850082
+s6615
+i"Support/uthash.h"
+i"ccTypes.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCSprite.h
+c000000004CE18CE200000000000031DA
+t1289850082
+s12762
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCSpriteBatchNode.h
+c000000004CE18CE200000000000018F8
+t1289850082
+s6392
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+i"ccMacros.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCSpriteFrame.h
+c000000004CE18CE2000000000000158F
+t1289850082
+s5519
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCSpriteFrameCache.h
+c000000004CE18CE200000000000012B5
+t1289850082
+s4789
+i<Foundation/Foundation.h>
+i"CCSpriteFrame.h"
+i"CCTexture2D.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCSpriteSheet.h
+c000000004CE18CE200000000000009FE
+t1289850082
+s2558
+i"CCSpriteBatchNode.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCTMXLayer.h
+c000000004CE18CE20000000000001828
+t1289850082
+s6184
+i"CCAtlasNode.h"
+i"CCSpriteBatchNode.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCTMXObjectGroup.h
+c000000004CE18CE300000000000008D5
+t1289850083
+s2261
+i"CCSpriteSheet.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCTMXTiledMap.h
+c000000004CE18CE300000000000014D4
+t1289850083
+s5332
+i"CCSpriteSheet.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCTMXXMLParser.h
+c000000004CE18CE300000000000016B9
+t1289850083
+s5817
+i<Availability.h>
+i<Foundation/Foundation.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCTexture2D.h
+c000000004CE18CE30000000000002C26
+t1289850083
+s11302
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+i"Platforms/CCNS.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCTextureAtlas.h
+c000000004CE18CE3000000000000145B
+t1289850083
+s5211
+i"CCTexture2D.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCTextureCache.h
+c000000004CE18CE3000000000000148A
+t1289850083
+s5258
+i<Availability.h>
+i<CoreGraphics/CGImage.h>
+i<Foundation/Foundation.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCTexturePVR.h
+c000000004CE18CE30000000000000D41
+t1289850083
+s3393
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+i"CCTextureCache.h"
+i"CCTexture2D.h"
+i"ccCArray.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCTileMapAtlas.h
+c000000004CE18CE30000000000000B86
+t1289850083
+s2950
+i"CCTextureAtlas.h"
+i"CCAtlasNode.h"
+i"Support/TGAlib.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCTransition.h
+c000000004CE18CE30000000000002134
+t1289850083
+s8500
+i"CCScene.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCTransitionPageTurn.h
+c000000004CE18CE30000000000000917
+t1289850083
+s2327
+i"CCTransition.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCTransitionRadial.h
+c000000004CE18CE30000000000000630
+t1289850083
+s1584
+i"CCTransition.h"
+i"CCProgressTimer.h"
+i"CCActionProgressTimer.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/CCGL.h
+c000000004CE18CE30000000000000BF8
+t1289850083
+s3064
+i<Availability.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/EAGL.h>
+i"iOS/glu.h"
+i"iOS/EAGLView.h"
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i<Cocoa/Cocoa.h>
+i"Mac/MacGLView.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/CCNS.h
+c000000004CE18CE30000000000000965
+t1289850083
+s2405
+i<Availability.h>
+i<Foundation/Foundation.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/Mac/CCDirectorMac.h
+c000000004CE18CE300000000000008D9
+t1289850083
+s2265
+i<Availability.h>
+i<QuartzCore/CVDisplayLink.h>
+i"../../CCDirector.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/Mac/CCEventDispatcher.h
+c000000004CE18CE30000000000001967
+t1289850083
+s6503
+i<Availability.h>
+i<Cocoa/Cocoa.h>
+i"MacGLView.h"
+i"../../Support/uthash.h"
+i"../../Support/utlist.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/Mac/MacGLView.h
+c000000004CE18CE30000000000000A44
+t1289850083
+s2628
+i<Availability.h>
+i<Cocoa/Cocoa.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/CCDirectorIOS.h
+c000000004CE18CE300000000000029FD
+t1289850083
+s10749
+i<Availability.h>
+i"../../CCDirector.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/CCTouchDelegateProtocol.h
+c000000004CE18CE30000000000000BC3
+t1289850083
+s3011
+i<Availability.h>
+i<UIKit/UIKit.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/CCTouchDispatcher.h
+c000000004CE18CE300000000000010CA
+t1289850083
+s4298
+i<Availability.h>
+i"CCTouchDelegateProtocol.h"
+i"EAGLView.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/CCTouchHandler.h
+c000000004CE18CE30000000000000D99
+t1289850083
+s3481
+i<Availability.h>
+i"CCTouchDelegateProtocol.h"
+i"CCTouchDispatcher.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/EAGLView.h
+c000000004CE18CE300000000000018F9
+t1289850083
+s6393
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"ESRenderer.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/ESRenderer.h
+c000000004CE18CE300000000000006F8
+t1289850083
+s1784
+i<Availability.h>
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/glu.h
+c000000004CE18CE3000000000000030D
+t1289850083
+s781
+i<Availability.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Support/CCArray.h
+c000000004CE18CE30000000000000BD7
+t1289850083
+s3031
+i"ccCArray.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Support/CCFileUtils.h
+c000000004CE18CE30000000000000672
+t1289850083
+s1650
+i<Foundation/Foundation.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Support/CCProfiling.h
+c000000004CE18CE300000000000006E9
+t1289850083
+s1769
+i<Foundation/Foundation.h>
+i<sys/time.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Support/CGPointExtension.h
+c000000004CE18CE30000000000001EAB
+t1289850083
+s7851
+i<Availability.h>
+i<CoreGraphics/CGGeometry.h>
+i<Foundation/Foundation.h>
+i<math.h>
+i<objc/objc.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Support/OpenGL_Internal.h
+c000000004CE18CE300000000000011A7
+t1289850083
+s4519
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Support/TGAlib.h
+c000000004CE18CE30000000000000444
+t1289850083
+s1092
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Support/ccCArray.h
+c000000004CE18CE300000000000030F3
+t1289850083
+s12531
+i<Foundation/Foundation.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Support/ccUtils.h
+c000000004CE18CE30000000000000204
+t1289850083
+s516
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Support/uthash.h
+c000000004CE18CE3000000000000FB13
+t1289850083
+s64275
+i<string.h>
+i<stddef.h>
+i<inttypes.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Support/utlist.h
+c000000004CE18CE30000000000009091
+t1289850083
+s37009
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/ccConfig.h
+c000000004CE18CE30000000000002449
+t1289850083
+s9289
+i<Availability.h>
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/ccMacros.h
+c000000004CE18CE30000000000001C29
+t1289850083
+s7209
+i<math.h>
+i"ccConfig.h"
+i<Foundation/Foundation.h>
+i<Availability.h>
+i"Platforms/iOS/CCDirectorIOS.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/ccTypes.h
+c000000004CE18CE300000000000016C0
+t1289850083
+s5824
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<CoreGraphics/CGGeometry.h>
+i"Platforms/CCGL.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/cocos2d.h
+c000000004CE18CE30000000000001005
+t1289850083
+s4101
+i<Availability.h>
+i"ccConfig.h"
+i"CCActionManager.h"
+i"CCAction.h"
+i"CCActionInstant.h"
+i"CCActionInterval.h"
+i"CCActionEase.h"
+i"CCActionCamera.h"
+i"CCActionTween.h"
+i"CCActionEase.h"
+i"CCActionTiledGrid.h"
+i"CCActionGrid3D.h"
+i"CCActionGrid.h"
+i"CCActionProgressTimer.h"
+i"CCActionPageTurn3D.h"
+i"CCSprite.h"
+i"CCSpriteFrame.h"
+i"CCSpriteSheet.h"
+i"CCSpriteBatchNode.h"
+i"CCSpriteFrameCache.h"
+i"CCLabelTTF.h"
+i"CCLabelBMFont.h"
+i"CCLabelAtlas.h"
+i"CCParticleSystem.h"
+i"CCParticleSystemPoint.h"
+i"CCParticleSystemQuad.h"
+i"CCParticleExamples.h"
+i"CCTexture2D.h"
+i"CCTexturePVR.h"
+i"CCTextureCache.h"
+i"CCTextureAtlas.h"
+i"CCTransition.h"
+i"CCTransitionPageTurn.h"
+i"CCTransitionRadial.h"
+i"CCTMXTiledMap.h"
+i"CCTMXLayer.h"
+i"CCTMXObjectGroup.h"
+i"CCTMXXMLParser.h"
+i"CCTileMapAtlas.h"
+i"CCLayer.h"
+i"CCMenu.h"
+i"CCMenuItem.h"
+i"CCDrawingPrimitives.h"
+i"CCScene.h"
+i"CCScheduler.h"
+i"CCBlockSupport.h"
+i"CCCamera.h"
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCDirector.h"
+i"CCAtlasNode.h"
+i"CCGrabber.h"
+i"CCGrid.h"
+i"CCParallaxNode.h"
+i"CCRenderTexture.h"
+i"CCMotionStreak.h"
+i"CCConfiguration.h"
+i"ccTypes.h"
+i"ccMacros.h"
+i"Platforms/CCGL.h"
+i"Platforms/CCNS.h"
+i"Platforms/iOS/CCTouchDispatcher.h"
+i"Platforms/iOS/CCTouchDelegateProtocol.h"
+i"Platforms/iOS/CCTouchHandler.h"
+i"Platforms/iOS/EAGLView.h"
+i"Platforms/iOS/CCDirectorIOS.h"
+i"Platforms/Mac/MacGLView.h"
+i"Platforms/Mac/CCDirectorMac.h"
+i"Support/OpenGL_Internal.h"
+i"Support/CCFileUtils.h"
+i"Support/CGPointExtension.h"
+i"Support/ccCArray.h"
+i"Support/CCArray.h"
+i"Support/ccUtils.h"
+i"Support/CCProfiling.h"
+i"CCCompatibility.h"
+
+N/Users/aidenfry/Desktop/AidenTowerDefensePart5/main.m
+c000000004D9E6B7B0000000000000184
+t1302227835
+s388
+i<UIKit/UIKit.h>
+
+NResources/Info.plist
+c000000004CE18CE100000000000003FE
+t1289850081
+s1022
+
+CBuild AST from /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Creep.m
+r0
+
+CBuild AST from /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/DataModel.m
+r0
+
+CBuild AST from /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m
+r0
+
+CBuild AST from /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Projectile.m
+r0
+
+CBuild AST from /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/RootViewController.m
+r0
+
+CBuild AST from /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Tower.m
+r0
+
+CBuild AST from /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TowerDefenseTutorialAppDelegate.m
+r0
+
+CBuild AST from /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m
+r0
+
+CBuild AST from /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Wave.m
+r0
+
+CBuild AST from /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/WayPoint.m
+r0
+
+CBuild AST from /Users/aidenfry/Desktop/AidenTowerDefensePart5/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies8e03f3eadeb4b441^ff5dffeadeb4b441^---0#1#0#--18"Check dependencies36"37A8ECC6-1F6A-450F-923A-11082BD9089A-
+
+CCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Creep.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Creep.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s347397868.984203
+e347397869.309753
+r1
+xCompileC
+xDerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Creep.o
+x/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Creep.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Creep.m: In function '-[Creep initWithCreep:]':
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Creep.m:24: warning: 'CCSprite' may not respond to '-alloc'
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Creep.m:24: warning: (Messages without a matching method signature
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Creep.m:24: warning: will be assumed to return 'id' and accept
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Creep.m:24: warning: '...' as arguments.)
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Creep.m581afcecdeb4b441^64af4feddeb4b441^-340"/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Creep.m: In function '-[Creep initWithCreep:]':/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Creep.m:24: warning: 'CCSprite' may not respond to '-alloc'/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Creep.m:24: warning: (Messages without a matching method signature2(21%IDEActivityLogMessage2@38"'CCSprite' may not respond to '-alloc'-347397869#103#115#-1#-23%DVTTextDocumentLocation3@78"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Creep.m0000000000000000^23#18446744073709551615#23#18446744073709551615#18446744073709551615#0#26"'*' may not respond to '*'--2@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)-347397869#218#122#-0#-3@78"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Creep.m0000000000000000^23#18446744073709551615#23#18446744073709551615#18446744073709551615#0#19"LLVM GCC 4.2 Notice--0#0#0#-19%DVTDocumentLocation4@78"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Creep.m0000000000000000^2978"CompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Creep.o Classes/Creep.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-generated-files.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-own-target-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-all-target-headers.hmap -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-project-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/include -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources/i386 -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources -Wall -F/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator -include /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/PrecompiledHeaders/TowerDefenseTutorial_Prefix-agyjisdeqfmqjfguhkmoyufgipgj/TowerDefenseTutorial_Prefix.pch -c /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Creep.m -o /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Creep.o36"CCFAD372-BCAE-4EB5-B7DE-37CDF2722928-
+
+CCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/DataModel.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/DataModel.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s347397868.754821
+e347397868.982876
+r1
+xCompileC
+xDerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/DataModel.o
+x/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/DataModel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/DataModel.m075ec1ecdeb4b441^d23800eddeb4b441^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/DataModel.m0000000000000000^2994"CompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/DataModel.o Classes/DataModel.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-generated-files.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-own-target-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-all-target-headers.hmap -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-project-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/include -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources/i386 -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources -Wall -F/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator -include /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/PrecompiledHeaders/TowerDefenseTutorial_Prefix-agyjisdeqfmqjfguhkmoyufgipgj/TowerDefenseTutorial_Prefix.pch -c /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/DataModel.m -o /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/DataModel.o36"93F040D2-2023-4719-95D9-5509407AE95D-
+
+CCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/GameHUD.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s347397868.742637
+e347397869.033605
+r1
+xCompileC
+xDerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/GameHUD.o
+x/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m: In function '-[GameHUD ccTouchMoved:withEvent:]':
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m:108: warning: 'CCLayer' may not respond to '-canBuildOnTilePosition:'
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m:108: warning: (Messages without a matching method signature
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m:108: warning: will be assumed to return 'id' and accept
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m:108: warning: '...' as arguments.)
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m:108: warning: initialization makes integer from pointer without a cast
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m: In function '-[GameHUD ccTouchEnded:withEvent:]':
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m:129: warning: 'CCLayer' may not respond to '-addTower:'
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m6cb4c0ecdeb4b441^d6900ceddeb4b441^-970"/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m: In function '-[GameHUD ccTouchMoved:withEvent:]':/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m:108: warning: 'CCLayer' may not respond to '-canBuildOnTilePosition:'/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m:108: warning: (Messages without a matching method signature/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m:108: warning: will be assumed to return 'id' and accept/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m:108: warning: '...' as arguments.)/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m:108: warning: initialization makes integer from pointer without a cast/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m: In function '-[GameHUD ccTouchEnded:withEvent:]':/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m:129: warning: 'CCLayer' may not respond to '-addTower:'4(21%IDEActivityLogMessage2@55"'CCLayer' may not respond to '-canBuildOnTilePosition:'-347397868#116#135#-1#-23%DVTTextDocumentLocation3@80"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m0000000000000000^107#18446744073709551615#107#18446744073709551615#18446744073709551615#0#26"'*' may not respond to '*'--2@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)-347397868#251#125#-0#-3@80"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m0000000000000000^107#18446744073709551615#107#18446744073709551615#18446744073709551615#0#19"LLVM GCC 4.2 Notice--2@56"Initialization makes integer from pointer without a cast-347397868#597#136#-1#-3@80"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m0000000000000000^107#18446744073709551615#107#18446744073709551615#18446744073709551615#0#20"LLVM GCC 4.2 Warning--2@41"'CCLayer' may not respond to '-addTower:'-347397868#849#121#-1#-3@80"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m0000000000000000^128#18446744073709551615#128#18446744073709551615#18446744073709551615#0#26"'*' may not respond to '*'--0#0#0#-19%DVTDocumentLocation4@80"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m0000000000000000^2986"CompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/GameHUD.o Classes/GameHUD.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-generated-files.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-own-target-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-all-target-headers.hmap -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-project-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/include -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources/i386 -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources -Wall -F/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator -include /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/PrecompiledHeaders/TowerDefenseTutorial_Prefix-agyjisdeqfmqjfguhkmoyufgipgj/TowerDefenseTutorial_Prefix.pch -c /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/GameHUD.m -o /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/GameHUD.o36"D444DE7E-A6CC-44A2-9770-84C688FA6B99-
+
+CCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Projectile.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Projectile.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s347397869.051900
+e347397869.237790
+r1
+xCompileC
+xDerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Projectile.o
+x/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Projectile.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Projectile.md47c0deddeb4b441^d6583eeddeb4b441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Projectile.m0000000000000000^2998"CompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Projectile.o Classes/Projectile.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-generated-files.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-own-target-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-all-target-headers.hmap -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-project-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/include -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources/i386 -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources -Wall -F/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator -include /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/PrecompiledHeaders/TowerDefenseTutorial_Prefix-agyjisdeqfmqjfguhkmoyufgipgj/TowerDefenseTutorial_Prefix.pch -c /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Projectile.m -o /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Projectile.o36"7B17FF0F-C13D-4463-A8CD-C9D3DDB2683E-
+
+CCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/RootViewController.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s347397868.553725
+e347397868.738968
+r1
+xCompileC
+xDerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/RootViewController.o
+x/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/RootViewController.mb5e08decdeb4b441^11c5f4ecdeb4b441^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/RootViewController.m0000000000000000^3030"CompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/RootViewController.o Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-generated-files.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-own-target-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-all-target-headers.hmap -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-project-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/include -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources/i386 -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources -Wall -F/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator -include /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/PrecompiledHeaders/TowerDefenseTutorial_Prefix-agyjisdeqfmqjfguhkmoyufgipgj/TowerDefenseTutorial_Prefix.pch -c /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/RootViewController.m -o /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/RootViewController.o36"C4807B81-8E25-4B38-9992-B09EA74809BC-
+
+CCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Tower.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Tower.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s347397869.239177
+e347397869.638198
+r1
+xCompileC
+xDerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Tower.o
+x/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Tower.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Tower.mc5593deddeb4b441^116da3eddeb4b441^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Tower.m0000000000000000^2978"CompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Tower.o Classes/Tower.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-generated-files.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-own-target-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-all-target-headers.hmap -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-project-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/include -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources/i386 -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources -Wall -F/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator -include /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/PrecompiledHeaders/TowerDefenseTutorial_Prefix-agyjisdeqfmqjfguhkmoyufgipgj/TowerDefenseTutorial_Prefix.pch -c /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Tower.m -o /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Tower.o36"548A98D2-5224-428F-90E6-FDB36378CE10-
+
+CCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/TowerDefenseTutorialAppDelegate.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TowerDefenseTutorialAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s347397868.086073
+e347397868.552355
+r1
+xCompileC
+xDerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/TowerDefenseTutorialAppDelegate.o
+x/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TowerDefenseTutorialAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TowerDefenseTutorialAppDelegate.mf43616ecdeb4b441^bd728decdeb4b441^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TowerDefenseTutorialAppDelegate.m0000000000000000^3082"CompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/TowerDefenseTutorialAppDelegate.o Classes/TowerDefenseTutorialAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-generated-files.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-own-target-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-all-target-headers.hmap -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-project-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/include -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources/i386 -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources -Wall -F/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator -include /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/PrecompiledHeaders/TowerDefenseTutorial_Prefix-agyjisdeqfmqjfguhkmoyufgipgj/TowerDefenseTutorial_Prefix.pch -c /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TowerDefenseTutorialAppDelegate.m -o /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/TowerDefenseTutorialAppDelegate.o36"DCE9BDF3-C137-4F29-8672-A7C21ACCF3C3-
+
+CCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/TutorialScene.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s347397868.280120
+e347397868.753079
+r1
+xCompileC
+xDerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/TutorialScene.o
+x/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m: In function '-[Tutorial init]':
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m:53: warning: 'Tutorial' may not respond to '-addWaves'
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m:53: warning: (Messages without a matching method signature
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m:53: warning: will be assumed to return 'id' and accept
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m:53: warning: '...' as arguments.)
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m: In function '-[Tutorial gameLogic:]':
+o/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m:224: warning: unused variable 'm'
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m59dc47ecdeb4b441^c8cdf4ecdeb4b441^-806"/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m: In function '-[Tutorial init]':/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m:53: warning: 'Tutorial' may not respond to '-addWaves'/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m:53: warning: (Messages without a matching method signature/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m:53: warning: will be assumed to return 'id' and accept/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m:53: warning: '...' as arguments.)/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m: In function '-[Tutorial gameLogic:]':/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m:224: warning: unused variable 'm'3(21%IDEActivityLogMessage2@41"'Tutorial' may not respond to '-addWaves'-347397868#104#126#-1#-23%DVTTextDocumentLocation3@86"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m0000000000000000^52#18446744073709551615#52#18446744073709551615#18446744073709551615#0#26"'*' may not respond to '*'--2@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)-347397868#230#130#-0#-3@86"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m0000000000000000^52#18446744073709551615#52#18446744073709551615#18446744073709551615#0#19"LLVM GCC 4.2 Notice--2@19"Unused variable 'm'-347397868#701#105#-1#-3@86"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m0000000000000000^223#18446744073709551615#223#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--0#0#0#-19%DVTDocumentLocation4@86"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m0000000000000000^3010"CompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/TutorialScene.o Classes/TutorialScene.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-generated-files.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-own-target-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-all-target-headers.hmap -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-project-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/include -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources/i386 -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources -Wall -F/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator -include /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/PrecompiledHeaders/TowerDefenseTutorial_Prefix-agyjisdeqfmqjfguhkmoyufgipgj/TowerDefenseTutorial_Prefix.pch -c /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/TutorialScene.m -o /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/TutorialScene.o36"191C78B6-A91D-4668-B841-7E4776A96B45-
+
+CCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Wave.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Wave.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s347397869.482072
+e347397869.644295
+r1
+xCompileC
+xDerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Wave.o
+x/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Wave.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Wave.m40897beddeb4b441^41f0a4eddeb4b441^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Wave.m0000000000000000^2974"CompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Wave.o Classes/Wave.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-generated-files.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-own-target-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-all-target-headers.hmap -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-project-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/include -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources/i386 -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources -Wall -F/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator -include /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/PrecompiledHeaders/TowerDefenseTutorial_Prefix-agyjisdeqfmqjfguhkmoyufgipgj/TowerDefenseTutorial_Prefix.pch -c /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/Wave.m -o /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/Wave.o36"A4181D11-C361-4EC3-963E-5CE0AAF50013-
+
+CCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/WayPoint.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/WayPoint.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s347397869.317949
+e347397869.480133
+r1
+xCompileC
+xDerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/WayPoint.o
+x/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/WayPoint.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/WayPoint.m30f351eddeb4b441^baf57aeddeb4b441^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/WayPoint.m0000000000000000^2990"CompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/WayPoint.o Classes/WayPoint.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-generated-files.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-own-target-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-all-target-headers.hmap -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-project-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/include -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources/i386 -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources -Wall -F/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator -include /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/PrecompiledHeaders/TowerDefenseTutorial_Prefix-agyjisdeqfmqjfguhkmoyufgipgj/TowerDefenseTutorial_Prefix.pch -c /Users/aidenfry/Desktop/AidenTowerDefensePart5/Classes/WayPoint.m -o /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/WayPoint.o36"94CC0A47-E3BF-4A3B-ACBB-0E52A6B0AFE7-
+
+CCompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/main.o /Users/aidenfry/Desktop/AidenTowerDefensePart5/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s347397868.086067
+e347397868.278710
+r1
+xCompileC
+xDerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/main.o
+x/Users/aidenfry/Desktop/AidenTowerDefensePart5/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/aidenfry/Desktop/AidenTowerDefensePart5/main.m8a7516ecdeb4b441^462648ecdeb4b441^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/main.m0000000000000000^2958"CompileC DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-generated-files.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-own-target-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-all-target-headers.hmap -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-project-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/include -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources/i386 -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources -Wall -F/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator -include /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/PrecompiledHeaders/TowerDefenseTutorial_Prefix-agyjisdeqfmqjfguhkmoyufgipgj/TowerDefenseTutorial_Prefix.pch -c /Users/aidenfry/Desktop/AidenTowerDefensePart5/main.m -o /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/main.o36"EB36E2BD-8388-4748-829C-8F3C0948C11E-
+
+CCpResource Resources/Default.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Default.png
+s347397867.014467
+e347397867.030759
+r1
+xCpResource
+xResources/Default.png
+xDerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Default.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Default.png1dcb03ebdeb4b441^aeef07ebdeb4b441^---0#0#0#-19%DVTDocumentLocation2@169"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Default.png00f4c46fddffdf42^648"CpResource Resources/Default.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Default.png    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/Default.png /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app36"A3D5B8D5-8319-4AB4-A74E-F5B2BDCBF366-
+
+CCpResource Resources/Enemy1.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Enemy1.png
+s347397867.064956
+e347397867.080234
+r1
+xCpResource
+xResources/Enemy1.png
+xDerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Enemy1.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Enemy1.png9eb410ebdeb4b441^7f8514ebdeb4b441^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Enemy1.png00f4c46fddffdf42^645"CpResource Resources/Enemy1.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Enemy1.png    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/Enemy1.png /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app36"1ABB2BCF-3D86-45DC-BCF0-DF314087EDFE-
+
+CCpResource Resources/Enemy2.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Enemy2.png
+s347397867.065529
+e347397867.080433
+r1
+xCpResource
+xResources/Enemy2.png
+xDerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Enemy2.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Enemy2.pngd4d610ebdeb4b441^cc9614ebdeb4b441^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Enemy2.png00f4c46fddffdf42^645"CpResource Resources/Enemy2.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Enemy2.png    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/Enemy2.png /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app36"3056BB31-2F4C-45B9-A633-D594C5239D11-
+
+CCpResource Resources/Icon.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Icon.png
+s347397867.031824
+e347397867.057286
+r1
+xCpResource
+xResources/Icon.png
+xDerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Icon.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Icon.png263908ebdeb4b441^20b40eebdeb4b441^---0#0#0#-19%DVTDocumentLocation2@166"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Icon.png00f4c46fddffdf42^639"CpResource Resources/Icon.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Icon.png    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/Icon.png /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app36"1EDF1316-8E7D-4C00-A2F9-548014666E9E-
+
+CCpResource Resources/MachineGunTurret.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/MachineGunTurret.png
+s347397867.058423
+e347397867.063837
+r1
+xCpResource
+xResources/MachineGunTurret.png
+xDerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/MachineGunTurret.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Copy DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/MachineGunTurret.png74090febdeb4b441^0b6210ebdeb4b441^---0#0#0#-19%DVTDocumentLocation2@178"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/MachineGunTurret.png00f4c46fddffdf42^675"CpResource Resources/MachineGunTurret.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/MachineGunTurret.png    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/MachineGunTurret.png /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app36"5EB4525C-EE52-4E6D-85EE-28B1746738A7-
+
+CCpResource Resources/Projectile.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Projectile.png
+s347397867.059317
+e347397867.063673
+r1
+xCpResource
+xResources/Projectile.png
+xDerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Projectile.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Copy DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Projectile.pngf2410febdeb4b441^685810ebdeb4b441^---0#0#0#-19%DVTDocumentLocation2@172"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Projectile.png00f4c46fddffdf42^657"CpResource Resources/Projectile.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Projectile.png    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/Projectile.png /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app36"62011010-C222-45DF-AA68-ACB59E99985F-
+
+CCpResource Resources/Range.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Range.png
+s347397867.112875
+e347397867.136466
+r1
+xCpResource
+xResources/Range.png
+xDerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Range.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Range.png86031debdeb4b441^aef022ebdeb4b441^---0#0#0#-19%DVTDocumentLocation2@167"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Range.png00f4c46fddffdf42^642"CpResource Resources/Range.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Range.png    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/Range.png /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app36"5F7274C0-F142-4604-B60B-61623886D77A-
+
+CCpResource Resources/TileMap.tmx DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/TileMap.tmx
+s347397867.082038
+e347397867.108093
+r1
+xCpResource
+xResources/TileMap.tmx
+xDerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/TileMap.tmx
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/TileMap.tmxa60f15ebdeb4b441^aab61bebdeb4b441^---0#0#0#-19%DVTDocumentLocation2@169"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/TileMap.tmx00f4c46fddffdf42^648"CpResource Resources/TileMap.tmx DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/TileMap.tmx    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/TileMap.tmx /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app36"91DDD593-4D7E-483A-8804-B662BC84F9BA-
+
+CCpResource Resources/fps_images.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/fps_images.png
+s347397867.015344
+e347397867.030558
+r1
+xCpResource
+xResources/fps_images.png
+xDerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/fps_images.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Copy DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/fps_images.png37ff03ebdeb4b441^bce807ebdeb4b441^---0#0#0#-19%DVTDocumentLocation2@172"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/fps_images.png00f4c46fddffdf42^657"CpResource Resources/fps_images.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/fps_images.png    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/fps_images.png /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app36"8C3DA6FA-B67A-4803-BC3E-149F1E9DD69E-
+
+CCpResource Resources/hud.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/hud.png
+s347397867.032607
+e347397867.055610
+r1
+xCpResource
+xResources/hud.png
+xDerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/hud.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Copy DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/hud.png776808ebdeb4b441^60ad0eebdeb4b441^---0#0#0#-19%DVTDocumentLocation2@165"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/hud.png00f4c46fddffdf42^636"CpResource Resources/hud.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/hud.png    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/hud.png /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app36"D1E41D5B-1F15-4B36-BF9E-B69A640B3028-
+
+CCpResource Resources/meta_tiles.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/meta_tiles.png
+s347397867.081516
+e347397867.084202
+r1
+xCpResource
+xResources/meta_tiles.png
+xDerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/meta_tiles.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Copy DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/meta_tiles.pngb2f114ebdeb4b441^259515ebdeb4b441^---0#0#0#-19%DVTDocumentLocation2@172"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/meta_tiles.png00f4c46fddffdf42^657"CpResource Resources/meta_tiles.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/meta_tiles.png    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/meta_tiles.png /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app36"B3F25D5C-2D15-4C5F-AF6A-364ACB63516F-
+
+CCpResource Resources/tmw_desert_spacing.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/tmw_desert_spacing.png
+s347397867.106446
+e347397867.134812
+r1
+xCpResource
+xResources/tmw_desert_spacing.png
+xDerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/tmw_desert_spacing.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Copy DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/tmw_desert_spacing.png13651bebdeb4b441^3b8f22ebdeb4b441^---0#0#0#-19%DVTDocumentLocation2@180"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/tmw_desert_spacing.png00f4c46fddffdf42^681"CpResource Resources/tmw_desert_spacing.png DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/tmw_desert_spacing.png    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/tmw_desert_spacing.png /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app36"FF2DC8D8-CAF2-4B67-A388-69FA294A3F7A-
+
+CGenerateDSYMFile /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app.dSYM /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/TowerDefenseTutorial
+s347397871.136966
+e347397871.439784
+r1
+xGenerateDSYMFile
+x/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app.dSYM
+x/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/TowerDefenseTutorial
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection157"Generating /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app.dSYM202423efdeb4b441^eaaee0f0deb4b441^---0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app.dSYM00f4c46fddffdf42^763"GenerateDSYMFile DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app.dSYM DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/TowerDefenseTutorial    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/TowerDefenseTutorial -o /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app.dSYM36"301EF190-4F99-4117-BE15-8DE8C60125DA-
+
+CLd /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/TowerDefenseTutorial normal i386
+s347397869.651609
+e347397871.130706
+r1
+xLd
+x/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/TowerDefenseTutorial
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection167"Link /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/TowerDefenseTutorial67eda6eddeb4b441^bc7621efdeb4b441^---0#0#0#--1505"Ld DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/TowerDefenseTutorial normal i386    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator -F/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator -filelist /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/Objects-normal/i386/TowerDefenseTutorial.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -all_load -ObjC -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/TowerDefenseTutorial36"1FA8E967-EF8B-42BF-9797-F28EA2928D43-
+
+CProcessInfoPlistFile /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Info.plist Resources/Info.plist
+s347397866.993759
+e347397867.006222
+r1
+xProcessInfoPlistFile
+x/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Info.plist
+xResources/Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process Resources/Info.plisted81feeadeb4b441^75b101ebdeb4b441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/Resources/Info.plist0000000000000000^763"ProcessInfoPlistFile DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Info.plist Resources/Info.plist    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app/Info.plist36"EE12951F-16D5-43AF-B285-93516B9EEF3D-
+
+CProcessPCH /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/PrecompiledHeaders/TowerDefenseTutorial_Prefix-agyjisdeqfmqjfguhkmoyufgipgj/TowerDefenseTutorial_Prefix.pch.gch TowerDefenseTutorial_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s347397867.144652
+e347397868.078183
+r1
+xProcessPCH
+x/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/PrecompiledHeaders/TowerDefenseTutorial_Prefix-agyjisdeqfmqjfguhkmoyufgipgj/TowerDefenseTutorial_Prefix.pch.gch
+xTowerDefenseTutorial_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile TowerDefenseTutorial_Prefix.pchd02825ebdeb4b441^6c0a14ecdeb4b441^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/aidenfry/Desktop/AidenTowerDefensePart5/TowerDefenseTutorial_Prefix.pch0000000000000000^2804"ProcessPCH DerivedData/TowerDefenseTutorial/Build/PrecompiledHeaders/TowerDefenseTutorial_Prefix-agyjisdeqfmqjfguhkmoyufgipgj/TowerDefenseTutorial_Prefix.pch.gch TowerDefenseTutorial_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-generated-files.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-own-target-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-all-target-headers.hmap -iquote /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/TowerDefenseTutorial-project-headers.hmap -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/include -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources/i386 -I/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Intermediates/TowerDefenseTutorial.build/Debug-iphonesimulator/TowerDefenseTutorial.build/DerivedSources -Wall -F/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator -c /Users/aidenfry/Desktop/AidenTowerDefensePart5/TowerDefenseTutorial_Prefix.pch -o /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/PrecompiledHeaders/TowerDefenseTutorial_Prefix-agyjisdeqfmqjfguhkmoyufgipgj/TowerDefenseTutorial_Prefix.pch.gch36"37AE9659-AB81-4BCD-8000-7BC2B6E308A0-
+
+CProcessPCH /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Index/PrecompiledHeaders/TowerDefenseTutorial_Prefix-dumivzvamhobxgbkmnhjbhvxnzue_ast/TowerDefenseTutorial_Prefix.pch.pth TowerDefenseTutorial_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app
+s347397871.449781
+e347397871.544922
+r1
+xTouch
+x/Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Touch /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app223773efdeb4b441^f1b8e0f0deb4b441^---0#0#0#--450"Touch DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app    cd /Users/aidenfry/Desktop/AidenTowerDefensePart5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/aidenfry/Desktop/AidenTowerDefensePart5/DerivedData/TowerDefenseTutorial/Build/Products/Debug-iphonesimulator/TowerDefenseTutorial.app36"F6747EE8-C3A9-473D-9B5E-32EA8AAF6D1D-
+

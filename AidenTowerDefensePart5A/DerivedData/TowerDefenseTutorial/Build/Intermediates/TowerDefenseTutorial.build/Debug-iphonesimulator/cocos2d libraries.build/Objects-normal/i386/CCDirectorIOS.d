@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/CCDirectorIOS.m \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/CCDirectorIOS.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../CCDirector.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../ccConfig.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../ccTypes.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../Platforms/CCGL.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../Platforms/iOS/glu.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../Platforms/iOS/EAGLView.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/ESRenderer.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/CCTouchDelegateProtocol.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/CCTouchDispatcher.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../CCScheduler.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../Support/uthash.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../CCActionManager.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../CCAction.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../Support/ccCArray.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../CCTextureCache.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../ccMacros.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../CCScene.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../CCNode.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../CCTexture2D.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../Platforms/CCNS.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../CCProtocols.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../Support/CCArray.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../Support/OpenGL_Internal.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/Platforms/iOS/../../Support/CGPointExtension.h \
+  /Users/aidenfry/Desktop/AidenTowerDefensePart5/libs/cocos2d/CCLayer.h

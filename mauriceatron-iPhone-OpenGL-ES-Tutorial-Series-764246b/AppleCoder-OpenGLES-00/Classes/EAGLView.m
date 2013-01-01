@@ -91,24 +91,100 @@
         -1.0, 1.0, -1.0, // top left
         
         // bottom face
-        -1.0, -1.0, 1.0,
-        -1.0, -1.0, -1.0,
-        1.0, -1.0, -1.0,
-        1.0, -1.0, 1.0,
+        -1.0, -1.0, 1.0,// bottom left (when viewed from front)
+        -1.0, -1.0, -1.0,// top left
+        1.0, -1.0, -1.0,// top right
+        1.0, -1.0, 1.0,// bottom right
         
         // left face
-        -1.0, 1.0, -1.0,
-        -1.0, 1.0, 1.0,
-        -1.0, -1.0, 1.0,
-        -1.0, -1.0, -1.0,
+        -1.0, 1.0, -1.0,//top left (when viewed from front)
+        -1.0, 1.0, 1.0,//top right
+        -1.0, -1.0, 1.0,// bottom right
+        -1.0, -1.0, -1.0,//bottom left
         
         // right face
-        1.0, 1.0, 1.0,
-        1.0, 1.0, -1.0,
-        1.0, -1.0, -1.0,
-        1.0, -1.0, 1.0
+        1.0, 1.0, 1.0,//top left (when viewed from front)
+        1.0, 1.0, -1.0,//top right
+        1.0, -1.0, -1.0,// bottom right
+        1.0, -1.0, 1.0//bottom left
     }; 
     
+    
+    
+    // Our new object definition code goes here
+    const GLfloat pyramidVertices[] = {
+        // Our pyramid consists of 4 triangles and a square base.
+        // We'll start with the square base
+        -1.0, -1.0, 1.0, // front left of base
+        1.0, -1.0, 1.0, // front right of base
+        1.0, -1.0, -1.0, // rear left of base
+        -1.0, -1.0, -1.0, // rear right of base
+        
+        // Front face
+        -1.0, -1.0, 1.0, // bottom left of triangle
+        1.0, -1.0, 1.0, // bottom right
+        0.0, 1.0, 0.0, // top centre -- all triangle vertices
+        // will meet here
+        
+        // Rear face
+        1.0, -1.0, -1.0, // bottom right (when viewed through front face)
+        -1.0, -1.0, -1.0, // bottom left
+        0.0, 1.0, 0.0, // top centre
+        
+        // left face
+        -1.0, -1.0, -1.0, // bottom rear
+        -1.0, -1.0, 1.0, // bottom front
+        0.0, 1.0, 0.0, // top centre
+        
+        // right face
+        1.0, -1.0, 1.0, // bottom front
+        1.0, -1.0, -1.0, // bottom rear
+        0.0, 1.0, 0.0 // top centre
+    };
+    
+    const GLshort squareTextureCoords[] = {
+        // Front face
+        0, 1, // top left
+        0, 0, // bottom left
+        1, 0, // bottom right
+        1, 1, // top right
+        
+        // Top face
+        0, 1, // top left
+        0, 0, // bottom left
+        1, 0, // bottom right
+        1, 1, // top right
+        
+        // Rear face
+        0, 1, // top left
+        0, 0, // bottom left
+        1, 0, // bottom right
+        1, 1, // top right
+        
+        // Bottom face
+        0, 1, // top left
+        0, 0, // bottom left
+        1, 0, // bottom right
+        1, 1, // top right
+        
+        // Left face
+        0, 1, // top left
+        0, 0, // bottom left
+        1, 0, // bottom right
+        1, 1, // top right
+        
+        // Right face
+        0, 1, // top left
+        0, 0, // bottom left
+        1, 0, // bottom right
+        1, 1, // top right
+    };
+    const GLfloat blendRectangle[] = {
+        2.0, 1.0, -2.0,
+        -2.0, 1.0, -2.0,
+        -2.0, -1.0, -2.0,
+        2.0, -1.0, -2.0
+    };
 
     
     [EAGLContext setCurrentContext:context];
@@ -117,14 +193,105 @@
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glMatrixMode(GL_MODELVIEW);
     
+    glTexCoordPointer(2, GL_SHORT, 0, squareTextureCoords);
+    glEnableClientState(GL_TEXTURE_COORD_ARRAY);
+    
+    
+    
+    
     // Our new drawing code goes here
+    rota += 0.5;
+    
+    glPushMatrix();
+    {
+        glTranslatef(-2.0, 0.0, -8.0);
+        glRotatef(rota, 1.0, 0.0, 0.0);
+        glVertexPointer(3, GL_FLOAT, 0, pyramidVertices);
+        glEnableClientState(GL_VERTEX_ARRAY);
+        
+        // Draw the pyramid
+        // Draw the base -- it's a square remember
+        glColor4f(1.0, 0.0, 0.0, 1.0);
+        glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
+        
+        // Front Face
+        glColor4f(0.0, 1.0, 0.0, 1.0);
+        glDrawArrays(GL_TRIANGLES, 4, 3);
+        
+        // Rear Face
+        glColor4f(0.0, 0.0, 1.0, 1.0);
+        glDrawArrays(GL_TRIANGLES, 7, 3);
+        
+        // Right Face
+        glColor4f(1.0, 1.0, 0.0, 1.0);
+        glDrawArrays(GL_TRIANGLES, 10, 3);
+        
+        // Left Face
+        glColor4f(1.0, 0.0, 1.0, 1.0);
+        glDrawArrays(GL_TRIANGLES, 13, 3);
+    }
+    glPopMatrix();
+    
+    glPushMatrix();
+    {
+        glTranslatef(2.0, 0.0, -8.0);
+        glRotatef(rota, 1.0, 1.0, 1.0);
+        glVertexPointer(3, GL_FLOAT, 0, cubeVertices);
+        glEnableClientState(GL_VERTEX_ARRAY);
+        
+        // Draw the front face in Red
+        glColor4f(1.0, 0.0, 0.0, 1.0);
+        glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
+        
+        // Draw the top face in green
+        glColor4f(0.0, 1.0, 0.0, 1.0);
+        glDrawArrays(GL_TRIANGLE_FAN, 4, 4);
+        
+        // Draw the rear face in Blue
+        glColor4f(0.0, 0.0, 1.0, 1.0);
+        glDrawArrays(GL_TRIANGLE_FAN, 8, 4);
+        
+        // Draw the bottom face
+        glColor4f(1.0, 1.0, 0.0, 1.0);
+        glDrawArrays(GL_TRIANGLE_FAN, 12, 4);
+        
+        // Draw the left face
+        glColor4f(0.0, 1.0, 1.0, 1.0);
+        glDrawArrays(GL_TRIANGLE_FAN, 16, 4);
+        
+        // Draw the right face
+        glColor4f(1.0, 0.0, 1.0, 1.0);
+        glDrawArrays(GL_TRIANGLE_FAN, 20, 4);
+    }
+    glPopMatrix();
+    
+    glDisableClientState(GL_TEXTURE_COORD_ARRAY);
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE);
+    glPushMatrix();
+    {
+        glTranslatef(0.0, 1.0, -4.0);
+        glVertexPointer(3, GL_FLOAT, 0, blendRectangle);
+        glEnableClientState(GL_VERTEX_ARRAY);
+        glColor4f(1.0, 0.0, 0.0, 0.4);
+        glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
+    }
+    glPopMatrix();
+    
+    glPushMatrix();
+    {
+        glTranslatef(0.0, -1.0, -4.0);
+        glColor4f(1.0, 1.0, 0.0, 0.4);
+        glDrawArrays(GL_TRIANGLE_FAN, 0, 4);
+    }
+    glPopMatrix();
+    glDisable(GL_BLEND);
     
     glBindRenderbufferOES(GL_RENDERBUFFER_OES, viewRenderbuffer);
     [context presentRenderbuffer:GL_RENDERBUFFER_OES];
+    
     [self checkGLError:NO];
-
 }
-
 
 - (void)layoutSubviews {
     [EAGLContext setCurrentContext:context];
