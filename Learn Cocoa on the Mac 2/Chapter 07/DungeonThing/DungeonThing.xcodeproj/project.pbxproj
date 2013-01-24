@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66BC6F4315BF070B00798827 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66BC6F4215BF070B00798827 /* Cocoa.framework */; };
+		66BC6F4D15BF070B00798827 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66BC6F4B15BF070B00798827 /* InfoPlist.strings */; };
+		66BC6F4F15BF070B00798827 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BC6F4E15BF070B00798827 /* main.m */; };
+		66BC6F5315BF070B00798827 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 66BC6F5115BF070B00798827 /* Credits.rtf */; };
+		66BC6F5615BF070B00798827 /* DungeonThingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BC6F5515BF070B00798827 /* DungeonThingAppDelegate.m */; };
+		66BC6F5915BF070B00798827 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66BC6F5715BF070B00798827 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66BC6F3E15BF070B00798827 /* DungeonThing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DungeonThing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BC6F4215BF070B00798827 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		66BC6F4515BF070B00798827 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		66BC6F4615BF070B00798827 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		66BC6F4715BF070B00798827 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66BC6F4A15BF070B00798827 /* DungeonThing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DungeonThing-Info.plist"; sourceTree = "<group>"; };
+		66BC6F4C15BF070B00798827 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66BC6F4E15BF070B00798827 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66BC6F5015BF070B00798827 /* DungeonThing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DungeonThing-Prefix.pch"; sourceTree = "<group>"; };
+		66BC6F5215BF070B00798827 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		66BC6F5415BF070B00798827 /* DungeonThingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DungeonThingAppDelegate.h; sourceTree = "<group>"; };
+		66BC6F5515BF070B00798827 /* DungeonThingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DungeonThingAppDelegate.m; sourceTree = "<group>"; };
+		66BC6F5815BF070B00798827 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66BC6F3B15BF070B00798827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BC6F4315BF070B00798827 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66BC6F3315BF070B00798827 = {
+			isa = PBXGroup;
+			children = (
+				66BC6F4815BF070B00798827 /* DungeonThing */,
+				66BC6F4115BF070B00798827 /* Frameworks */,
+				66BC6F3F15BF070B00798827 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66BC6F3F15BF070B00798827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66BC6F3E15BF070B00798827 /* DungeonThing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66BC6F4115BF070B00798827 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66BC6F4215BF070B00798827 /* Cocoa.framework */,
+				66BC6F4415BF070B00798827 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66BC6F4415BF070B00798827 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66BC6F4515BF070B00798827 /* AppKit.framework */,
+				66BC6F4615BF070B00798827 /* CoreData.framework */,
+				66BC6F4715BF070B00798827 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		66BC6F4815BF070B00798827 /* DungeonThing */ = {
+			isa = PBXGroup;
+			children = (
+				66BC6F5415BF070B00798827 /* DungeonThingAppDelegate.h */,
+				66BC6F5515BF070B00798827 /* DungeonThingAppDelegate.m */,
+				66BC6F5715BF070B00798827 /* MainMenu.xib */,
+				66BC6F4915BF070B00798827 /* Supporting Files */,
+			);
+			path = DungeonThing;
+			sourceTree = "<group>";
+		};
+		66BC6F4915BF070B00798827 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66BC6F4A15BF070B00798827 /* DungeonThing-Info.plist */,
+				66BC6F4B15BF070B00798827 /* InfoPlist.strings */,
+				66BC6F4E15BF070B00798827 /* main.m */,
+				66BC6F5015BF070B00798827 /* DungeonThing-Prefix.pch */,
+				66BC6F5115BF070B00798827 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66BC6F3D15BF070B00798827 /* DungeonThing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66BC6F5C15BF070B00798827 /* Build configuration list for PBXNativeTarget "DungeonThing" */;
+			buildPhases = (
+				66BC6F3A15BF070B00798827 /* Sources */,
+				66BC6F3B15BF070B00798827 /* Frameworks */,
+				66BC6F3C15BF070B00798827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DungeonThing;
+			productName = DungeonThing;
+			productReference = 66BC6F3E15BF070B00798827 /* DungeonThing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66BC6F3515BF070B00798827 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DungeonThing;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Learn Cocoa";
+			};
+			buildConfigurationList = 66BC6F3815BF070B00798827 /* Build configuration list for PBXProject "DungeonThing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66BC6F3315BF070B00798827;
+			productRefGroup = 66BC6F3F15BF070B00798827 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66BC6F3D15BF070B00798827 /* DungeonThing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66BC6F3C15BF070B00798827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BC6F4D15BF070B00798827 /* InfoPlist.strings in Resources */,
+				66BC6F5315BF070B00798827 /* Credits.rtf in Resources */,
+				66BC6F5915BF070B00798827 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66BC6F3A15BF070B00798827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BC6F4F15BF070B00798827 /* main.m in Sources */,
+				66BC6F5615BF070B00798827 /* DungeonThingAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66BC6F4B15BF070B00798827 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66BC6F4C15BF070B00798827 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66BC6F5115BF070B00798827 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66BC6F5215BF070B00798827 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		66BC6F5715BF070B00798827 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66BC6F5815BF070B00798827 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66BC6F5A15BF070B00798827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		66BC6F5B15BF070B00798827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		66BC6F5D15BF070B00798827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DungeonThing/DungeonThing-Prefix.pch";
+				INFOPLIST_FILE = "DungeonThing/DungeonThing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66BC6F5E15BF070B00798827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DungeonThing/DungeonThing-Prefix.pch";
+				INFOPLIST_FILE = "DungeonThing/DungeonThing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66BC6F3815BF070B00798827 /* Build configuration list for PBXProject "DungeonThing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BC6F5A15BF070B00798827 /* Debug */,
+				66BC6F5B15BF070B00798827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66BC6F5C15BF070B00798827 /* Build configuration list for PBXNativeTarget "DungeonThing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66BC6F5D15BF070B00798827 /* Debug */,
+				66BC6F5E15BF070B00798827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66BC6F3515BF070B00798827 /* Project object */;
+}

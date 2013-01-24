@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66538E8015916C42007DA6E4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66538E7F15916C42007DA6E4 /* Cocoa.framework */; };
+		66538E8A15916C42007DA6E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66538E8815916C42007DA6E4 /* InfoPlist.strings */; };
+		66538E8C15916C42007DA6E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66538E8B15916C42007DA6E4 /* main.m */; };
+		66538E9015916C42007DA6E4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 66538E8E15916C42007DA6E4 /* Credits.rtf */; };
+		66538E9315916C42007DA6E4 /* VillainTrackerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66538E9215916C42007DA6E4 /* VillainTrackerAppDelegate.m */; };
+		66538E9615916C42007DA6E4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66538E9415916C42007DA6E4 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66538E7B15916C42007DA6E4 /* VillainTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VillainTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66538E7F15916C42007DA6E4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		66538E8215916C42007DA6E4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		66538E8315916C42007DA6E4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		66538E8415916C42007DA6E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66538E8715916C42007DA6E4 /* VillainTracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VillainTracker-Info.plist"; sourceTree = "<group>"; };
+		66538E8915916C42007DA6E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66538E8B15916C42007DA6E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66538E8D15916C42007DA6E4 /* VillainTracker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VillainTracker-Prefix.pch"; sourceTree = "<group>"; };
+		66538E8F15916C42007DA6E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		66538E9115916C42007DA6E4 /* VillainTrackerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VillainTrackerAppDelegate.h; sourceTree = "<group>"; };
+		66538E9215916C42007DA6E4 /* VillainTrackerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VillainTrackerAppDelegate.m; sourceTree = "<group>"; };
+		66538E9515916C42007DA6E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66538E7815916C42007DA6E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66538E8015916C42007DA6E4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66538E7015916C42007DA6E4 = {
+			isa = PBXGroup;
+			children = (
+				66538E8515916C42007DA6E4 /* VillainTracker */,
+				66538E7E15916C42007DA6E4 /* Frameworks */,
+				66538E7C15916C42007DA6E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66538E7C15916C42007DA6E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66538E7B15916C42007DA6E4 /* VillainTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66538E7E15916C42007DA6E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66538E7F15916C42007DA6E4 /* Cocoa.framework */,
+				66538E8115916C42007DA6E4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66538E8115916C42007DA6E4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66538E8215916C42007DA6E4 /* AppKit.framework */,
+				66538E8315916C42007DA6E4 /* CoreData.framework */,
+				66538E8415916C42007DA6E4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		66538E8515916C42007DA6E4 /* VillainTracker */ = {
+			isa = PBXGroup;
+			children = (
+				66538E9115916C42007DA6E4 /* VillainTrackerAppDelegate.h */,
+				66538E9215916C42007DA6E4 /* VillainTrackerAppDelegate.m */,
+				66538E9415916C42007DA6E4 /* MainMenu.xib */,
+				66538E8615916C42007DA6E4 /* Supporting Files */,
+			);
+			path = VillainTracker;
+			sourceTree = "<group>";
+		};
+		66538E8615916C42007DA6E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66538E8715916C42007DA6E4 /* VillainTracker-Info.plist */,
+				66538E8815916C42007DA6E4 /* InfoPlist.strings */,
+				66538E8B15916C42007DA6E4 /* main.m */,
+				66538E8D15916C42007DA6E4 /* VillainTracker-Prefix.pch */,
+				66538E8E15916C42007DA6E4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66538E7A15916C42007DA6E4 /* VillainTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66538E9915916C42007DA6E4 /* Build configuration list for PBXNativeTarget "VillainTracker" */;
+			buildPhases = (
+				66538E7715916C42007DA6E4 /* Sources */,
+				66538E7815916C42007DA6E4 /* Frameworks */,
+				66538E7915916C42007DA6E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VillainTracker;
+			productName = VillainTracker;
+			productReference = 66538E7B15916C42007DA6E4 /* VillainTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66538E7215916C42007DA6E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VillainTracker;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Learn Cocoa";
+			};
+			buildConfigurationList = 66538E7515916C42007DA6E4 /* Build configuration list for PBXProject "VillainTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66538E7015916C42007DA6E4;
+			productRefGroup = 66538E7C15916C42007DA6E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66538E7A15916C42007DA6E4 /* VillainTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66538E7915916C42007DA6E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66538E8A15916C42007DA6E4 /* InfoPlist.strings in Resources */,
+				66538E9015916C42007DA6E4 /* Credits.rtf in Resources */,
+				66538E9615916C42007DA6E4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66538E7715916C42007DA6E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66538E8C15916C42007DA6E4 /* main.m in Sources */,
+				66538E9315916C42007DA6E4 /* VillainTrackerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66538E8815916C42007DA6E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66538E8915916C42007DA6E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66538E8E15916C42007DA6E4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66538E8F15916C42007DA6E4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		66538E9415916C42007DA6E4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66538E9515916C42007DA6E4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66538E9715916C42007DA6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		66538E9815916C42007DA6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		66538E9A15916C42007DA6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VillainTracker/VillainTracker-Prefix.pch";
+				INFOPLIST_FILE = "VillainTracker/VillainTracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66538E9B15916C42007DA6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VillainTracker/VillainTracker-Prefix.pch";
+				INFOPLIST_FILE = "VillainTracker/VillainTracker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66538E7515916C42007DA6E4 /* Build configuration list for PBXProject "VillainTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66538E9715916C42007DA6E4 /* Debug */,
+				66538E9815916C42007DA6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66538E9915916C42007DA6E4 /* Build configuration list for PBXNativeTarget "VillainTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66538E9A15916C42007DA6E4 /* Debug */,
+				66538E9B15916C42007DA6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66538E7215916C42007DA6E4 /* Project object */;
+}

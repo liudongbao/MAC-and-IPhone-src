@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Chapter04' target in the 'Chapter04' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
