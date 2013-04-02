@@ -49,7 +49,10 @@
                     [NSImage imageNamed:@"NSUser"], kMugshot,
                     @"", kNotes,
                     nil];
-    
+    self.villains = [NSMutableArray arrayWithObject:self.villain];
+    [villainsTableView reloadData];
+    [villainsTableView selectRow:0 byExtendingSelection:NO];
+    [self updateDetailViews];
     [self updateDetailViews];
 }
 

@@ -29,6 +29,7 @@
 		66E5B1A9141AA6DC00969621 /* KvcFunAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KvcFunAppDelegate.h; sourceTree = "<group>"; };
 		66E5B1AA141AA6DC00969621 /* KvcFunAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KvcFunAppDelegate.m; sourceTree = "<group>"; };
 		66E5B1AD141AA6DC00969621 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		695F3FD116CC912600B1ADC1 /* KvcFun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KvcFun.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		66E5B19D141AA6DC00969621 /* KvcFun */ = {
 			isa = PBXGroup;
 			children = (
+				695F3FD116CC912600B1ADC1 /* KvcFun.entitlements */,
 				66E5B1A9141AA6DC00969621 /* KvcFunAppDelegate.h */,
 				66E5B1AA141AA6DC00969621 /* KvcFunAppDelegate.m */,
 				66E5B1AC141AA6DC00969621 /* MainMenu.xib */,
@@ -289,6 +291,7 @@
 				66E5B1B3141AA6DC00969621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -12,7 +12,6 @@
 
 @synthesize textField = _textField;
 @synthesize window = _window;
-
 - (id)init {
     self = [super init];
     if (self) {

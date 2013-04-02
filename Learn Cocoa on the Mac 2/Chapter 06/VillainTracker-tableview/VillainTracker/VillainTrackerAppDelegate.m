@@ -140,8 +140,32 @@
 }
 
 - (IBAction)deleteVillain:(id)sender {
+    //
+    // Section 1:
+    //
+    [_window endEditingFor:nil];
+    int selectedRow = [villainsTableView selectedRow];
+    //
+    // Section 2:
+    //
+    [villains removeObjectIdenticalTo:villain];
+    [villainsTableView reloadData];
+    //
+    // Section 3:
     
+    if (selectedRow >= [villains count]) {
+    selectedRow = [villains count]-1;
 }
+// Section 4:
+if(selectedRow > -1){
+    // deselect all rows to ensure that the tableview sees the
+    // selection as "changed", even though it might still have
+    // the same row index.
+    // Section 5:
+    [villainsTableView deselectAll:nil];
+    [villainsTableView selectRow:selectedRow byExtendingSelection:NO];
+    [self updateDetailViews];
+}}
 
 
 - (void)textDidChange:(NSNotification *)aNotification {
@@ -225,8 +249,7 @@
 
 - (void)tableViewSelectionDidChange:(NSNotification *)aNotification {
     if ([villainsTableView selectedRow] > -1) {
-        self.villain = [self.villains
-                        objectAtIndex:[villainsTableView selectedRow]];
+      self.villain = [self.villains                         objectAtIndex:[villainsTableView selectedRow]];
         [self updateDetailViews];
         NSLog(@"current villain properties: %@", villain);
     }

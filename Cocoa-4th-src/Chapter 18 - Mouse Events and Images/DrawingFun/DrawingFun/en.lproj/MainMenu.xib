@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
-		<int key="IBDocument.SystemTarget">1070</int>
-		<string key="IBDocument.SystemVersion">11B26</string>
-		<string key="IBDocument.InterfaceBuilderVersion">1934</string>
-		<string key="IBDocument.AppKitVersion">1138</string>
-		<string key="IBDocument.HIToolboxVersion">566.00</string>
+		<int key="IBDocument.SystemTarget">1080</int>
+		<string key="IBDocument.SystemVersion">12C60</string>
+		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
+		<string key="IBDocument.AppKitVersion">1187.34</string>
+		<string key="IBDocument.HIToolboxVersion">625.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">1934</string>
+			<string key="NS.object.0">3084</string>
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
-			<string>NSView</string>
-			<string>NSMenu</string>
-			<string>NSScrollView</string>
-			<string>NSWindowTemplate</string>
-			<string>NSMenuItem</string>
-			<string>NSSliderCell</string>
-			<string>NSCustomView</string>
-			<string>NSSlider</string>
-			<string>NSScroller</string>
 			<string>NSCustomObject</string>
+			<string>NSCustomView</string>
+			<string>NSMenu</string>
+			<string>NSMenuItem</string>
+			<string>NSScrollView</string>
+			<string>NSScroller</string>
+			<string>NSSlider</string>
+			<string>NSSliderCell</string>
+			<string>NSView</string>
+			<string>NSWindowTemplate</string>
 		</array>
 		<array key="IBDocument.PluginDependencies">
 			<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -1196,7 +1196,7 @@
 			<object class="NSWindowTemplate" id="972006081">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{335, 390}, {480, 384}}</string>
+				<string key="NSWindowRect">{{722, 330}, {480, 384}}</string>
 				<int key="NSWTFlags">1954021376</int>
 				<string key="NSWindowTitle">DrawingFun</string>
 				<string key="NSWindowClass">NSWindow</string>
@@ -1225,7 +1225,7 @@
 											<string key="NSClassName">StretchView</string>
 										</object>
 									</array>
-									<string key="NSFrame">{{1, 1}, {440, 320}}</string>
+									<string key="NSFrame">{{1, 1}, {425, 305}}</string>
 									<reference key="NSSuperview" ref="628312136"/>
 									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="173400755"/>
@@ -1245,30 +1245,32 @@
 								<object class="NSScroller" id="417047173">
 									<reference key="NSNextResponder" ref="628312136"/>
 									<int key="NSvFlags">256</int>
-									<string key="NSFrame">{{426, 1}, {15, 314}}</string>
+									<string key="NSFrame">{{426, 1}, {15, 305}}</string>
 									<reference key="NSSuperview" ref="628312136"/>
 									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="809953199"/>
 									<string key="NSReuseIdentifierKey">_NS:26</string>
 									<bool key="NSEnabled">YES</bool>
+									<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 									<reference key="NSTarget" ref="628312136"/>
 									<string key="NSAction">_doScroller:</string>
 									<double key="NSCurValue">1</double>
-									<double key="NSPercent">0.53333333333333333</double>
+									<double key="NSPercent">0.5083333333333333</double>
 								</object>
 								<object class="NSScroller" id="454128240">
 									<reference key="NSNextResponder" ref="628312136"/>
 									<int key="NSvFlags">256</int>
-									<string key="NSFrame">{{1, 306}, {434, 15}}</string>
+									<string key="NSFrame">{{1, 306}, {425, 15}}</string>
 									<reference key="NSSuperview" ref="628312136"/>
 									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="417047173"/>
 									<string key="NSReuseIdentifierKey">_NS:30</string>
 									<bool key="NSEnabled">YES</bool>
+									<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 									<int key="NSsFlags">1</int>
 									<reference key="NSTarget" ref="628312136"/>
 									<string key="NSAction">_doScroller:</string>
-									<double key="NSPercent">0.55000000000000004</double>
+									<double key="NSPercent">0.53125</double>
 								</object>
 							</array>
 							<string key="NSFrame">{{19, 43}, {442, 322}}</string>
@@ -1280,6 +1282,9 @@
 							<reference key="NSVScroller" ref="417047173"/>
 							<reference key="NSHScroller" ref="454128240"/>
 							<reference key="NSContentView" ref="167938656"/>
+							<double key="NSMinMagnification">0.25</double>
+							<double key="NSMaxMagnification">4</double>
+							<double key="NSMagnification">1</double>
 						</object>
 						<object class="NSSlider" id="809953199">
 							<reference key="NSNextResponder" ref="439893737"/>
@@ -1287,11 +1292,10 @@
 							<string key="NSFrame">{{18, 16}, {444, 21}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:779</string>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSSliderCell" key="NSCell" id="111707136">
-								<int key="NSCellFlags">-2079981824</int>
+								<int key="NSCellFlags">-2080112384</int>
 								<int key="NSCellFlags2">0</int>
 								<string key="NSContents"/>
 								<string key="NSCellIdentifier">_NS:779</string>
@@ -1305,6 +1309,7 @@
 								<bool key="NSAllowsTickMarkValuesOnly">NO</bool>
 								<bool key="NSVertical">NO</bool>
 							</object>
+							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 						</object>
 					</array>
 					<string key="NSFrameSize">{480, 384}</string>
@@ -1312,7 +1317,7 @@
 					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="628312136"/>
 				</object>
-				<string key="NSScreenRect">{{0, 0}, {1920, 1058}}</string>
+				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
 				<string key="NSMaxSize">{10000000000000, 10000000000000}</string>
 				<bool key="NSWindowIsRestorable">YES</bool>
 			</object>
@@ -3153,8 +3158,8 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NSMenuCheckmark">{9, 8}</string>
-			<string key="NSMenuMixedState">{7, 2}</string>
+			<string key="NSMenuCheckmark">{11, 11}</string>
+			<string key="NSMenuMixedState">{10, 3}</string>
 		</dictionary>
 	</data>
 </archive>
